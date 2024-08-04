@@ -7,7 +7,7 @@ custom_js:
 - latex
 ---
 
-# Querying
+# All
 {: .no_toc }
 
 <br>
@@ -27,16 +27,25 @@ The listed bodies are grouped by division.  The divisions are
 
 * Ministers, The Parliament
 * Holders of offices in the Scottish Administration which are non-ministerial offices
-* Local government
-* National health service
-* Educational institutions
+* Local Government
+* National Health Service
+* Educational Institutions
 * Police
 * Others
+
+A division may have its own overarching classifications, e.g., Scotland's National Health Service organisations fall into one of the following health organisation classes
+
+* Regional
+* Special
+* Public
+
+A data model should reflect these.
 
 <br>
 
 ## Data Model Outline
 
+The diagram $\ldots$
 
 
 <br>
