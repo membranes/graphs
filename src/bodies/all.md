@@ -45,6 +45,10 @@ A data model should reflect these.
 
 ## Data Model Outline
 
+Conceptually, each instance of a list of bodies represents a distinct body.  Ascertain
+
+* Local Government: **(a)** [32 local authorities](https://www.mygov.scot/organisations#scottish-local-authority), **(b)** [7 regional transport partnerships](https://www.transport.gov.scot/our-approach/strategy/regional-transport-partnerships/)
+
 The diagram $\ldots$
 
 
