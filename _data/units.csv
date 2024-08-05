@@ -1,16 +1,24 @@
 unit_id,unit_of_measure,description,mapping_string
-681535,cubic metres,Cubic Metres,cubic metres
+681535,m3,Cubic Metres,cubic metres
 681536,FTE Working Hour,Full Time Equivalent Working Hour,fte working hour
 681537,kg,Kilograms,kg
 681538,km,Kilometres,km
-681539,kWh,Kilowatt-hour,kwh
+681539,kW⋅h,Kilowatt Hour,kwh
 681540,Kyoto Protocol - Standard,Kyoto Protocol - Standard,kyoto protocol - standard
 681541,litres,Litres,litres
 681542,Mass used kg / GWP100,Kilograms per global warming potential (GWP) values for 100-year time horizon relative to carbon dioxide,mass used kg / gwp100
 681543,miles,Miles,miles
 681544,million litres,Million Litres,million litres
-681545,passenger.km,Passenger Kilometres,passenger.km
+681545,passenger⋅km,Passenger Kilometres,passenger.km
 681546,Room per night,Room per night,room per night
 681547,tonnes,Tonnes,tonnes
-681548,GJ,Gigajoules,gj
+681548,GJ,Gigajoule,gj
 681549,cc,Cubic Centimetres,cc
+681551,litres/kg,Litres per Kilogram,litres/kg
+681552,kg/kW⋅h,Kilograms per Kilowatt Hour,kg/kwh
+681553,MW⋅h ,Megawatt Hour,mwh
+681554,kg CO2e/kW⋅h,Kilograms of Carbon Dioxide Equivalent per Kilowatt Hour,kg co2e/kwh
+681555,kg CO2e/litre,Kilograms of Carbon Dioxide Equivalent per Litre,kg co2e/litre
+681556,kg CO2e/m3,Kilograms of Carbon Dioxide Equivalent per Cubic Metre,kg co2e/m3
+681557,kg CO2e/kg,Kilograms of Carbon Dioxide Equivalent per Kilogram,kg co2e/kg
+681558,kg CO2e/tonne,Kilograms of Carbon Dioxide Equivalent per Tonne,kg co2e/tonne
