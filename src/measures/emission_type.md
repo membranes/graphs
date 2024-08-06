@@ -29,4 +29,7 @@ custom_js:
 * Stationary Combustion
 * District Heating
 * Electricity
-* Premises
+* Extraneous Premises
+* Equipment
+* Water
+* Waste & Sewerage
