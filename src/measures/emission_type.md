@@ -61,8 +61,15 @@ Includes a variety of transport types, and some types may have business, patient
 
 * Diesel Fuel/Diesel Oil/Heavy Oil <fuel oil>
 * Electricity
-* Unleaded Petrol
+* Unleaded Petrol <light oil>
 * Hybrid $\ldots$
+
+For
+
+* Business Travel
+* Patient Travel
+* Commuting
+
 
 
 
