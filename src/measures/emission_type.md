@@ -3,6 +3,8 @@ layout: default
 title: Emission Type
 parent: Measures
 nav_order: 1
+external_css:
+- https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs
 custom_js:
 - latex
 ---
@@ -40,13 +42,27 @@ custom_js:
 
 In contrast to the accounting table, this group includes the elements of `biofuel heating`.  Hence, the underlying energy sources are
 
-* Natural Gas
-* Heavy Fuel Oil
-* Gas Oil
-* Burning Oil: Kerosene
-* Liquefied Petroleum Gas: LPG
-* [Biomass](https://www.eia.gov/energyexplained/biomass/): {wood pellets, wood chips, etc.}
+* Natural Gas <fuel gas>
+* Heavy Fuel Oil <fuel oil>
+* Gas Oil <fuel oil>
+* Burning Oil (i.e., Kerosene) <fuel oil>
+* Liquefied Petroleum Gas (i.e., LPG) <fuel gas>
+* Wood Pellets <[Biomass](https://www.eia.gov/energyexplained/biomass/)>
+* Wood Chips <[Biomass](https://www.eia.gov/energyexplained/biomass/)>
 
+<br>
+
+## Transport
+
+Includes a variety of transport types, and some types may have business, patient, or commute travel classifications.
+
+
+### Car
+
+* Diesel Fuel/Diesel Oil/Heavy Oil <fuel oil>
+* Electricity
+* Unleaded Petrol
+* Hybrid $\ldots$
 
 
 
