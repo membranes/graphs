@@ -45,7 +45,7 @@ In contrast to the accounting table, this group includes the elements of `biofue
 * Gas Oil
 * Burning Oil: Kerosene
 * Liquefied Petroleum Gas: LPG
-* [Biomass](https://www.eia.gov/energyexplained/biomass/): {wood pellets, wood chips, etc}
+* [Biomass](https://www.eia.gov/energyexplained/biomass/): {wood pellets, wood chips, etc.}
 
 
 
