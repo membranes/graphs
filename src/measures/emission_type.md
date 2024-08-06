@@ -33,3 +33,23 @@ custom_js:
 * Equipment
 * Water
 * Waste & Sewerage
+
+<br>
+
+## Stationary Combustion
+
+In contrast to the accounting table, this group includes the elements of `biofuel heating`.  Hence, the underlying energy sources are
+
+* Natural Gas
+* Heavy Fuel Oil
+* Gas Oil
+* Burning Oil: Kerosene
+* Liquefied Petroleum Gas: LPG
+* [Biomass](https://www.eia.gov/energyexplained/biomass/): {wood pellets, wood chips, etc}
+
+
+
+
+
+
+
