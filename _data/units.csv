@@ -22,3 +22,10 @@ unit_id,unit_of_measure,description
 681556,kg CO2e/m3,Kilograms of Carbon Dioxide Equivalent per Cubic Metre
 681557,kg CO2e/kg,Kilograms of Carbon Dioxide Equivalent per Kilogram
 681558,kg CO2e/tonne,Kilograms of Carbon Dioxide Equivalent per Tonne
+,kg CO2e/mile,
+,kg CO2e/passenger⋅km,
+,kg CO2e/km,
+,kg CO2e,
+,tonnes CO2e,
+,kg CO2e/room per night,
+,kg CO2e/FTE Working Hour,
