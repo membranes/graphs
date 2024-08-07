@@ -30,7 +30,7 @@ Emission source:
 * Medical Gas
 * Refrigerant
 * Transport
-* Premises: Stationary Combustion / District Heating
+* Premises
 * Grid Electricity Transmission & Distribution
 * Equipment
 * Water
@@ -38,21 +38,23 @@ Emission source:
 
 <br>
 
-## Electricity
+
+## Premises
+
+### Electricity
 
 * Grid Electricity
-* Renewable Electricity Generation
+* On Site Renewable Electricity Generation
 
 <br>
 
-## District Heating
+### District Heating
 
-* 
-
+* District Heating
 
 <br>
 
-## Stationary Combustion
+### Stationary Combustion
 
 In contrast to the accounting table, this group includes the elements of `biofuel heating`.  Hence, the underlying energy sources are
 
