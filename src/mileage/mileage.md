@@ -88,6 +88,11 @@ The business value is
 Basically, the rate might be any value between the *business rate low* & *business rate high* limits; including limits.  Hence, a business rate field that records the actual rate paid is necessary.
 
 
+<br>
+
+## Transportation Details
+
+A critical missing piece.
 
 
 {: .fs-6 .fw-300 }
