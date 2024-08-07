@@ -42,10 +42,14 @@ A distinct trip via the same vehicle might be a trip of consisting of one or mor
 
 ## Fuel Type
 
-The fuel type should be from an overarching dimension table of fuel types.
+Instead of a fuel type field, a fuel type identification code field vis-à-vis a dimension table of fuel types.
 
 
 <br>
+
+## Business Rate & Value
+
+
 
 
 
