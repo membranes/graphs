@@ -33,12 +33,12 @@ area_pay_division	claim_line_start	claim_line_end	engine_size	fuel_type	co2_emis
     <tr><td>Fuel Type</td><td>At present, the options are: diesel, electric, hybrid, unleaded; or the cell is left empty.</td></tr>
     <tr><td>$CO_{2}$ (Carbon Dioxide) Emissions</td><td>The unit of measure is grams of carbon dioxide per kilometre (gCO2/km)</td></tr>
     <tr><td>Business Mileage</td><td>Unit of measure: miles.</td></tr>
-    <tr><td>Business Rate High</td><td>Unit: pence per mile.</td></tr>
-    <tr><td>Business Rate Low</td><td>Unit: pence per mile.</td></tr>
-    <tr><td>Business Value</td><td>Unit: pound sterling.</td></tr>
-    <tr><td>Commute Miles<br>Not Undertaken</td><td>Unit: miles.</td></tr>
-    <tr><td>Overtime Mileage</td><td>overtime_mileage</td><td><ul><li>float setting</li><li>miles</li></ul></td></tr>
-    <tr><td>Journey Details</td><td>journey_details</td><td><ul><li>str</li><li>set to lower case</li></ul></td></tr>
+    <tr><td>Business Rate High</td><td>The upper boundary of the mileage rate; pence per mile.</td></tr>
+    <tr><td>Business Rate Low</td><td>The lower boundary of the mileage rate; pence per mile.</td></tr>
+    <tr><td>Business Value</td><td>The amount paid; pound sterling.</td></tr>
+    <tr><td>Commute Miles<br>Not Undertaken</td><td>Unit of measure: miles.</td></tr>
+    <tr><td>Overtime Mileage</td><td>Unit of measure: miles.</td></tr>
+    <tr><td>Journey Details</td><td>A journey's details.  The text is akin to free text, albeit it seems a few national health organisations might each have an underlying <i>journey details recording pattern</i>.</td></tr>
 </table>
 
 
