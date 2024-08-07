@@ -25,16 +25,30 @@ custom_js:
 
 ## In Summary
 
+Emission source:
+
 * Medical Gas
 * Refrigerant
 * Transport
-* Stationary Combustion
-* District Heating
-* Electricity
-* Extraneous Premises
+* Premises: Stationary Combustion / District Heating
+* Grid Electricity Transmission & Distribution
 * Equipment
 * Water
 * Waste & Sewerage
+
+<br>
+
+## Electricity
+
+* Grid Electricity
+* Renewable Electricity Generation
+
+<br>
+
+## District Heating
+
+* 
+
 
 <br>
 
