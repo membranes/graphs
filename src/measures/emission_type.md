@@ -25,7 +25,7 @@ custom_js:
 
 ## In Summary
 
-Emission source:
+The overarching emission sources:
 
 * Medical Gas
 * Refrigerant
@@ -40,6 +40,8 @@ Emission source:
 
 
 ## Premises
+
+The emissions herein are either due to an organisation's building, business travel accommodation, or home-working.  The energy sources below apply to the organisation only.
 
 ### Electricity
 
@@ -66,6 +68,7 @@ In contrast to the accounting table, this group includes the elements of `biofue
 * Wood Pellets <[Biomass](https://www.eia.gov/energyexplained/biomass/)>
 * Wood Chips <[Biomass](https://www.eia.gov/energyexplained/biomass/)>
 
+<br>
 <br>
 
 ## Transport
