@@ -11,7 +11,39 @@ custom_js:
 # Mileage & Forecasting
 
 
+## Background
+
+At present, each record, i.e., row, of mileage data set summarises
+
+
 area_pay_division	claim_line_start	claim_line_end	engine_size	fuel_type	co2_emissions	business_mileage	business_rate_high	business_rate_low	business_value	commute_miles_not_undertaken	overtime_mileage	journey_details
+
+<table style="width: 65%;">
+    <colgroup>
+        <col span="1" style="width: 8.0%;">
+        <col span="1" style="width: 41.0%;">
+    </colgroup>
+    <thead><tr style="text-align: left">
+        <th>name</th><th>notes</th></tr>
+    </thead>
+    <tr><td>Area Pay Division</td><td>Awaiting details.</td></tr>
+    <tr><td>Claim Line Start</td><td>From: yyyy/mm/dd $\rightarrow$ yyyy-mm-dd</td></tr>
+    <tr><td>Claim Line End</td><td>From: yyyy/mm/dd $\rightarrow$ yyyy-mm-dd</td></tr>
+    <tr><td>Engine Size</td><td><ul><li>float setting</li><li>The unit of measure is cubic centimetres.  It<br>is quite possible that some values are litres.</li></ul></td></tr>
+    <tr><td>Fuel Type</td><td>At present, the options are: diesel, electric, hybrid, unleaded; or the cell is left empty.</td></tr>
+    <tr><td>$CO_{2}$ (Carbon Dioxide) Emissions</td><td>The unit of measure is grams of carbon dioxide per kilometre (gCO2/km)</td></tr>
+    <tr><td>Business Mileage</td><td>Unit of measure: miles.</td></tr>
+    <tr><td>Business Rate High</td><td>Unit: pence per mile.</td></tr>
+    <tr><td>Business Rate Low</td><td>Unit: pence per mile.</td></tr>
+    <tr><td>Business Value</td><td>Unit: pound sterling.</td></tr>
+    <tr><td>Commute Miles<br>Not Undertaken</td><td>Unit: miles.</td></tr>
+    <tr><td>Overtime Mileage</td><td>overtime_mileage</td><td><ul><li>float setting</li><li>miles</li></ul></td></tr>
+    <tr><td>Journey Details</td><td>journey_details</td><td><ul><li>str</li><li>set to lower case</li></ul></td></tr>
+</table>
+
+
+
+
 
 <br>
 
