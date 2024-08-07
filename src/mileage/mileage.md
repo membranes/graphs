@@ -49,6 +49,11 @@ Instead of a fuel type field, a fuel type identification code field vis-à-vis a
 
 ## Business Rate & Value
 
+The business value is
+
+> $\textnormal{business mileage} \times rate$ where $rate \in \[l h\]$
+
+Basically, the rate might be any value between the *business rate low* & *business rate high* limits; including limits.  Hence, a business rate field that records the actual rate paid is necessary.
 
 
 
