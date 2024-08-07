@@ -31,7 +31,7 @@ The overarching emission sources:
 * Refrigerant
 * Transport
 * Premises
-* Grid Electricity Transmission & Distribution
+* Transmission & Distribution {Grid Electricity, District Heat & Steam}
 * Equipment
 * Water
 * Waste & Sewerage
@@ -41,7 +41,7 @@ The overarching emission sources:
 
 ## Premises
 
-The emissions herein are either due to an organisation's building, business travel accommodation, or home-working.  The energy sources below apply to the organisation only.
+The emissions herein are either due to an organisation's building, business travel accommodation, or home-working.  The energy sources below apply to the buildings/premises of an organisation.
 
 ### Electricity
 
