@@ -53,8 +53,8 @@ The outline
         <td>Miles travelled.</td></tr>
     <tr><td>Business Rate High</td><td>business_rate_high</td><td>pence per mile</td>
         <td>The upper boundary of the mileage rate.</td></tr>
-    <tr><td>Business Rate Low</td><td></td><td></td>
-        <td>The lower boundary of the mileage rate; pence per mile.</td></tr>
+    <tr><td>Business Rate Low</td><td>business_rate_low</td><td>pence per mile</td>
+        <td>The lower boundary of the mileage rate.</td></tr>
     <tr><td>Business Value</td><td></td><td></td>
         <td>The amount paid; pound sterling.</td></tr>
     <tr><td>Commute Miles<br>Not Undertaken</td><td></td><td></td>
