@@ -12,12 +12,12 @@
 
 {% if page.external_css %}
   {% for stylesheet in page.external_css %}
-    <link rel="stylesheet" href="{{ stylesheet }}.css">
+    <link rel="stylesheet" href="{{ stylesheet }}">
   {% endfor %}
 {% endif %}
 
 {% if page.external_js %}
   {% for js_file in page.external_js %}
-    <script src="{{ js_file }}.js"></script>
+    <script src="{{ js_file }}"></script>
   {% endfor %}
 {% endif %}
