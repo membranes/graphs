@@ -16,7 +16,9 @@ Climate & Sustainability: Data Models & Forecasting
 
 <br>
 
-An exploration of *data models* for continuous assessment, trend analysis, forecasting, intervention decisions, etc.
+An exploration of *data models* for continuous assessment, trend analysis, forecasting, intervention decisions, etc.  At present, excluding
+
+* `1d`, i.e., metrics list. [`1d`]
 
 <br>
 <br>

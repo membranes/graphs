@@ -1,0 +1,31 @@
+unit_id,unit_of_measure,description
+681535,m3,Cubic Metres
+681536,FTE Working Hour,Full Time Equivalent Working Hour
+681537,kg,Kilograms
+681538,km,Kilometres
+681539,kW⋅h,Kilowatt Hour
+681540,Kyoto Protocol - Standard,Kyoto Protocol - Standard
+681541,litres,Litres
+681542,Mass used kg / GWP100,Kilograms per global warming potential (GWP) values for 100-year time horizon relative to carbon dioxide
+681543,miles,Miles
+681544,million litres,Million Litres
+681545,passenger⋅km,Passenger Kilometres
+681546,Room per night,Room per night
+681547,tonnes,Tonnes
+681548,GJ,Gigajoule
+681549,cc,Cubic Centimetres
+681551,litres/kg,Litres per Kilogram
+681552,kg/kW⋅h,Kilograms per Kilowatt Hour
+681553,MW⋅h ,Megawatt Hour
+681554,kg CO2e/kW⋅h,Kilograms of Carbon Dioxide Equivalent per Kilowatt Hour
+681555,kg CO2e/litre,Kilograms of Carbon Dioxide Equivalent per Litre
+681556,kg CO2e/m3,Kilograms of Carbon Dioxide Equivalent per Cubic Metre
+681557,kg CO2e/kg,Kilograms of Carbon Dioxide Equivalent per Kilogram
+681558,kg CO2e/tonne,Kilograms of Carbon Dioxide Equivalent per Tonne
+,kg CO2e/mile,
+,kg CO2e/passenger⋅km,
+,kg CO2e/km,
+,kg CO2e,
+,tonnes CO2e,
+,kg CO2e/room per night,
+,kg CO2e/FTE Working Hour,
