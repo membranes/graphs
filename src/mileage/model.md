@@ -3,7 +3,7 @@ layout: default
 title: Preliminary Model
 parent: Mileage & Forecasting
 nav_order: 2
-external_css:
+external_js:
 - https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js
 custom_js:
 - latex
