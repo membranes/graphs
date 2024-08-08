@@ -9,7 +9,7 @@ custom_js:
 - latex
 ---
 
-# Emission Type
+# Preliminary Model
 {: .no_toc }
 
 <br>
@@ -23,7 +23,7 @@ custom_js:
 ---
 
 
-## In Summary
+## In Briel
 
 * emission source (black cab)
 * emission group type (taxi)
