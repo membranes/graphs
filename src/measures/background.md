@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Emission Type
+title: Background
 parent: Measures
-nav_order: 2
+nav_order: 1
 external_css:
 - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs
 custom_js:
 - latex
 ---
 
-# Emission Type
+# Background
 {: .no_toc }
 
 <br>
@@ -23,15 +23,14 @@ custom_js:
 ---
 
 
-## In Summary
+## Sources
 
-The overarching emission sources:
-
+* Premises: Due to electric power consumption (grid electricity, onsite renewable electricity), heating (natural gas, onsite renewable head etc.), 
+* Transport (all vehicle types),
 * Medical Gas
 * Refrigerant
 * Transport
-* Premises
-* Transmission & Distribution {Grid Electricity, District Heat & Steam}
+* Transmission & Distribution {Grid Electricity, District Heat & Steam, Renewable Heat, Renewable Electricity}
 * Equipment
 * Water
 * Waste
@@ -74,20 +73,6 @@ In contrast to the accounting table, this group includes the elements of `biofue
 ## Transport
 
 Includes a variety of transport types, and some types may have business, patient, or commute travel classifications.
-
-
-### Car
-
-* Diesel Fuel/Diesel Oil/Heavy Oil <fuel oil>
-* Electricity
-* Unleaded Petrol <light oil>
-* Hybrid $\ldots$
-
-For
-
-* Business Travel
-* Patient Travel
-* Commuting
 
 
 
