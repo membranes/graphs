@@ -34,7 +34,7 @@ The overarching emission sources:
 * Transmission & Distribution {Grid Electricity, District Heat & Steam}
 * Equipment
 * Water
-* Waste & Sewerage
+* Waste
 
 <br>
 
