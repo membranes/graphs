@@ -1,19 +1,24 @@
 ---
 layout: default
-title: Measures
+title: Fuel & Energy
 nav_order: 3
-has_children: true
-permalink: /src/measures
+has_children: false
+permalink: /src/fe
 external_css:
 - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs
 custom_js:
 - latex
 ---
 
-# Measures
+# Fuel & Energy
 
-* Do not use the classification liquid fuels, it is ambiguous, e.g., it tends to include liquid biofuels, amongst others.
+> [!IMPORTANT]
+> Do not use the classification liquid fuels, it is ambiguous, e.g., it tends to include liquid biofuels, amongst others.
 
+In addition to recording measures at the most granular level possible, a detailed fuel & energy table will ensure
+
+* each fuel & energy depenendent event is recorded againast the correct fuel & energy classification
+* the correct unit of measure is available 
 
 
 {: .fs-6 .fw-300 }
