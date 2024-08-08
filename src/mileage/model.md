@@ -39,20 +39,20 @@ The outline
     </thead>
     <tr><td>Area Pay Division</td><td>area_pay_division</td><td>unitless</td>
         <td>Awaiting details.</td></tr>
-    <tr><td>Claim Line Start</td><td></td><td></td>
-        <td>From: yyyy/mm/dd $\rightarrow$ yyyy-mm-dd</td></tr>
-    <tr><td>Claim Line End</td><td></td><td></td>
-        <td>From: yyyy/mm/dd $\rightarrow$ yyyy-mm-dd</td></tr>
-    <tr><td>Engine Size</td><td></td><td></td>
-        <td><ul><li>float setting</li><li>The unit of measure is cubic centimetres.  It<br>is quite possible that some values are litres.</li></ul></td></tr>
+    <tr><td>Claim Line Start</td><td>claim_line_start</td><td>date</td>
+        <td>Trip start date; yyyy-mm-dd</td></tr>
+    <tr><td>Claim Line End</td><td>claim_line_end</td><td>date</td>
+        <td>Trip end date; yyyy-mm-dd</td></tr>
+    <tr><td>Engine Size</td><td>engine_size</td><td>cubic centimetres</td>
+        <td>The size of the vehicle's engine.</td></tr>
     <tr><td>Fuel Type</td><td></td><td></td>
-        <td>At present, the options are: diesel, electric, hybrid, unleaded; or the cell is left empty.</td></tr>
-    <tr><td>$CO_{2}$ (Carbon Dioxide) Emissions</td><td></td><td></td>
-        <td>The unit of measure is grams of carbon dioxide per kilometre (gCO2/km)</td></tr>
-    <tr><td>Business Mileage</td><td></td><td></td>
-        <td>Unit of measure: miles.</td></tr>
-    <tr><td>Business Rate High</td><td></td><td></td>
-        <td>The upper boundary of the mileage rate; pence per mile.</td></tr>
+        <td>Vis-à-vis fuel/energy table.</td></tr>
+    <tr><td>$CO_{2}$ (Carbon Dioxide) Emissions</td><td>co2_emissions</td><td>gCO2/km</td>
+        <td>The unit of measure is grams of carbon dioxide per kilometre.</td></tr>
+    <tr><td>Business Mileage</td><td>business_mileage</td><td>miles</td>
+        <td>Miles travelled.</td></tr>
+    <tr><td>Business Rate High</td><td>business_rate_high</td><td>pence per mile</td>
+        <td>The upper boundary of the mileage rate.</td></tr>
     <tr><td>Business Rate Low</td><td></td><td></td>
         <td>The lower boundary of the mileage rate; pence per mile.</td></tr>
     <tr><td>Business Value</td><td></td><td></td>
