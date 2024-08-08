@@ -4,7 +4,7 @@ title: Preliminary Model
 parent: Mileage & Forecasting
 nav_order: 2
 external_css:
-- https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs
+- https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js
 custom_js:
 - latex
 ---
