@@ -118,6 +118,14 @@ Basically, the rate might be any value between the *business rate low* & *busine
 
 <br>
 
+## Travel Class
+
+<script src="{{ site.baseurl }}/graphs/js/travel_type.js" type="text/javascript">
+</script>
+<div id="container" style="height: 350px; width: 300px; margin: 0 auto"></div>
+
+<br>
+
 ## Transport
 
 A critical missing piece.
