@@ -37,7 +37,7 @@ The outline
     <thead><tr style="text-align: left">
         <th>name</th><th>var</th><th>unit of<br>measure</th><th>notes</th></tr>
     </thead>
-    <tr><td>Area Pay Division</td><td></td><td></td>
+    <tr><td>Area Pay Division</td><td>area_pay_division</td><td>unitless</td>
         <td>Awaiting details.</td></tr>
     <tr><td>Claim Line Start</td><td></td><td></td>
         <td>From: yyyy/mm/dd $\rightarrow$ yyyy-mm-dd</td></tr>
@@ -60,9 +60,15 @@ The outline
     <tr><td>Commute Miles<br>Not Undertaken</td><td></td><td></td>
         <td>Unit of measure: miles.</td></tr>
     <tr><td>Overtime Mileage</td><td></td><td></td>
-        <td>Unit of measure: miles.</td></tr>
-    <tr><td>Journey Details</td><td></td><td></td>
-        <td>A journey's details.  The text is akin to free text, albeit it seems a few national health organisations might each have an underlying <i>journey details recording pattern</i>.</td></tr>
+        <td>Awaiting Definition</td></tr>
+    <tr><td>Travel Class</td><td></td><td></td>
+        <td></td></tr>
+    <tr><td>Trip Start Code</td><td></td><td></td>
+        <td>A geographic code that does not betray sensitive details</td></tr>
+    <tr><td>Trip End Code</td><td></td><td></td>
+        <td>A geographic code that does not betray sensitive details</td></tr>
+    <tr><td>Trip Stops</td><td></td><td></td>
+        <td>Example: {1: $\ldots$, 2: $\ldots$, $\rightarrow$}, wherein the number denotes stop number, and each ellipsis is replaced with the geographic code of the stop.  This is quite important for trip network modelling & analysis $\ldots$ </td></tr>
 </table>
 
 
@@ -86,9 +92,12 @@ requires recording data by trip, not journey.  In brief
 
 A distinct trip via the same vehicle might be a trip of consisting of one or more stops, sometimes returning to the starting point, i.e., $A \rightarrow \ldots \rightarrow B$.  Hence, these fields might help
 
-* trip start code [a geographic code that does not betray sensitive data]
-* trip end code [a geographic code that does not betray sensitive data]
-* trip stops {0: $\ldots$, 1: $\ldots$}
+* trip start code [a geographic code that does not betray sensitive details]
+* trip end code [a geographic code that does not betray sensitive details]
+* trip stops {1: $\ldots$, 2: $\ldots$}
+
+A geographic code decision is required; only one type of code shall be used.
+
 
 <br>
 
