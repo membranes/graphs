@@ -2,7 +2,7 @@
 layout: default
 title: Preliminary Model
 parent: Measures
-nav_order: 1
+nav_order: 2
 external_css:
 - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs
 custom_js:
