@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Addendum
-parent: Mileage & Forecasting
-nav_order: 3
+parent: Mileage
+nav_order: 2
 external_css:
 - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs
 custom_js:
@@ -18,7 +18,7 @@ custom_js:
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 
