@@ -25,6 +25,8 @@ custom_js:
 
 ## Plausible Attributes
 
+For all trips except taxi trips.
+
 <table style="width: 65%;">
     <colgroup>
         <col span="1" style="width: 7.5%;">
@@ -96,10 +98,12 @@ custom_js:
 
 Herein, the unit of measure of the $CO_{2}$ (Carbon Dioxide) emissions is grammes of carbon dioxide per kilometre.
 
+<br>
+<br>
 
 ## A Trip
 
-Accurate recording of
+The accurate recording of
 
 * engine size
 * fuel type
@@ -109,20 +113,32 @@ requires recording data by trip, not journey.  In brief
 
 * A journey consists of one or more distinct trips.
 * A distinct trip is a trip from $A \rightarrow B$ via the same land, air, or sea vehicle.
-* Each instance of a mileage data set should represent a distinct trip, taken/started on a specific date.
+* Each <abbr title="record, row">instance</abbr> of a mileage data set should represent a distinct trip, taken/started on a specific date.
 * Ensure each instance, i.e., each distinct trip, of a mileage data set has a journey identification code;
    * Each journey must have a unique code.
    * Trips of the same journey must the same journey identification code
+* Include
+  * trip start code [a geographic code that does not betray sensitive details]
+  * trip end code [a geographic code that does not betray sensitive details]
 
-A distinct trip via the same vehicle might be a trip of consisting of one or more stops, sometimes returning to the starting point, i.e., $A \rightarrow \ldots \rightarrow B$.  Hence, these fields might help
+<br>
 
-* trip start code [a geographic code that does not betray sensitive details]
-* trip end code [a geographic code that does not betray sensitive details]
+### Considerations
+
+A distinct trip via the same vehicle might be a trip consisting of one or more stops, sometimes returning to the starting point, i.e., $A \rightarrow \ldots \rightarrow B$.  Hence, the field
+
 * trip stops {1: $\ldots$, 2: $\ldots$}
 
-A geographic code decision is required; only one type of code shall be used.
+might help.  Herein, each number is an ordinal number, and each ellipsis represents the geographic code of the stop.  
+
+<br>
+
+### Decision
+
+A geographic code decision is required.
 
 
+<br>
 <br>
 
 ## Fuel Type
