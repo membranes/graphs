@@ -23,7 +23,7 @@ custom_js:
 
 ## The Listed Bodies
 
-The listed bodies [`1a`] are grouped by type.  The types are 
+The listed bodies are grouped by type.  The types are 
 
 * Ministers, The Parliament
 * Holders of offices in the Scottish Administration which are non-ministerial offices
@@ -33,13 +33,12 @@ The listed bodies [`1a`] are grouped by type.  The types are
 * Police
 * Others
 
-A body type [`1b`] may have its own classifications, e.g., Scotland's National Health Service organisations fall into one of the following health body classes
+A body type may have its own classifications, e.g., Scotland's National Health Service organisations fall into one of the following health body classes
 
 * Regional
 * Special
 * Public
 
-A data model should reflect these.
 
 <br>
 
