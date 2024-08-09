@@ -16,7 +16,7 @@ Climate & Sustainability: Emissions
 
 <br>
 
-These pages propose a few *conceptual data models* for acquiring the data measures underlying the direct & indirect demands of Climate Order 2015.  It requires
+These pages propose a few *conceptual data models* for acquiring the data measures underlying the direct & indirect demands of Climate Order 2015.  The order requires
 
 * The continuous tracking, assessment, and trend analysis of greenhouse gas emissions; by emission source categories.
 * The annual reporting of self-defined metrics.
@@ -31,29 +31,31 @@ In general, if a pair of emission sources have disaccordant features, record the
 
 via well structured, highly granular, integrious, disaggregated raw measures.
 
-There are separate sections for mileage and premises.  The fuel & energy section suggest a preliminary table structure whence an energy source might be selected for any purpose, e.g., a building, car, etc.
+<br>
+<br>
 
+## Conceptual Structures
 
+There are separate sections for mileage and premises; the miscellaneous section discusses listed bodies, and briefly outlines the need for fuel & energy reference tables.  There are examples of a scope, and units, table within [_data](_data).
 
-## Example
+<br>
+<br>
 
-* emission source (black cab)
-* emission group type (taxi)
-* emission group (transport)
+## Emission Source Categories
 
+The most confusing aspect of the Sustainable Scotland Network reports is the occasional conflation of the emission source with energy source.  A few emission source categories
 
-## Sources
-
-* Premises: Due to electric power consumption (grid electricity, onsite renewable electricity), heating (natural gas, onsite renewable head etc.),
-* Transport (all vehicle types),
+* Premises/Buildings: 
+  * Powering (via grid electricity, onsite renewable electricity, etc.)
+  * Heating (via natural gas, wood pellets, etc.)
+* Transport: 
+  * Disaggregated by vehicle type, powering fuel, and more.
 * Medical Gas
 * Refrigerant
-* Transport
-* Transmission & Distribution {Grid Electricity, District Heat & Steam, Renewable Heat, Renewable Electricity}
+* Transmission & Distribution {of Grid Electricity, District Heat & Steam, Renewable Heat, Renewable Electricity}
 * Equipment
 * Water
 * Waste
-
 
 
 <br>

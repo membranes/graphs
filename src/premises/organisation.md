@@ -37,15 +37,15 @@ At least:
     <tr><td>Premises Type Code</td>
         <td>nominal number</td><td>Vis-à-vis a <b>premises type</b> table.</td></tr>
     <tr><td>Energy Source</td>
-        <td>nominal number</td><td>Vis-à-vis the fuel & energy table.</td></tr>
+        <td>nominal number</td><td>Vis-à-vis fuel & energy tables.</td></tr>
     <tr><td>Objective</td>
         <td>nominal number</td><td>From a dimension table that lists objectives alongside the identification code of each.  Example:<br>{0: heating, 1: powering, $\ldots$}</td></tr>
     <tr><td>$CO_{2}$ Emission</td>
         <td>nominal number</td><td>The carbon dioxide emission amount vis-à-vis this record's datetime interval.  To limit errors, use a unit of measure identification code $\ldots$</td></tr>
     <tr><td>Interval Start</td>
-        <td>datetime</td><td>The ...</td></tr>
+        <td>datetime</td><td>Energy meters normally record energy usage at intervals.  This denotes interval start datetime.</td></tr>
     <tr><td>Interval End</td>
-        <td>datetime</td><td>The ...</td></tr>
+        <td>datetime</td><td>Energy meters normally record energy usage at intervals.  This denotes interval end datetime.</td></tr>
 </table>
 
 <br>
