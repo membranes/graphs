@@ -55,25 +55,33 @@ The outline
         <td>The upper boundary of the mileage rate.</td></tr>
     <tr><td>Business Rate Low</td><td>business_rate_low</td><td>pence per mile</td>
         <td>The lower boundary of the mileage rate.</td></tr>
+    <tr><td>Business Rate Paid</td><td>pence per mile</td><td></td>
+        <td>The rate paid.</td></tr>
     <tr><td>Business Value</td><td></td><td></td>
         <td>The amount paid; pound sterling.</td></tr>
     <tr><td>Commute Miles<br>Not Undertaken</td><td></td><td></td>
         <td>Unit of measure: miles.</td></tr>
     <tr><td>Overtime Mileage</td><td></td><td></td>
         <td>Awaiting Definition</td></tr>
-    <tr><td>Travel Class</td><td></td><td></td>
-        <td></td></tr>
     <tr><td>Trip Start Code</td><td></td><td></td>
         <td>A geographic code that does not betray sensitive details</td></tr>
     <tr><td>Trip End Code</td><td></td><td></td>
         <td>A geographic code that does not betray sensitive details</td></tr>
     <tr><td>Trip Stops</td><td></td><td></td>
-        <td>Example: {1: $\ldots$, 2: $\ldots$, $\rightarrow$}, wherein the number denotes stop number, and each ellipsis is replaced with the geographic code of the stop.  This is quite important for trip network modelling & analysis $\ldots$ </td></tr>
+        <td>Example: {1: $\ldots$, 2: $\ldots$, $\rightarrow$}, wherein the number denotes stop number, and each ellipsis is replaced with the geographic code of the stop.  This is quite important for trip network modelling & analysis $\ldots$</td></tr>
+    <tr><td>Travel Class</td><td></td><td></td>
+        <td>business travel, in-patient travel, out-patient travel, staff commute</td></tr>
+    <tr><td>Transport Class</td><td></td><td></td>
+        <td>public, fleet, private, hired</td></tr>
+    <tr><td>Vehicle</td><td>nominal number</td><td></td>
+        <td>A nominal number representing the identification code of a vehicle type, from a vehicles table.</td></tr>
+    <tr><td>Scheduled</td><td></td><td></td>
+        <td>Was the trip via scheduled transport? Either yes or no; perhaps, unknown.</td></tr>
 </table>
 
 
 
-## By Trip
+## A Trip
 
 Accurate recording of
 
