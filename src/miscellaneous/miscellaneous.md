@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Future
+title: Miscellaneous
 nav_order: 2
 has_children: true
-permalink: /src/future
+permalink: /src/miscellaneous
 ---
 
 # Future
