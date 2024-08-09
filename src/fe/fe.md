@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fuel & Energy
-nav_order: 3
+nav_order: 5
 has_children: false
 permalink: /src/fe
 external_css:
