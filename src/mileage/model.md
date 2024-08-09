@@ -25,7 +25,7 @@ custom_js:
 
 ## Plausible Attributes
 
-Excluding: taxi, ferry, & flight trips.
+Excluding taxi, ferry, & flight trips, which should each have their own almost similar tables, but adjusted to reflect their disaccordant attributes.  For example, a ferry table might have a passenger type field with the options: car, foot, freight driver, coach, cyclist.
 
 <table style="width: 65%;">
     <colgroup>
@@ -157,11 +157,7 @@ Basically, the rate might be any value between the *business rate low* & *busine
 
 <br>
 
-
-
-<br>
-
-## Transport
+## Vehicles
 
 A critical missing piece.
 
