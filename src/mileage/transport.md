@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Transport
-parent: Mileage & Forecasting
+parent: Mileage
 nav_order: 2
 external_css:
 - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs
