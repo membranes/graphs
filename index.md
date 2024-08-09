@@ -33,6 +33,21 @@ via well structured, highly granular, integrious, disaggregated raw measures.
 
 There are separate sections for mileage and premises.  The fuel & energy section suggest a preliminary table structure whence an energy source might be selected for any purpose, e.g., a building, car, etc.
 
+
+## Sources
+
+* Premises: Due to electric power consumption (grid electricity, onsite renewable electricity), heating (natural gas, onsite renewable head etc.),
+* Transport (all vehicle types),
+* Medical Gas
+* Refrigerant
+* Transport
+* Transmission & Distribution {Grid Electricity, District Heat & Steam, Renewable Heat, Renewable Electricity}
+* Equipment
+* Water
+* Waste
+
+
+
 <br>
 <br>
 <br>
