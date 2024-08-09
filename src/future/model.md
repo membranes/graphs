@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Energy
-parent: Measures
-nav_order: 3
+title: Preliminary Model
+parent: Future
+nav_order: 2
 external_css:
 - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs
 custom_js:
 - latex
 ---
 
-# Energy
+# Preliminary Model
 {: .no_toc }
 
 <br>
@@ -23,7 +23,14 @@ custom_js:
 ---
 
 
-## Preliminaries
+## In Briel
 
-* Do not use the classification liquid fuels, it is ambiguous, e.g., it tends to include liquid biofuels, amongst others.
+* emission source (black cab)
+* emission group type (taxi)
+* emission group (transport)
+* energy source ()
 
+<br>
+<br>
+<br>
+<br>

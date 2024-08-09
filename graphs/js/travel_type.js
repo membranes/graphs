@@ -41,7 +41,7 @@ jQuery.getJSON(url,
                 enabled: false
             },
             title: {
-                text: 'Proposal: Travel Type',
+                text: '',
                 align: 'left'
             },
             subtitle: {
