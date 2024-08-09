@@ -25,7 +25,7 @@ custom_js:
 
 ## Plausible Attributes
 
-For all trips except taxi trips.
+Excluding: taxi, ferry, & flight trips.
 
 <table style="width: 65%;">
     <colgroup>
@@ -50,7 +50,7 @@ For all trips except taxi trips.
         <td>The size of the vehicle's engine.</td></tr>
     <tr><td>Fuel Type</td>
         <td></td>
-        <td>Vis-à-vis fuel/energy table.</td></tr>
+        <td>Vis-à-vis fuel/energy fact table.</td></tr>
     <tr><td>Business Mileage</td>
         <td>miles</td>
         <td>Miles travelled.</td></tr>
@@ -141,10 +141,9 @@ A geographic code decision is required.
 <br>
 <br>
 
-## Fuel Type
+## Fuel & Energy
 
-Instead of a fuel type field, a fuel type identification code field vis-à-vis a dimension table of fuel types.
-
+A detailed set of fact & dimension tables summarising the different types of fuel & energy sources.  Subsequently, their identification codes can be used to select the appropriate fuel & energy source per activity, e.g., powering a premises, travelling by motorbike, etc.
 
 <br>
 
@@ -158,11 +157,7 @@ Basically, the rate might be any value between the *business rate low* & *busine
 
 <br>
 
-## Travel Class
 
-<script src="{{ site.baseurl }}/graphs/js/travel_type.js" type="text/javascript">
-</script>
-<div id="container" style="height: 350px; width: 300px; margin: 0 auto"></div>
 
 <br>
 
