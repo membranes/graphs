@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introductory Notes
+title: Summary
 nav_order: 1
 description: "Climate & Sustainability"
 permalink: /
@@ -8,7 +8,7 @@ custom_css:
 - tooltips
 ---
 
-# Introductory Notes
+# Summary
 {: .fs-9 }
 
 Climate & Sustainability: Emissions
