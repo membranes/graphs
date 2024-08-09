@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Listed Bodies
-parent: Future
+parent: Miscellaneous
 nav_order: 2
 external_css:
 - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs
