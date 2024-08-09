@@ -17,7 +17,7 @@ custom_js:
 
 In addition to recording measures at the most granular level possible, a detailed fuel & energy table will ensure
 
-* each fuel & energy depenendent event is recorded againast the correct fuel & energy classification
+* each fuel & energy dependent event is recorded against the correct fuel & energy classification
 * the correct unit of measure is available 
 
 
