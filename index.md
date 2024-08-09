@@ -34,6 +34,14 @@ via well structured, highly granular, integrious, disaggregated raw measures.
 There are separate sections for mileage and premises.  The fuel & energy section suggest a preliminary table structure whence an energy source might be selected for any purpose, e.g., a building, car, etc.
 
 
+
+## Example
+
+* emission source (black cab)
+* emission group type (taxi)
+* emission group (transport)
+
+
 ## Sources
 
 * Premises: Due to electric power consumption (grid electricity, onsite renewable electricity), heating (natural gas, onsite renewable head etc.),
