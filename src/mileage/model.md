@@ -49,38 +49,52 @@ custom_js:
     <tr><td>Fuel Type</td>
         <td></td>
         <td>Vis-à-vis fuel/energy table.</td></tr>
-    <tr><td>$CO_{2}$ (Carbon Dioxide) Emissions</td><td>co2_emissions</td><td>gCO2/km</td>
-        <td>The unit of measure is grams of carbon dioxide per kilometre.</td></tr>
-    <tr><td>Business Mileage</td><td>business_mileage</td><td>miles</td>
+    <tr><td>Business Mileage</td>
+        <td>miles</td>
         <td>Miles travelled.</td></tr>
-    <tr><td>Business Rate High</td><td>business_rate_high</td><td>pence per mile</td>
+    <tr><td>Business Rate High</td>
+        <td>pence per mile</td>
         <td>The upper boundary of the mileage rate.</td></tr>
-    <tr><td>Business Rate Low</td><td>business_rate_low</td><td>pence per mile</td>
+    <tr><td>Business Rate Low</td>
+        <td>pence per mile</td>
         <td>The lower boundary of the mileage rate.</td></tr>
-    <tr><td>Business Rate Paid</td><td>pence per mile</td><td></td>
-        <td>The rate paid.</td></tr>
-    <tr><td>Business Value</td><td></td><td></td>
-        <td>The amount paid; pound sterling.</td></tr>
-    <tr><td>Commute Miles<br>Not Undertaken</td><td></td><td></td>
-        <td>Unit of measure: miles.</td></tr>
-    <tr><td>Overtime Mileage</td><td></td><td></td>
-        <td>Awaiting Definition</td></tr>
-    <tr><td>Trip Start Code</td><td></td><td></td>
+    <tr><td>Business Rate Paid</td>
+        <td>pence per mile</td>
+        <td>The actual rate paid.</td></tr>
+    <tr><td>Business Value</td>
+        <td>pound sterling</td>
+        <td>The amount paid; decimal.</td></tr>
+    <tr><td>Commute Miles<br>Not Undertaken</td>
+        <td>miles</td>
+        <td>Definition: Approach <abbr title="National Health Service">NHS</abbr> Sustainability Action</td></tr>
+    <tr><td>Overtime Mileage</td>
+        <td>miles</td>
+        <td>Definition: Approach <abbr title="National Health Service">NHS</abbr> Sustainability Action</td></tr>
+    <tr><td>Trip Start Code</td>
+        <td></td>
         <td>A geographic code that does not betray sensitive details</td></tr>
-    <tr><td>Trip End Code</td><td></td><td></td>
+    <tr><td>Trip End Code</td>
+        <td></td>
         <td>A geographic code that does not betray sensitive details</td></tr>
-    <tr><td>Trip Stops</td><td></td><td></td>
-        <td>Example: {1: $\ldots$, 2: $\ldots$, $\rightarrow$}, wherein the number denotes stop number, and each ellipsis is replaced with the geographic code of the stop.  This is quite important for trip network modelling & analysis $\ldots$</td></tr>
-    <tr><td>Travel Class</td><td>nominal</td><td></td>
-        <td>business travel, in-patient travel, out-patient travel, staff commute</td></tr>
-    <tr><td>Transport Class</td><td>nominal number</td><td></td>
-        <td>public, fleet, private, hired</td></tr>
-    <tr><td>Vehicle</td><td>nominal number</td><td></td>
+    <tr><td>Trip Stops</td>
+        <td></td>
+        <td>Example: {1: $\ldots$, 2: $\ldots$, $\rightarrow$}, wherein the number denotes stop number, and each ellipsis is replaced with the geographic code of the stop.  This is quite important for trip network modelling & analysis for cost & emission minimisation purposes.</td></tr>
+    <tr><td>Travel Class</td>
+        <td>nominal number</td>
+        <td>A nominal number representing the identification code of a travel class. The plausible classes being business travel, in-patient travel, out-patient travel, staff commute.</td></tr>
+    <tr><td>Transport Class</td>
+        <td>nominal number</td>
+        <td>Whereby a nominal number is the unique identification code of transport class.  The plausible classes are public, fleet, private, hired</td></tr>
+    <tr><td>Vehicle</td>
+        <td>nominal number</td>
         <td>A nominal number representing the identification code of a vehicle type, from a vehicles table.</td></tr>
-    <tr><td>Scheduled</td><td>boolean</td><td></td>
+    <tr><td>Scheduled</td>
+        <td>boolean</td>
         <td>Was the trip via scheduled transport? Either yes or no; perhaps.</td></tr>
 </table>
 
+
+Herein, the unit of measure of the $CO_{2}$ (Carbon Dioxide) emissions is grammes of carbon dioxide per kilometre.
 
 
 ## A Trip
