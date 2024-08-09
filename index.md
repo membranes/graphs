@@ -31,6 +31,8 @@ In general, if a pair of emission sources have disaccordant features, record the
 
 via well structured, highly granular, integrious, disaggregated raw measures.
 
+There are separate sections for mileage and premises.  The fuel & energy section suggest a preliminary table structure whence an energy source might be selected for any purpose, e.g., a building, car, etc.
+
 <br>
 <br>
 <br>
