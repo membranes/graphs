@@ -16,7 +16,7 @@ custom_js:
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 
@@ -48,5 +48,8 @@ At least:
         <td>datetime</td><td>The ...</td></tr>
 </table>
 
+<br>
+<br>
 
-
+<br>
+<br>
