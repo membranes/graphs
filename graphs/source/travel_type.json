@@ -8,7 +8,8 @@
   "data": [
     ["0", "", "travel", "Travel"],
     ["311", "0", "business travel", "Business travel."],
-    ["312", "0", "patient travel", "Both in-patient & out-patient travel."],
+    ["312", "0", "in-patient travel", "An in-patient trip."],
+    ["314", "0", "out-patient travel", "An out-patient trip."],
     ["313", "0", "commuting", "Paid employee commute."]
   ]
 }
