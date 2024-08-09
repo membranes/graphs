@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Background
-parent: Future
+title: Fuel & Energy
+parent: Miscellaneous
 nav_order: 1
 external_css:
 - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs
@@ -9,7 +9,7 @@ custom_js:
 - latex
 ---
 
-# Background
+# Fuel & Energy
 {: .no_toc }
 
 <br>
@@ -23,24 +23,17 @@ custom_js:
 ---
 
 
-## Sources
+## Fuel & Energy
 
-* Premises: Due to electric power consumption (grid electricity, onsite renewable electricity), heating (natural gas, onsite renewable head etc.), 
-* Transport (all vehicle types),
-* Medical Gas
-* Refrigerant
-* Transport
-* Transmission & Distribution {Grid Electricity, District Heat & Steam, Renewable Heat, Renewable Electricity}
-* Equipment
-* Water
-* Waste
+* Do not use the classification liquid fuels, it is ambiguous, e.g., it tends to include liquid biofuels, amongst others.
 
-<br>
+In addition to recording measures at the most granular level possible, a detailed fuel & energy table will ensure
+
+* each fuel & energy dependent event is recorded against the correct fuel & energy classification
+* the correct unit of measure is available
 
 
-## Premises
-
-The emissions herein are either due to an organisation's building, business travel accommodation, or home-working.  The energy sources below apply to the buildings/premises of an organisation.
+## Options
 
 ### Electricity
 
@@ -67,16 +60,10 @@ In contrast to the accounting table, this group includes the elements of `biofue
 * Wood Pellets <[Biomass](https://www.eia.gov/energyexplained/biomass/)>
 * Wood Chips <[Biomass](https://www.eia.gov/energyexplained/biomass/)>
 
+
+{: .fs-6 .fw-300 }
+
 <br>
 <br>
-
-## Transport
-
-Includes a variety of transport types, and some types may have business, patient, or commute travel classifications.
-
-
-
-
-
-
-
+<br>
+<br>

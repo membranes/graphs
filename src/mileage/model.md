@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Preliminary Model
-parent: Mileage & Forecasting
-nav_order: 2
+title: Preliminary Attributes
+parent: Mileage
+nav_order: 1
 external_js:
 - https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js
 custom_js:
 - latex
 ---
 
-# Preliminary Model
+# Preliminary Attributes
 {: .no_toc }
 
 <br>
@@ -18,72 +18,94 @@ custom_js:
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 
 
-## In Brief
+## Plausible Attributes
 
-The outline
+Excluding taxi, ferry, & flight trips, which should each have their own almost similar tables, but adjusted to reflect their disaccordant attributes.  For example, a ferry table might have a passenger type field with the options: car, foot, freight driver, coach, cyclist.
 
 <table style="width: 65%;">
     <colgroup>
-        <col span="1" style="width: 8.0%;">
-        <col span="1" style="width: 8.0%;">
-        <col span="1" style="width: 8.0%;">
-        <col span="1" style="width: 41.0%;">
+        <col span="1" style="width: 7.5%;">
+        <col span="1" style="width: 6.0%;">
+        <col span="1" style="width: 36.5%;">
     </colgroup>
     <thead><tr style="text-align: left">
-        <th>name</th><th>var</th><th>unit of<br>measure</th><th>notes</th></tr>
+        <th>name</th><th>unit of<br>measure</th><th>notes</th></tr>
     </thead>
-    <tr><td>Area Pay Division</td><td>area_pay_division</td><td>unitless</td>
+    <tr><td>Area Pay Division</td>
+        <td>unitless</td>
         <td>Awaiting details.</td></tr>
-    <tr><td>Claim Line Start</td><td>claim_line_start</td><td>date</td>
+    <tr><td>Claim Line Start</td>
+        <td>date</td>
         <td>Trip start date; yyyy-mm-dd</td></tr>
-    <tr><td>Claim Line End</td><td>claim_line_end</td><td>date</td>
+    <tr><td>Claim Line End</td>
+        <td>date</td>
         <td>Trip end date; yyyy-mm-dd</td></tr>
-    <tr><td>Engine Size</td><td>engine_size</td><td>cubic centimetres</td>
+    <tr><td>Engine Size</td>
+        <td>cubic centimetres</td>
         <td>The size of the vehicle's engine.</td></tr>
-    <tr><td>Fuel Type</td><td></td><td></td>
-        <td>Vis-à-vis fuel/energy table.</td></tr>
-    <tr><td>$CO_{2}$ (Carbon Dioxide) Emissions</td><td>co2_emissions</td><td>gCO2/km</td>
-        <td>The unit of measure is grams of carbon dioxide per kilometre.</td></tr>
-    <tr><td>Business Mileage</td><td>business_mileage</td><td>miles</td>
+    <tr><td>Fuel Type</td>
+        <td></td>
+        <td>Vis-à-vis fuel/energy fact table.</td></tr>
+    <tr><td>Business Mileage</td>
+        <td>miles</td>
         <td>Miles travelled.</td></tr>
-    <tr><td>Business Rate High</td><td>business_rate_high</td><td>pence per mile</td>
+    <tr><td>Business Rate High</td>
+        <td>pence per mile</td>
         <td>The upper boundary of the mileage rate.</td></tr>
-    <tr><td>Business Rate Low</td><td>business_rate_low</td><td>pence per mile</td>
+    <tr><td>Business Rate Low</td>
+        <td>pence per mile</td>
         <td>The lower boundary of the mileage rate.</td></tr>
-    <tr><td>Business Rate Paid</td><td>pence per mile</td><td></td>
-        <td>The rate paid.</td></tr>
-    <tr><td>Business Value</td><td></td><td></td>
-        <td>The amount paid; pound sterling.</td></tr>
-    <tr><td>Commute Miles<br>Not Undertaken</td><td></td><td></td>
-        <td>Unit of measure: miles.</td></tr>
-    <tr><td>Overtime Mileage</td><td></td><td></td>
-        <td>Awaiting Definition</td></tr>
-    <tr><td>Trip Start Code</td><td></td><td></td>
+    <tr><td>Business Rate Paid</td>
+        <td>pence per mile</td>
+        <td>The actual rate paid.</td></tr>
+    <tr><td>Business Value</td>
+        <td>pound sterling</td>
+        <td>The amount paid; decimal.</td></tr>
+    <tr><td>Commute Miles<br>Not Undertaken</td>
+        <td>miles</td>
+        <td>Definition: Approach <abbr title="National Health Service">NHS</abbr> Sustainability Action</td></tr>
+    <tr><td>Overtime Mileage</td>
+        <td>miles</td>
+        <td>Definition: Approach <abbr title="National Health Service">NHS</abbr> Sustainability Action</td></tr>
+    <tr><td>Trip Start Code</td>
+        <td></td>
         <td>A geographic code that does not betray sensitive details</td></tr>
-    <tr><td>Trip End Code</td><td></td><td></td>
+    <tr><td>Trip End Code</td>
+        <td></td>
         <td>A geographic code that does not betray sensitive details</td></tr>
-    <tr><td>Trip Stops</td><td></td><td></td>
-        <td>Example: {1: $\ldots$, 2: $\ldots$, $\rightarrow$}, wherein the number denotes stop number, and each ellipsis is replaced with the geographic code of the stop.  This is quite important for trip network modelling & analysis $\ldots$</td></tr>
-    <tr><td>Travel Class</td><td></td><td></td>
-        <td>business travel, in-patient travel, out-patient travel, staff commute</td></tr>
-    <tr><td>Transport Class</td><td></td><td></td>
-        <td>public, fleet, private, hired</td></tr>
-    <tr><td>Vehicle</td><td>nominal number</td><td></td>
-        <td>A nominal number representing the identification code of a vehicle type, from a vehicles table.</td></tr>
-    <tr><td>Scheduled</td><td></td><td></td>
-        <td>Was the trip via scheduled transport? Either yes or no; perhaps, unknown.</td></tr>
+    <tr><td>Trip Stops</td>
+        <td></td>
+        <td>Example: {1: $\ldots$, 2: $\ldots$, $\rightarrow$}, wherein the number denotes stop number, and each ellipsis is replaced with the geographic code of the stop.  This is quite important for trip network modelling & analysis for cost & emission minimisation purposes.</td></tr>
+    <tr><td>Travel Class</td>
+        <td>nominal number</td>
+        <td>A nominal number representing the identification code of a travel class. The plausible classes being business travel, in-patient travel, out-patient travel, staff commute.</td></tr>
+    <tr><td>Transport Class</td>
+        <td>nominal number</td>
+        <td>Whereby a nominal number is the unique identification code of transport class.  The plausible classes are public, fleet, private, hired</td></tr>
+    <tr><td>Vehicle</td>
+        <td>nominal number</td>
+        <td>A nominal number representing the identification code of a vehicle type, from a vehicles table. Example: 
+            <ul><li><a href="../../_data/specific_vehicles.csv">specific_vehicles</a></li>
+                <li><a href="../../_data/specific_vehicle_groups.csv">specific_vehicles_group</a></li></ul></td></tr>
+    <tr><td>Scheduled</td>
+        <td>boolean</td>
+        <td>Was the trip via scheduled transport? Either yes or no; perhaps.</td></tr>
 </table>
 
 
+Herein, the unit of measure of the $CO_{2}$ (Carbon Dioxide) emissions is grammes of carbon dioxide per kilometre.
+
+<br>
+<br>
 
 ## A Trip
 
-Accurate recording of
+The accurate recording of
 
 * engine size
 * fuel type
@@ -93,26 +115,37 @@ requires recording data by trip, not journey.  In brief
 
 * A journey consists of one or more distinct trips.
 * A distinct trip is a trip from $A \rightarrow B$ via the same land, air, or sea vehicle.
-* Each instance of a mileage data set should represent a distinct trip, taken/started on a specific date.
+* Each <abbr title="record, row">instance</abbr> of a mileage data set should represent a distinct trip, taken/started on a specific date.
 * Ensure each instance, i.e., each distinct trip, of a mileage data set has a journey identification code;
    * Each journey must have a unique code.
    * Trips of the same journey must the same journey identification code
-
-A distinct trip via the same vehicle might be a trip of consisting of one or more stops, sometimes returning to the starting point, i.e., $A \rightarrow \ldots \rightarrow B$.  Hence, these fields might help
-
-* trip start code [a geographic code that does not betray sensitive details]
-* trip end code [a geographic code that does not betray sensitive details]
-* trip stops {1: $\ldots$, 2: $\ldots$}
-
-A geographic code decision is required; only one type of code shall be used.
-
+* Include
+  * trip start code [a geographic code that does not betray sensitive details]
+  * trip end code [a geographic code that does not betray sensitive details]
 
 <br>
 
-## Fuel Type
+### Considerations
 
-Instead of a fuel type field, a fuel type identification code field vis-à-vis a dimension table of fuel types.
+A distinct trip via the same vehicle might be a trip consisting of one or more stops, sometimes returning to the starting point, i.e., $A \rightarrow \ldots \rightarrow B$.  Hence, the field
 
+* trip stops {1: $\ldots$, 2: $\ldots$}
+
+might help.  Herein, each number is an ordinal number, and each ellipsis represents the geographic code of the stop.  
+
+<br>
+
+### Decision
+
+A geographic code decision is required.
+
+
+<br>
+<br>
+
+## Fuel & Energy
+
+A detailed set of fact & dimension tables summarising the different types of fuel & energy sources.  Subsequently, their identification codes can be used to select the appropriate fuel & energy source per activity, e.g., powering a premises, travelling by motorbike, etc.
 
 <br>
 
@@ -124,19 +157,6 @@ The business value is
 
 Basically, the rate might be any value between the *business rate low* & *business rate high* limits; including limits.  Hence, a business rate field that records the actual rate paid is necessary.
 
-<br>
-
-## Travel Class
-
-<script src="{{ site.baseurl }}/graphs/js/travel_type.js" type="text/javascript">
-</script>
-<div id="container" style="height: 350px; width: 300px; margin: 0 auto"></div>
-
-<br>
-
-## Transport
-
-A critical missing piece.
 
 <br>
 <br>

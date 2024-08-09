@@ -16,7 +16,7 @@ custom_js:
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 
@@ -47,3 +47,8 @@ custom_js:
 
 The unit of measure of the $CO_{2}$ emission factor, for travel accommodation, is  <i>kg $CO_{2}$e (kilogrammes in equivalent carbon dioxide) per room per night</i>.
 
+<br>
+<br>
+
+<br>
+<br>

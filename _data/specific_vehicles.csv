@@ -1,0 +1,27 @@
+vehicle_code,vehicle_name,vehicle_group_code
+1,average local bus,1
+2,coach,1
+3,local bus,1
+4,average car,2
+5,large car,2
+6,medium car,2
+7,small car,2
+8,hgv (all diesel) - all artics - average laden,3
+9,hgv (all diesel) - all hgvs - average laden,3
+10,hgv (all diesel) - all rigids - average laden,3
+11,hgvs refrigerated (all diesel) - all artics - average laden,4
+12,hgvs refrigerated (all diesel) - all hgvs - average laden,4
+13,hgvs refrigerated (all diesel) - all rigids - average laden,4
+14,motorbike - average,5
+15,international rail,6
+16,"light rail, tram",6
+17,underground,6
+18,national rail,6
+19,van - average (up to 3.5 tonnes),7
+20,van - class i (up to 1.305 tonnes),7
+21,van - class ii (1.305 to 1.74 tonnes),7
+22,van - class iii (1.74 to 3.5 tonnes),7
+23,vans - average (up to 3.5 tonnes),7
+24,vans - class i (up to 1.305 tonnes),7
+25,vans - class ii (1.305 to 1.74 tonnes),7
+26,vans - class iii (1.74 to 3.5 tonnes),7
