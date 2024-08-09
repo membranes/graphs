@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Preliminary Model
-parent: Mileage & Forecasting
+title: Preliminary Attributes
+parent: Mileage
 nav_order: 1
 external_js:
 - https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js
@@ -9,7 +9,7 @@ custom_js:
 - latex
 ---
 
-# Preliminary Model
+# Preliminary Attributes
 {: .no_toc }
 
 <br>
@@ -89,7 +89,9 @@ Excluding taxi, ferry, & flight trips, which should each have their own almost s
         <td>Whereby a nominal number is the unique identification code of transport class.  The plausible classes are public, fleet, private, hired</td></tr>
     <tr><td>Vehicle</td>
         <td>nominal number</td>
-        <td>A nominal number representing the identification code of a vehicle type, from a vehicles table.</td></tr>
+        <td>A nominal number representing the identification code of a vehicle type, from a vehicles table. Example: 
+            <ul><li><a href="../../_data/specific_vehicles.csv">specific_vehicles</a></li>
+                <li><a href="../../_data/specific_vehicle_groups.csv">specific_vehicles_group</a></li></ul></td></tr>
     <tr><td>Scheduled</td>
         <td>boolean</td>
         <td>Was the trip via scheduled transport? Either yes or no; perhaps.</td></tr>
@@ -155,11 +157,6 @@ The business value is
 
 Basically, the rate might be any value between the *business rate low* & *business rate high* limits; including limits.  Hence, a business rate field that records the actual rate paid is necessary.
 
-<br>
-
-## Vehicles
-
-A critical missing piece.
 
 <br>
 <br>
