@@ -13,6 +13,3 @@ A set of conceptual data model proposals in aid of upcoming/future continuous as
 {: .fs-6 .fw-300 }
 
 <br>
-<br>
-<br>
-<br>
