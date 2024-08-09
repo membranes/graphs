@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mileage & Forecasting
+title: Mileage
 nav_order: 3
 has_children: true
 permalink: /src/mileage
@@ -8,7 +8,7 @@ custom_js:
 - latex
 ---
 
-# Mileage & Forecasting
+# Mileage
 
 {: .fs-6 .fw-300 }
 
