@@ -16,17 +16,18 @@ Climate & Sustainability: Emissions
 
 <br>
 
-These pages propose a few *conceptual data models* for acquiring the data measures required for the direct & indirect demands of Climate Order 2015
+These pages propose a few *conceptual data models* for acquiring the data measures underlying the direct & indirect demands of Climate Order 2015.  It requires
 
 * The continuous tracking, assessment, and trend analysis of greenhouse gas emissions; by emission source categories.
+* The annual reporting of self-defined metrics.
 * Forecasting & intelligent interventions; for emission, cost, waste, poor health, etc., minimisation purposes. 
 * etc.
 
-In general, if a paif of emission sources have disaccordant features, record their details via separate sets of fact & dimension tables.  It is straightforward to 
+In general, if a pair of emission sources have disaccordant features, record their details via separate sets of fact & dimension tables.  It is straightforward to 
 
-1. continuously summarise a variety of metrics, and [in compliance with metrics reporting requests]
-2. conduct a variety of decision augmenting modelling & analysis, [in compliance with proactive & trackable  expectations]
-
+1. Extract a variety of aggregates from such data sets.
+2. Continuously summarise a variety of metrics; in compliance with the self-defined metrics reporting request.
+3. Conduct a variety of decision augmenting modelling & analysis; in aid of proactive emission, cost, waste, etc., minimisation expectations.
 
 via well structured, highly granular, integrious, disaggregated raw measures.
 
