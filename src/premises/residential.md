@@ -16,7 +16,7 @@ custom_js:
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 
@@ -38,3 +38,9 @@ custom_js:
     <tr><td>Location</td>
         <td></td><td>A geographic code that does not betray sensitive details.</td></tr>
 </table>
+
+<br>
+<br>
+
+<br>
+<br>
