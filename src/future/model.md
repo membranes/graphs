@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Preliminary Model
+title: Preliminary Ideas
 parent: Future
-nav_order: 2
+nav_order: 1
 external_css:
 - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs
 custom_js:
 - latex
 ---
 
-# Preliminary Model
+# Preliminary Ideas
 {: .no_toc }
 
 <br>
@@ -23,7 +23,7 @@ custom_js:
 ---
 
 
-## In Briel
+## In Brief
 
 * emission source (black cab)
 * emission group type (taxi)
