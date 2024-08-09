@@ -39,9 +39,9 @@ custom_js:
     <tr><td>End Date</td>
         <td>date</td><td>The check-out date.</td></tr>
     <tr><td>Latitude</td>
-        <td></td><td></td></tr>
+        <td>degree</td><td></td></tr>
     <tr><td>Longitude</td>
-        <td></td><td></td></tr>
+        <td>degree</td><td></td></tr>
 </table>
 
 
