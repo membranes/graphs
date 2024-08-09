@@ -2,7 +2,7 @@
 layout: default
 title: Preliminary Model
 parent: Mileage & Forecasting
-nav_order: 2
+nav_order: 1
 external_js:
 - https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js
 custom_js:
@@ -18,34 +18,36 @@ custom_js:
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 
 ---
 
 
-## In Brief
-
-The outline
+## Plausible Attributes
 
 <table style="width: 65%;">
     <colgroup>
-        <col span="1" style="width: 8.0%;">
-        <col span="1" style="width: 8.0%;">
-        <col span="1" style="width: 8.0%;">
-        <col span="1" style="width: 41.0%;">
+        <col span="1" style="width: 7.5%;">
+        <col span="1" style="width: 6.0%;">
+        <col span="1" style="width: 36.5%;">
     </colgroup>
     <thead><tr style="text-align: left">
-        <th>name</th><th>var</th><th>unit of<br>measure</th><th>notes</th></tr>
+        <th>name</th><th>unit of<br>measure</th><th>notes</th></tr>
     </thead>
-    <tr><td>Area Pay Division</td><td>area_pay_division</td><td>unitless</td>
+    <tr><td>Area Pay Division</td>
+        <td>unitless</td>
         <td>Awaiting details.</td></tr>
-    <tr><td>Claim Line Start</td><td>claim_line_start</td><td>date</td>
+    <tr><td>Claim Line Start</td>
+        <td>date</td>
         <td>Trip start date; yyyy-mm-dd</td></tr>
-    <tr><td>Claim Line End</td><td>claim_line_end</td><td>date</td>
+    <tr><td>Claim Line End</td>
+        <td>date</td>
         <td>Trip end date; yyyy-mm-dd</td></tr>
-    <tr><td>Engine Size</td><td>engine_size</td><td>cubic centimetres</td>
+    <tr><td>Engine Size</td>
+        <td>cubic centimetres</td>
         <td>The size of the vehicle's engine.</td></tr>
-    <tr><td>Fuel Type</td><td></td><td></td>
+    <tr><td>Fuel Type</td>
+        <td></td>
         <td>Vis-à-vis fuel/energy table.</td></tr>
     <tr><td>$CO_{2}$ (Carbon Dioxide) Emissions</td><td>co2_emissions</td><td>gCO2/km</td>
         <td>The unit of measure is grams of carbon dioxide per kilometre.</td></tr>
@@ -69,14 +71,14 @@ The outline
         <td>A geographic code that does not betray sensitive details</td></tr>
     <tr><td>Trip Stops</td><td></td><td></td>
         <td>Example: {1: $\ldots$, 2: $\ldots$, $\rightarrow$}, wherein the number denotes stop number, and each ellipsis is replaced with the geographic code of the stop.  This is quite important for trip network modelling & analysis $\ldots$</td></tr>
-    <tr><td>Travel Class</td><td></td><td></td>
+    <tr><td>Travel Class</td><td>nominal</td><td></td>
         <td>business travel, in-patient travel, out-patient travel, staff commute</td></tr>
-    <tr><td>Transport Class</td><td></td><td></td>
+    <tr><td>Transport Class</td><td>nominal number</td><td></td>
         <td>public, fleet, private, hired</td></tr>
     <tr><td>Vehicle</td><td>nominal number</td><td></td>
         <td>A nominal number representing the identification code of a vehicle type, from a vehicles table.</td></tr>
-    <tr><td>Scheduled</td><td></td><td></td>
-        <td>Was the trip via scheduled transport? Either yes or no; perhaps, unknown.</td></tr>
+    <tr><td>Scheduled</td><td>boolean</td><td></td>
+        <td>Was the trip via scheduled transport? Either yes or no; perhaps.</td></tr>
 </table>
 
 
