@@ -75,11 +75,11 @@ author:
   avatar           : '/assets/images/cylinder.png'
   bio              : 'CRAZY'
   location         : 'Outer Space'
-  email            : ''
+  email            : 'greyhypotheses@'
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+    - label: 'Email'
+      icon: 'fas fa-fw fa-envelope-square'
+      url: 'greyhypotheses@'
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
