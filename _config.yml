@@ -28,23 +28,32 @@ breadcrumbs              : false
 words_per_minute         : 200
 enable_copy_code_button  : true
 
+
+# Copyright:
 # copyright                : # defaults to site.title
 # copyright_url            : # URL, defaults to site.url
 
+
+# Comments
+# Provider: false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : false
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
 
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+  hide                   : true
+
+
+# Search Provider: lunr (default), algolia, google
+search                   : true
+search_full_content      : true
+search_provider          : 'lunr'
 lunr:
-  search_within_pages    : # true, false (default)
+  search_within_pages    : true
+
 
 # SEO Related
 google_site_verification :
