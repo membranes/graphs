@@ -207,6 +207,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -232,6 +233,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -246,7 +249,7 @@ tag_archive:
 
 
 # HTML Compression
-# - https://jch.penibelst.de/
+# https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
@@ -254,8 +257,8 @@ compress_html:
 
 
 # Defaults
+# _posts
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
