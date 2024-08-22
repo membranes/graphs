@@ -16,7 +16,7 @@ locale                   : 'en-GB'
 title                    : 'Emissions'
 title_separator          : '-'
 subtitle                 : 'Future'
-name                     : 'hypotheses'
+name                     : 'greyhypotheses'
 description              : 'The future is here'
 url                      : 'https://preliminaries.github.io'
 baseurl                  : ''
@@ -71,11 +71,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : 'greyhypotheses'
+  avatar           : '/assets/images/cylinder.png'
+  bio              : 'CRAZY'
+  location         : 'Outer Space'
+  email            : ''
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
