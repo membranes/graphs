@@ -1,6 +1,3 @@
-# Search
-search_enabled: true
-
 
 # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin    : "default"
