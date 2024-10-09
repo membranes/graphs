@@ -173,6 +173,8 @@ html_js_files: list[str] = [
     'https://code.highcharts.com/highcharts.js',
     'https://code.highcharts.com/modules/networkgraph.js',
     'https://code.highcharts.com/modules/sunburst.js',
+    'https://code.highcharts.com/modules/treemap.js',
+    'https://code.highcharts.com/modules/treegraph.js',
     'https://viewer.diagrams.net/js/viewer-static.min.js',
     'https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js']
