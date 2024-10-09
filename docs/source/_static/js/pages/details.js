@@ -79,7 +79,7 @@ jQuery.getJSON(url, function (source){
             align: 'left'
         },
         subtitle: {
-            text: 'Details of interest for feasibility assessment',
+            text: '<span style="color: #F80">Details of interest for feasibility assessment</span>',
             align: 'left'
         },
         plotOptions: {
@@ -93,13 +93,6 @@ jQuery.getJSON(url, function (source){
                     pointFormat: '{point.name}'
                 }
             }
-        },
-        caption: {
-            verticalAlign: "bottom",
-            y: -135,
-            x: 85,
-            text: '<p>Illustraing the system considerations of machine learning dependent<br>' +
-                'systems.</p>'
         },
         series: [{
             accessibility: {
