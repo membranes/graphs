@@ -1,12 +1,7 @@
 
 # Risk
 
-```{toctree}
-:maxdepth: 1
-:glob:
-
-*
-```
+> system, model, project management
 
 <br>
 <br>
