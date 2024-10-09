@@ -8,7 +8,9 @@ jQuery.getJSON(url, function (source){
 
     // Indices
     let columns = source.columns;
-    var pa = columns.indexOf('parent_desc'), ch = columns.indexOf('child_desc');
+    var pa = columns.indexOf('parent_desc'),
+        ch = columns.indexOf('child_desc'),
+        de = columns.indexOf('notes');
 
     // Data
     var data = [];
@@ -16,7 +18,7 @@ jQuery.getJSON(url, function (source){
 
         // parent, child
         data.push([
-            source.data[i][pa], source.data[i][ch]
+            source.data[i][pa], source.data[i][ch], source.data[i][de]
         ]);
 
     }
@@ -82,10 +84,13 @@ jQuery.getJSON(url, function (source){
         },
         plotOptions: {
             networkgraph: {
-                keys: ['from', 'to'],
+                keys: ['from', 'to', 'desc'],
                 layoutAlgorithm: {
                     enableSimulation: true,
                     friction: -0.9
+                },
+                tooltip: {
+                    pointFormat: '{point.desc}'
                 }
             }
         },
