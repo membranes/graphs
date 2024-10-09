@@ -1,6 +1,6 @@
 var Highcharts;
 
-const url = "https://raw.githubusercontent.com/prml-0004/abstracts/refs/heads/master/warehouse/details.json"
+var url = "https://raw.githubusercontent.com/prml-0004/abstracts/refs/heads/master/warehouse/details.json"
 
 
 // Generate curves
@@ -79,7 +79,7 @@ jQuery.getJSON(url, function (source){
             align: 'left'
         },
         subtitle: {
-            text: '<span style="color: #F80">Details of interest for feasibility assessment</span>',
+            text: '<a href="https://github.com/orgs/prml-0004/projects/2/views/3"><img alt="Static Badge" src="https://img.shields.io/badge/project-backlog-green" style="margin-left: 5px"></a>',
             align: 'left'
         },
         plotOptions: {
