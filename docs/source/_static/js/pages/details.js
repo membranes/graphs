@@ -1,6 +1,6 @@
 var Highcharts;
 
-var url = "https://raw.githubusercontent.com/prml-0004/abstracts/refs/heads/master/warehouse/details.json"
+const url = "https://raw.githubusercontent.com/prml-0004/abstracts/refs/heads/master/warehouse/details.json"
 
 
 // Generate curves
@@ -16,7 +16,7 @@ jQuery.getJSON(url, function (source){
     var data = [];
     for (var i = 0; i < source.data.length; i += 1){
 
-        // parent, child
+        // parent, child, name
         data.push([
             source.data[i][pa], source.data[i][ch], source.data[i][de]
         ]);
@@ -79,18 +79,18 @@ jQuery.getJSON(url, function (source){
             align: 'left'
         },
         subtitle: {
-            text: 'A discussion with natural environment agencies',
+            text: 'Details of interest for feasibility assessment',
             align: 'left'
         },
         plotOptions: {
             networkgraph: {
-                keys: ['from', 'to', 'desc'],
+                keys: ['from', 'to', 'name'],
                 layoutAlgorithm: {
                     enableSimulation: true,
                     friction: -0.9
                 },
                 tooltip: {
-                    pointFormat: '{point.desc}'
+                    pointFormat: '{point.name}'
                 }
             }
         },
