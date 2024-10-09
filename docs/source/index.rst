@@ -41,7 +41,9 @@ In Brief
     :glob:
     :hidden:
 
-    excerpts/excerpts
+    critical/critical
+    model/model
+    risk/risk
 
 .. raw:: html
 
