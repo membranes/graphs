@@ -1,9 +1,9 @@
 
-# Deployment
+# Deployment Goal
 
 :::{note}
 :class: dropdown
-In Progress
+<a href="https://github.com/prml-0004/library/blob/master/src/01-critical/03-deployment.md" target="_blank">Visit</a>
 :::
 
 <br>
