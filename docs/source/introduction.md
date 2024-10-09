@@ -8,7 +8,7 @@
 
 <br>
 
-The details are critical to determining the financial viability and technological feasibility of the potential project.  The technological feasibility assessment includes *model development feasibility* assessment.
+The project details are critical to determining the financial viability and technological feasibility of the potential project.  The technological feasibility assessment includes *model development feasibility* assessment.
 
 <br>
 
