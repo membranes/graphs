@@ -68,7 +68,7 @@ jQuery.getJSON(url, function (source){
         }
     );
 
-    Highcharts.chart('container', {
+    Highcharts.chart('container0001', {
         chart: {
             type: 'networkgraph',
             height: '100%',
