@@ -43,7 +43,7 @@ jQuery.getJSON(url, function (source){
                         nodes['Details'] = {
                             id: 'Details',
                             marker: {
-                                radius: 24
+                                radius: 32
                             }
                         };
                         nodes[link[1]] = {
