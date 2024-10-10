@@ -8,7 +8,9 @@ The Natural Language Learning world dispatches data; English.
 
 Prior to tokenization, each word of a sentence/paragraph must be tagged.[^limits]
 
-<table style="width: 80%;">
+<br>
+
+<table style="width: 80%; font-size: small">
     <colgroup>
         <col span="1" style="width: 11.0%;">
         <col span="1" style="width: 39.5%;">
@@ -33,11 +35,12 @@ Prior to tokenization, each word of a sentence/paragraph must be tagged.[^limits
 </table>
 
 <br>
+<br>
 
 ## Frequencies
 
 <script src="../_static/js/pages/tags.js" type="text/javascript"></script>
-<div id="container0003" style="height: 845px; width: 890px;  margin: 0 auto"></div>
+<div id="container0003" style="height: 445px; width: 890px;  margin: 0 auto"></div>
 
 <br>
 
