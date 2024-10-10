@@ -4,7 +4,7 @@ The Natural Language Learning world dispatches data; English.
 
 <br>
 
-## Structure Expectations for Modelling
+## Structural Expectations for Modelling
 
 Prior to tokenization, each word of a sentence/paragraph must be tagged.[^limits]
 
