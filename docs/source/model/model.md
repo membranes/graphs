@@ -1,15 +1,7 @@
 # Model
 
-> aim, metrics
-
-<br>
-
-:::{important}
-:class: dropdown
-* Known corpus
-* Targets token classification
-* Contextual pattern learning
-* Wherewithal to specify custom tags
+:::{admonition} Focus
+Aim, Metrics[^constraints]
 :::
 
 <br>
@@ -33,5 +25,4 @@
 <br>
 <br>
 
-
-
+[^constraints]: known corpus, designed for token classification, contextual pattern learning, wherewithal to specify custom tags
