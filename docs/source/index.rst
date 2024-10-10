@@ -1,12 +1,12 @@
 .. image:: _static/logo.svg
 
 
-In Brief
-========
+Decision Systems
+================
 
 .. container:: .large
 
-    Pages.
+    These pages review the details thus far, of a potential redaction system project.  These details are critical to determining the technological feasibility and financial viability of the potential project.
 
 .. raw:: html
 
@@ -29,15 +29,15 @@ In Brief
 
 
 .. toctree::
-    :maxdepth: 2
-    :caption: Introduction
+    :maxdepth: 1
+    :caption: INTRODUCTION
     :hidden:
 
     introduction
 
 .. toctree::
     :maxdepth: 2
-    :caption: Excerpts
+    :caption: EXCERPTS
     :glob:
     :hidden:
 

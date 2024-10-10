@@ -1,5 +1,7 @@
 
-# Introduction
+# Project Details 
+
+## For technological feasibility & financial viability assessments
 
 <br>
 
@@ -14,7 +16,7 @@ The project details are critical to determining the financial viability and tech
 
 :::{admonition} Challenge
 :class: dropdown
-A few fundamental details are missing.  A core challenge has the absence/unavailability/lack of the requisite professionals for eliciting critical project details.
+A few fundamental details are missing.  A core challenge has been the absence/unavailability/lack of the requisite professionals for eliciting critical project details.
 :::
 
 

@@ -39,7 +39,7 @@ master_doc = 'index'
 '''
 Basic
 '''
-project = '&nbsp; <span style="vertical-align: super; padding-top: 0; padding-bottom: 0;">In Brief</span>'
+project = '&nbsp; <span style="vertical-align: super; padding-top: 0; padding-bottom: 0;">Decision Systems</span>'
 project_copyright = '{}, The Artificial Intelligence Unit'.format(datetime.datetime.now().year)
 author = '@greyhypotheses'
 
@@ -186,9 +186,9 @@ html_favicon = '_static/favicon.ico'
 html_context = {
     'landing_page': {
         'menu': [
-            {'title': '<b>Parent</b>',
+            {'title': '<b>PARENT</b>',
              'url': 'https://github.com/theartificialintelligenceunit'},
-            {'title': '<b>Introduction</b>',
+            {'title': '<b>INTRODUCTION</b>',
              'url': 'introduction.html'}
         ]
     },

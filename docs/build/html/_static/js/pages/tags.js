@@ -19,11 +19,6 @@ jQuery.getJSON(url, function (data) {
         title: {
             text: 'An illustration of imbalance'
         },
-
-        subtitle: {
-            text: 'Raw Data: The <a href="https://www.conll.org">2003 Natural Language Learning Conference Data</a>'
-        },
-
         series: [{
             type: 'sunburst',
             data: data,
