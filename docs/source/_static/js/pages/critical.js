@@ -32,10 +32,13 @@ jQuery.getJSON(url,
         Highcharts.chart('container0004', {
             chart: {
                 inverted: false,
-                height: 600,
-                width: 550,
+                height: 350,
+                width: 300,
                 marginTop: 85,
                 marginLeft: 85
+            },
+            credits: {
+                enabled: false
             },
             title: {
                 text: 'Critical Preliminaries',
@@ -52,8 +55,8 @@ jQuery.getJSON(url,
                         enabled: true,
                         style: {
                             whiteSpace: 'pre-wrap',
-                            width: 65,
-                            textOverflow: 'ellipsis',
+                            width: 85,
+                            textOverflow: 'clip',
                             color: 'rgba(0, 0, 0, .65)'
                         }
                         // format: '<b>{point.name}</b>: {point.description}
@@ -64,7 +67,7 @@ jQuery.getJSON(url,
                 verticalAlign: "bottom",
                 y: 25,
                 x: 25,
-                text: '<p>Dimension elements; in progress.</p>'
+                text: '<p></p>'
             },
             series: [
                 {
@@ -78,7 +81,7 @@ jQuery.getJSON(url,
                         crop: false
                     },
                     marker: {
-                        radius: 6
+                        radius: 9
                     },
                     levels: [
                         {
