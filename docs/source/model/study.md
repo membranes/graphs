@@ -1,6 +1,6 @@
 # Case Study
 
-The Natural Language Learning world dispatches data; English.
+The <a href="https://www.conll.org" target="_blank">Natural Language Learning world dispatches data</a>; English.
 
 <br>
 
@@ -41,10 +41,6 @@ Prior to tokenization, each word of a sentence/paragraph must be tagged.[^limits
 
 <script src="../_static/js/pages/tags.js" type="text/javascript"></script>
 <div id="container0003" style="height: 445px; width: 890px;  margin: 0 auto"></div>
-
-<br>
-
-These classes were deduced via agency interviews; they underpin the tag types design.
 
 <br>
 <br>
