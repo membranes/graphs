@@ -10,18 +10,18 @@ jQuery.getJSON(url, function (data) {
     Highcharts.chart('container0003', {
 
         chart: {
-            height: '100%'
+            height: '60%'
         },
 
         // Let the center circle be transparent
         colors: ['transparent'].concat(Highcharts.getOptions().colors),
 
         title: {
-            text: 'An illustration of imbalance expectations'
+            text: 'An illustration of imbalance'
         },
 
         subtitle: {
-            text: 'Source: The <a href="https://www.conll.org">2003 Natural Language Learning Conference Data</a>'
+            text: 'Raw Data: The <a href="https://www.conll.org">2003 Natural Language Learning Conference Data</a>'
         },
 
         series: [{
@@ -32,7 +32,7 @@ jQuery.getJSON(url, function (data) {
             borderRadius: 3,
             cursor: 'pointer',
             dataLabels: {
-                format: '{point.name}',
+                format: '{point.id}',
                 filter: {
                     property: 'innerArcLength',
                     operator: '>',
@@ -71,7 +71,7 @@ jQuery.getJSON(url, function (data) {
 
         tooltip: {
             headerFormat: '',
-            pointFormat: 'The population of <b>{point.name}</b> is <b>' +
+            pointFormat: 'The counts of <b>{point.name}</b> is <b>' +
                 '{point.value}</b>'
         }
     });
