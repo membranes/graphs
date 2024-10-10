@@ -79,7 +79,7 @@ jQuery.getJSON(url, function (source){
             align: 'left'
         },
         subtitle: {
-            text: '<a href="https://github.com/orgs/prml-0004/projects/2/views/3">Project Details Log</a>',
+            text: 'Visit: <a href="https://github.com/orgs/prml-0004/projects/2/views/3">Project Details Log</a>',
             align: 'left'
         },
         plotOptions: {
