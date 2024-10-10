@@ -1,6 +1,6 @@
 # Metrics
 
-Split into:
+Split into (visit):
 
 <ul class="disc">
   <li class="disc"><a href="https://github.com/prml-0004/.github/blob/master/profile/library/what_leaders_should_know_about_measuring_ai_project_value.pdf" target="_blank">Business</a></li>

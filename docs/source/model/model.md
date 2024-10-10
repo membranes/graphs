@@ -1,7 +1,5 @@
 # Model
 
-<br>
-
 ```{toctree}
 :maxdepth: 1
 :glob:

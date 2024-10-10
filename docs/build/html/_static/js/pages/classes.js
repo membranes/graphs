@@ -79,7 +79,7 @@ jQuery.getJSON(url, function (source){
             align: 'left'
         },
         subtitle: {
-            text: 'Visit: <a href="https://github.com/prml-0004/library/blob/master/src/02-model/performance/03-schemes.md#annotation-schemes--modelling">Annotation Scheme for Modelling</a>',
+            text: 'Visit: <a href="https://github.com/prml-0004/library/blob/master/src/02-model/performance/03-schemes.md#annotation-schemes--modelling" target="_blank">Annotation Scheme for Modelling</a>',
             align: 'left'
         },
         plotOptions: {
