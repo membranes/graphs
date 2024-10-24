@@ -15,13 +15,13 @@ Decision Systems
 .. container:: .buttons
 
     `Introduction <introduction.html>`_
-    `GitHub <https://github.com/prml-0004/prml-0004.github.io>`_
+    `GitHub <https://github.com/membranes/library>`_
 
 .. raw:: html
 
     <br>
 
-    <img class="normal" src="https://img.shields.io/github/v/tag/prml-0004/prml-0004.github.io?label=Release&style=flat-square&labelColor=292b2e&color=292b2e" alt="SHIELD" />
+    <img class="normal" src="https://img.shields.io/github/v/tag/membranes/library?label=Release&style=flat-square&labelColor=292b2e&color=292b2e" alt="SHIELD" />
 
 .. raw:: html
 
