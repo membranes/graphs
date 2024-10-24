@@ -6,7 +6,7 @@ Decision Systems
 
 .. container:: .large
 
-    These pages review the details thus far, of a potential redaction system project.  These details are critical to determining the technological feasibility and financial viability of the potential project.
+    These pages outline the details, thus far, of a potential adaptive named entity recognition architecture.  These details are critical to determining the technological feasibility and financial viability.
 
 .. raw:: html
 
