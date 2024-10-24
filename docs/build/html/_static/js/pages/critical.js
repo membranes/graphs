@@ -1,6 +1,5 @@
-
 var Highcharts;
-var url = "https://raw.githubusercontent.com/prml-0004/abstracts/refs/heads/master/data/tree/critical.json";
+var url = "https://raw.githubusercontent.com/membranes/abstracts/refs/heads/master/data/tree/critical.json";
 
 
 // Generate curves

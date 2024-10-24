@@ -142,14 +142,14 @@ https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-o
 html_theme = 'revitron_sphinx_theme'
 
 html_theme_options = {
-    'canonical_url': 'https://prml-0004.github.io',
+    'canonical_url': 'https://membranes.github.io/library',
     'style_external_links': False,
     'collapse_navigation': True,
     'sticky_navigation': True,
     'navigation_depth': 3,
     'includehidden': True,
     'titles_only': False,
-    'github_url': 'https://www.github.com/prml-0004/prml-0004.github.io',
+    'github_url': 'https://www.github.com/membranes/library',
     'logo_mobile': '_static/32x32.svg'
 }
 
@@ -193,7 +193,7 @@ html_context = {
         ]
     },
     'display_github': True,
-    'github_repo': 'prml-0004/prml-0004.github.io',
+    'github_repo': 'membranes/library',
     'conf_py_path': 'develop/docs/source/'
 }
 

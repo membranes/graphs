@@ -1,6 +1,5 @@
 var Highcharts;
-
-var url = "https://raw.githubusercontent.com/prml-0004/abstracts/refs/heads/master/warehouse/details.json"
+var url = "https://raw.githubusercontent.com/membranes/abstracts/refs/heads/master/warehouse/details.json"
 
 
 // Generate curves
@@ -79,7 +78,7 @@ jQuery.getJSON(url, function (source){
             align: 'left'
         },
         subtitle: {
-            text: 'Visit: <a href="https://github.com/orgs/prml-0004/projects/2/views/3" target="_blank">Project Details Log</a>',
+            text: 'Visit: Project Details Log',
             align: 'left'
         },
         plotOptions: {
