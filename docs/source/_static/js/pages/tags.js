@@ -1,7 +1,7 @@
 
 var Highcharts;
 
-var url = "https://raw.githubusercontent.com/prml-0004/abstracts/refs/heads/master/warehouse/tags.json"
+var url = "https://raw.githubusercontent.com/membranes/abstracts/refs/heads/master/warehouse/tags.json"
 
 // Generate curves
 jQuery.getJSON(url, function (data) {
