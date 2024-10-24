@@ -1,4 +1,3 @@
-
 var Highcharts;
 var url = "https://raw.githubusercontent.com/membranes/abstracts/refs/heads/master/data/tree/critical.json";
 
