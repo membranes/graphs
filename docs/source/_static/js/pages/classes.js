@@ -1,6 +1,6 @@
 var Highcharts;
 
-var url = "https://raw.githubusercontent.com/prml-0004/abstracts/refs/heads/master/warehouse/classes.json"
+var url = "https://raw.githubusercontent.com/membranes/abstracts/refs/heads/master/warehouse/classes.json"
 
 
 // Generate curves
@@ -75,11 +75,11 @@ jQuery.getJSON(url, function (source){
             marginTop: -85
         },
         title: {
-            text: 'Detection & Redaction Targets',
+            text: 'Detection Targets',
             align: 'left'
         },
         subtitle: {
-            text: 'Visit: <a href="https://github.com/prml-0004/library/blob/master/src/02-model/performance/03-schemes.md#annotation-schemes--modelling" target="_blank">Annotation Scheme for Modelling</a>',
+            text: 'Visit: Annotation Scheme for Modelling',
             align: 'left'
         },
         plotOptions: {
