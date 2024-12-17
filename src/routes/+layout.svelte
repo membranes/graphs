@@ -5,6 +5,7 @@
 <nav>
     <a href="/">home</a>
     <a href="/about">about</a>
+    <a href="/datasheets">datasheets</a>
 </nav>
 
 {@render children()}
