@@ -19,4 +19,4 @@ export const nodes = [
         title: 'NLP Statements',
         content: '<p>This is a NLP (Natural Language Processing) model, hence the <b>NLP Statements</b> ...</p>'
     }
-]
+];
