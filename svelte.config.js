@@ -6,7 +6,7 @@ export default {
 			// Default settings; depending on the context, automatically set.
 			pages: 'build',
 			assets: 'build',
-			fallback: undefined,
+			fallback: null,
 			precompress: false,
 			strict: true
 		})
