@@ -6,6 +6,11 @@
 	<main>
 		{@render children()}
 	</main>
+	<aside>
+		{#each data.summaries as {slug, title} }
+			<li><a href="/datasheets/{slug}">{title}</a></li>
+		{/each}
+	</aside>
 </div>
 
 <style>
