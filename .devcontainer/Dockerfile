@@ -21,7 +21,7 @@ RUN apt update && apt -q -y upgrade && apt -y install sudo && \
 
 
 # Port
-EXPOSE 5000 5173
+EXPOSE 5000 5173 4173
 
 
 # ENTRYPOINT
