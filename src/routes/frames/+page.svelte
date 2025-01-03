@@ -4,7 +4,10 @@
 </script>
 
 <div class="frames_page">
-    <h2>Critical Preliminaries</h2>
+    <div class="frames_grid">
+        <p></p>
+        <h2>Critical Preliminaries</h2>
+    </div>
     <div class="frames_grid">
         {#each frames as frame}
             <p></p>
@@ -19,6 +22,9 @@
     .frames_page h2 {
         font-size: 40px;
         margin-bottom: 20px;
+    }
+    h2 {
+        font-variant: small-caps;
     }
     .frames_grid {
         display: grid;
