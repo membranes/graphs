@@ -4,7 +4,7 @@
     import '../styles/global.css';
 </script>
 
-<div class="layout">
+<div class="layout">    
     <Navigation />
     <slot />
     <Footer />
