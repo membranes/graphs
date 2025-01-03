@@ -7,11 +7,12 @@
     <h2>Critical Preliminaries</h2>
     <div class="frames_grid">
         {#each frames as frame}
+            <p></p>
             <h3>{@html frame.title}</h3>
             <p>{@html frame.desc}</p>
+            <p></p>
         {/each}        
     </div>
-    
 </div>
 
 <style>
@@ -21,7 +22,7 @@
     }
     .frames_grid {
         display: grid;
-        grid-template-columns: 1fr 3fr;
+        grid-template-columns: 1fr 1fr 3fr 1fr;
         gap: 20px;
     }
     @media (max-width: 600px) {
