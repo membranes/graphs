@@ -3,36 +3,41 @@
     const frames = data.frames;
 </script>
 
-<div class="frames_page">
-    <div class="frames_grid">
-        <p></p>
-        <h2>Critical Preliminaries</h2>
+<div class="frames-page">
+    <div class="frames-grid">
+        <h2>Fundamentals</h2>
     </div>
-    <div class="frames_grid">
-        {#each frames as frame}
-            <p></p>
-            <h3>{@html frame.title}</h3>
-            <p>{@html frame.desc}</p>
-            <p></p>
-        {/each}        
+    <div class="frames-grid">
+        <div class="grid-item"></div>
+        <div class="grid-item">
+            {#each frames as frame}
+                <p>{@html frame.title}<br>{@html frame.desc}</p>
+            {/each} 
+        </div>
+        <div class="grid-item"></div>    
     </div>
 </div>
 
 <style>
-    .frames_page h2 {
-        font-size: 40px;
-        margin-bottom: 20px;
-    }
     h2 {
         font-variant: small-caps;
     }
-    .frames_grid {
+    .frames-page h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .frames-grid {
         display: grid;
-        grid-template-columns: 1fr 1fr 3fr 1fr;
+        grid-template-columns: 1fr 3fr 1fr;
         gap: 20px;
     }
+    .grid-item {
+    border: 0 solid;
+    padding: 20px;
+    text-align: left;
+    }
     @media (max-width: 600px) {
-        .frames_grid {
+        .frames-grid {
             grid-template-columns: 1fr;
         }
     }
