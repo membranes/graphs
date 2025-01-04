@@ -42,3 +42,8 @@ nav .navigation a {
     text-align: left;
     margin: 100px 0 20px;
 }
+
+h3 {
+    font-variant: small-caps;
+    color: rgb(46, 40, 40);
+}
