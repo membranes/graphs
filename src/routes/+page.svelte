@@ -21,11 +21,11 @@
         width: 70%;
     }
     .model p {
-        color: #6e7076;
+        color: #46433A;
         font-size: 20px;
     }
     .button {
-        background-color: goldenrod;
+        background-color: #CE534D;
         padding: 20px 30px;
         margin-top: 40px;
         border-radius: 5px;
