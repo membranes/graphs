@@ -4,33 +4,33 @@
 
 <div class="frames-page">
     <div class="frames-grid">
-        <div class="grid-item"></div>
-        <div class="grid-item"><h2>Fundamentals</h2></div>
-        <div class="grid-item"></div>
+        <div class="frames-grid-item"></div>
+        <div class="frames-grid-item"><h2>Fundamentals</h2></div>
+        <div class="frames-grid-item"></div>
     </div>
     <div class="frames-grid">
-        <div class="grid-item"></div>
-        <div class="grid-item">
+        <div class="frames-grid-item"></div>
+        <div class="frames-grid-item">
             <h3>Problem Statement</h3>
             {@html item.problem}            
         </div>
-        <div class="grid-item"></div>    
+        <div class="frames-grid-item"></div>    
     </div>
     <div class="frames-grid">
-        <div class="grid-item"></div>
-        <div class="grid-item">
+        <div class="frames-grid-item"></div>
+        <div class="frames-grid-item">
             <h3>Outcome Expectations / Underlying Aims</h3>
             {@html item.expectations}            
         </div>
-        <div class="grid-item"></div>    
+        <div class="frames-grid-item"></div>    
     </div>
     <div class="frames-grid">
-        <div class="grid-item"></div>
-        <div class="grid-item">
+        <div class="frames-grid-item"></div>
+        <div class="frames-grid-item">
             <h3>Deployment Goal</h3>
             {@html item.deployment}
         </div>
-        <div class="grid-item"></div>
+        <div class="frames-grid-item"></div>
     </div>
 </div>
 
@@ -44,7 +44,7 @@
         grid-template-columns: 1fr 3fr 1fr;
         gap: 20px;
     }
-    .grid-item {
+    .frames-grid-item {
         border: 0 solid;
         padding: 5px;
         margin-bottom: 25px;
