@@ -1,12 +1,28 @@
-# Jekyll
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+test-results
+node_modules
 
-# Bundler
-.bundle/
-vendor/
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
 
-# IntelliJ IDEA
+# OS
+.DS_Store
+Thumbs.db
+
+# ENV
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Exclude
 .idea
+script.sh
