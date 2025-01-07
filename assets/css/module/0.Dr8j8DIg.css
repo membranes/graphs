@@ -52,6 +52,7 @@ img {
     border-bottom-width: thin;    
     padding: 5px;
     text-align: right;
+    font-size: small;
 }
 
 h2 {
