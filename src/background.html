@@ -10,7 +10,6 @@
 		<link href="../assets/css/module/4.C4MfQ6Mv.css" rel="stylesheet">
 
 		<script src="../assets/js/module/latex.js" async></script>
-		<script src="../assets/js/module/latest.js" type="module"></script>
 
 		<title>BACKGROUND</title>
 
@@ -59,6 +58,11 @@
 			</div>
 
 		</div>
+
+		<script type="module">
+			import {stamp} from 'assets/js/module/latest'
+			document.getElementById("stamp").innerHTML = stamp();
+		</script>
 
 	</body>
 
