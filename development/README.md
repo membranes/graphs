@@ -1,6 +1,36 @@
 
 <br>
 
+
+
+Notes:
+
+```shell
+docker run --rm -i -t -p 8080:80 -w /app 
+  --mount type=bind,src="$(pwd)",target=/app 
+    dynamic
+```
+
+and
+
+```shell
+nginx -g 'daemon off;'
+```
+
+Alternatively
+
+```shell
+docker run --rm -i -t -p 8080:80 -w /app 
+  --mount type=bind,src="$(pwd)",target=/app 
+    dynamic nginx -g 'daemon off;'
+```
+
+
+
+
+
+
+
 References:
 
 * [Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
