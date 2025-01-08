@@ -58,6 +58,13 @@ NGINX
 Docker
 * [docker run](https://docs.docker.com/reference/cli/docker/container/run/)
 
+vim & vi
+* [vi](https://linuxsimply.com/cheat-sheets/vi/)
+* [vim](https://vim.rtorr.com)
+* [vim](https://www.redhat.com/en/blog/beginners-guide-vim)
+
+
+
 <br>
 <br>
 
