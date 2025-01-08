@@ -44,6 +44,9 @@ JavaScript Modules
 * [Module Errors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/import_decl_module_top_level#importing_in_a_non-module_script)
 * [SCRIPT](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
 
+JavaScript
+* [fetch](https://javascript.info/fetch)
+
 live server
 * [live server](https://itnext.io/dockerizing-modern-web-apps-cd9667eebf44)
 * [github](https://github.com/tapio/live-server)
@@ -59,6 +62,7 @@ NGINX
 * [Dockerfile](https://github.com/devasthali-os/nginx-base/blob/master/Dockerfile)
 * [conf](https://nginx.org/en/docs/beginners_guide.html#conf_structure)
 * [MIME (Multipurpose Internet Mail Extensions) Types](https://server.hk/blog/14461/)
+* [MIME Types](https://www.slingacademy.com/article/nginx-mime-types-the-complete-guide/)
 * [load error example](https://www.slingacademy.com/article/nginx-error-cannot-load-css-js-files/)
 
 Docker
