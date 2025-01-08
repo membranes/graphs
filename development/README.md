@@ -56,6 +56,7 @@ NGINX
 * [extra help](https://itnext.io/dockerizing-modern-web-apps-cd9667eebf44)
 * [more](https://www.socketxp.com/iot/remote-access-nginx-web-server-from-internet/)
 * [nginx -g 'daemon off;'](https://www.thecoderscamp.com/nginx-g-daemon-off/)
+* [Doclerfile](https://github.com/devasthali-os/nginx-base/blob/master/Dockerfile)
 
 Docker
 * [docker run](https://docs.docker.com/reference/cli/docker/container/run/)
