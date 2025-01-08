@@ -1,4 +1,3 @@
-
 /* 
 	import data from "../../../temporary/latest.json" assert {type: 'json'};
 
@@ -8,8 +7,10 @@
 */
 
 export function stamp() { fetch("../../../temporary/latest.json")
-	.then((response) => response.json())
-	.then(data => {
+	.then(function (response) {
+		return response.json();
+	})
+	.then(function (data) {
 		return data.time;
 	})
 	.catch(error => {
