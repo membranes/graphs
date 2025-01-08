@@ -52,8 +52,10 @@ live server
 NGINX
 * [docker hub](https://hub.docker.com/_/nginx)
 * [docker nginx](https://toxigon.com/setting-up-nginx-with-docker)
+* [docker nginx](https://www.uptimia.com/questions/how-to-run-nginx-in-the-foreground-within-a-docker-container#implementing-the-solution-in-docker)
 * [extra help](https://itnext.io/dockerizing-modern-web-apps-cd9667eebf44)
 * [more](https://www.socketxp.com/iot/remote-access-nginx-web-server-from-internet/)
+* [nginx -g 'daemon off;'](https://www.thecoderscamp.com/nginx-g-daemon-off/)
 
 Docker
 * [docker run](https://docs.docker.com/reference/cli/docker/container/run/)
