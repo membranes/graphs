@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<script src="../assets/js/module/latex.js" async></script>
-		<script src="../assets/js/module/latest.js" type="module"></script>
+
 
 		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 		
@@ -64,6 +64,11 @@
 			
 			
 		</div>
+
+		<script type="module">
+			import {stamp} from 'assets/js/module/latest'
+			document.getElementById("stamp").innerHTML = stamp();
+		</script>
 
 	</body>
 </html>
