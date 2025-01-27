@@ -1,0 +1,5 @@
+{
+  "fp": "False Positive<br>... herein, the model's decision is incorrect; true or present, albeit false or absent, e.g., a disease is mistakenly classified as present, or a false mapping of a pair of images of faces.",
+  "tp": "True Positive<br>... the model's decision is correct; true or present, e.g., the correct identification of the presence of a disease, or the correct classification of a disease stage.",
+  "tn": "True Negative"
+}
