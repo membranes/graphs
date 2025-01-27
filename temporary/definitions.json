@@ -3,5 +3,6 @@
   "tp": "True Positive<br>... the model's decision is correct; true or present, e.g., the correct identification of the presence of a disease, or the correct classification of a disease stage.",
   "tn": "True Negative",
   "fnr": "$$\frac{fn}{tp + fn}$$",
-  "tnr": "$$\frac{tn}{fp + tn}$$"
+  "tnr": "$$\frac{tn}{fp + tn}$$",
+  "tpr": "$$\frac{tp}{tp + fn}$$"
 }
