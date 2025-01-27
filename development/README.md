@@ -46,6 +46,7 @@ JavaScript Modules
 
 JavaScript
 * [fetch](https://javascript.info/fetch)
+* [1](https://wpdean.com/css-dropdown-menus/), [2](https://jsfiddle.net/cL2x7/), [3](www.geeksforgeeks.org/how-to-creating-html-list-from-javascript-array/)
 
 live server
 * [live server](https://itnext.io/dockerizing-modern-web-apps-cd9667eebf44)
