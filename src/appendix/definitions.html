@@ -35,9 +35,7 @@
 
 			<!-- The lower section -->
 			<div class="layout-item">
-				<div class="frames-grid-left svelte-1jxvby2">
-					<div id="setup"></div>
-				</div>
+				<div id="setup"></div>
 			</div>
 
 			<div class="layout-item">
@@ -64,12 +62,10 @@
 
 	<script type="module">
 		import definition from '/temporary/definitions.json' with  {type: 'json'};
-
 		export function terms() {
 			return definition
 		}
 		document.getElementById("tp").innerHTML = terms().tp;
-
 	</script>
 
 	</body>
