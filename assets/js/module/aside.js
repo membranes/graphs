@@ -13,14 +13,16 @@ function second(string, name) {
 export function setup() {
 
 	let panel;
-	panel = hyperlink(`${aside.index}`, 'index') + `<br>` +
+	panel = '<div class="frames-grid-left svelte-1jxvby2">' +
+		hyperlink(`${aside.index}`, 'index') + `<br>` +
 		hyperlink(`${aside.background}`, 'background') + `<br>` +
 		hyperlink(`${aside.preliminaries}`, 'preliminaries') + `<br>` +
 		`Metrics<br>` +
 		second(`${aside.metrics.error}`, 'error') + `<br>` +
 		second(`${aside.metrics.financial}`, 'financial')+ `<br>` +
 		`Appendix<br>` +
-		second(`${aside.appendix.definitions}`, 'definitions');
+		second(`${aside.appendix.definitions}`, 'definitions') +
+	'</div>';
 
 	return panel
 }
