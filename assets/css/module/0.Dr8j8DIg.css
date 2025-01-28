@@ -1,6 +1,9 @@
 @import"https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap";
 @import"https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap";
 
+/*
+ * Body
+ */
 body {
     background-color: #ffffff;
     font-family: Alegreya, sans-serif, 'Noto Sans', 'Cormorant Garamond', 'EB Garamond', Vollkorn, -apple-system, Inter, BlinkMacSystemFont, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
@@ -103,12 +106,7 @@ h3 {
         padding: 0 2px 0 2px;
     }
 
-    .aside {
-        font-variant: small-caps;
-    }
-
 }
-
 
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
@@ -127,7 +125,6 @@ button,
 select {
     text-transform: none;
     border: none;
-    /*border-width: 0;*/
     font-family: Alegreya, sans-serif, 'Noto Sans', 'Cormorant Garamond', 'EB Garamond', Vollkorn;
 }
 
