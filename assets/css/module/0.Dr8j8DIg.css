@@ -28,6 +28,7 @@ img {
 .by {
     width: 100%;
     text-align: left;
+    margin-top: 50px;
 }
 
 .layout {
@@ -50,7 +51,7 @@ img {
 }
 
 .layout-footer {
-    margin: 20px 0 20px 0;
+    margin: 200px 0 20px 0;
 }
 
 .layout-reference {
