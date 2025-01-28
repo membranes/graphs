@@ -76,6 +76,21 @@ h3 {
     font-variant: small-caps;
 }
 
+dl {
+    font-size: 15px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+dd {
+    margin-bottom: 16px;
+    margin-left: 15px;
+}
+
+
 @media (min-width: 480px) {
 
     /* wrapper stays 480px wide past 480px wide, centred */
