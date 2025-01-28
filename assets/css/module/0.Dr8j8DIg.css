@@ -28,7 +28,7 @@ img {
 .footer {
     width: 100%;
     text-align: left;
-    margin: 200px 0 20px
+    margin: 20px 0 20px 0;
 }
 
 .layout {
@@ -59,7 +59,7 @@ img {
     font-size: medium;
 }
 
-.layout-reference-p {
+.layout-reference-parts {
     margin-top: 5px;
     margin-bottom: 5px;
 }
