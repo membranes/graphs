@@ -19,7 +19,8 @@ export function setup() {
 		hyperlink(`${aside.preliminaries}`, 'preliminaries') + `<br>` +
 		`Metrics<br>` +
 		second(`${aside.metrics.error}`, 'error') + `<br>` +
-		second(`${aside.metrics.financial}`, 'financial')+ `<br>` +
+		second(`${aside.metrics.financial}`, 'financial') + `<br>` +
+		hyperlink(`${aside.risk}`, 'risk') + `<br>` +
 		`Appendix<br>` +
 		second(`${aside.appendix.definitions}`, 'definitions') +
 	'</div>';
