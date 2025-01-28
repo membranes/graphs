@@ -28,7 +28,6 @@ img {
 .footer {
     width: 100%;
     text-align: left;
-    margin: 20px 0 20px 0;
 }
 
 .layout {
@@ -48,6 +47,10 @@ img {
     border: 0 solid;
     border-radius: 5px;
     padding: 25px;
+}
+
+.layout-footer {
+    margin: 20px 0 20px 0;
 }
 
 .layout-reference {
