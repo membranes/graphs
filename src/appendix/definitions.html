@@ -10,7 +10,7 @@
 		<link href="../../assets/css/module/4.C4MfQ6Mv.css" rel="stylesheet">
 		<link href="../../assets/css/tooltips.css" rel="stylesheet">
 
-		<script src="../../assets/js/libraries/latex.js" async></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
@@ -41,31 +41,37 @@
 			<div class="layout-item">
 				<div class="frames-grid-item svelte-1jxvby2">
 					<h3>Details</h3>
-					<div id="tp">True Positive</div>
-					Type here $\ldots$
+					<div id="vocabulary"></div>
 				</div>
 			</div>
+
+			<!-- Footer -->
+			<div class="layout-item"></div>
+			<div class="layout-item"><div id="by"></div></div>
 
 		</div>
 
 	</div>
 
 	<script type="module">
-		import {stamp} from '../../assets/js/module/latest.js'
+		import { stamp } from '../../assets/js/module/latest.js'
 		document.getElementById("stamp").innerHTML = stamp();
 	</script>
 
 	<script type="module">
-		import {setup} from '/assets/js/module/aside.js'
+		import { setup } from '../../assets/js/module/aside.js'
 		document.getElementById("setup").innerHTML = setup();
 	</script>
 
 	<script type="module">
-		import definition from '/temporary/definitions.json' with  {type: 'json'};
-		export function terms() {
-			return definition
-		}
-		document.getElementById("tp").innerHTML = terms().tp;
+		import { by } from '../../assets/js/module/by.js';
+		document.getElementById("by").innerHTML = by();
+	</script>
+
+	<script type="module">
+		import { vocabulary } from '../../assets/js/module/definitions.js';
+		document.getElementById("vocabulary").innerHTML = vocabulary();
+
 	</script>
 
 	</body>
