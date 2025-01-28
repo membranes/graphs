@@ -35,14 +35,7 @@
 			<!-- The lower section -->
 			<div class="layout-item">
 				<div class="frames-grid-left svelte-1jxvby2">
-					<a href="../../index.html">home</a><br>
-					<a href="../background/background.html">background</a><br>
-					<a href="../preliminaries/preliminaries.html">frames</a><br>
-					<div class="segment">Metrics</div>
-					<div class="segment-leaf">
-						<a href="../metrics/error.html">Error</a><br>
-						<a href="../metrics/financial.html">Financial</a>
-					</div>
+					<div id="setup"></div>
 				</div>
 			</div>
 
@@ -60,6 +53,11 @@
 	<script type="module">
 		import {stamp} from '../../assets/js/module/latest.js'
 		document.getElementById("stamp").innerHTML = stamp();
+	</script>
+
+	<script type="module">
+		import {setup} from '/assets/js/module/aside.js'
+		document.getElementById("setup").innerHTML = setup();
 	</script>
 
 	</body>
