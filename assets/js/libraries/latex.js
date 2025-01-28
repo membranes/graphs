@@ -1,6 +1,7 @@
 window.MathJax = {
 	tex: {
-		inlineMath: [['$', '$'], ['\\(', '\\)']]
+		inlineMath: [['$', '$'], ['\\(', '\\)']],
+		processEscapes: true
 	},
 	svg: {
 		fontCache: 'global'
