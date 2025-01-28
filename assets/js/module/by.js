@@ -1,11 +1,11 @@
 
-export function text() {
+export function by() {
 
 	const datestr = new Date();
 
-	let panel;
-	panel = '<div class="by">Artificial Intelligence Unit<br>' + `${datestr}` + '</div>'
+	let text;
+	text = '<div class="by">Artificial Intelligence Unit<br>' + `${datestr}` + '</div>'
 
-	return panel
+	return text
 
 }
