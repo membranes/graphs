@@ -6,6 +6,7 @@
     "error": "../../src/metrics/error.html",
     "financial": "../../src/metrics/financial.html"
   },
+  "risk": "../../src/risk/risk.html",
   "appendix": {
     "definitions": "../../src/appendix/definitions.html"
   }
