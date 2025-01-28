@@ -11,6 +11,7 @@
 		<link href="../../assets/css/tooltips.css" rel="stylesheet">
 
 		<script src="../../assets/js/libraries/latex.js" async></script>
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
 		<title>Page</title>
 
@@ -39,10 +40,23 @@
 
 			<div class="layout-item">
 				<div class="frames-grid-item svelte-1jxvby2">
-					<h3>Details</h3>
-					Type here $\ldots$
+					<h3>Section</h3>
+					$$
+					\begin{tblr}{
+						vline{2} = {2-3}{},
+						hline{2} = {-}{}
+					}
+										& documents & strings \\
+						minimum & 17000 & 125 \\
+						maximum & 23000 & 250
+					\end{tblr}
+					$$
 				</div>
 			</div>
+
+			<!-- Footer -->
+			<div class="layout-item"></div>
+			<div class="layout-item"><div id="text"></div></div>
 
 		</div>
 
@@ -56,6 +70,11 @@
 	<script type="module">
 		import {setup} from '/assets/js/module/aside.js'
 		document.getElementById("setup").innerHTML = setup();
+	</script>
+
+	<script type="module">
+		import { text } from '../../assets/js/module/footer.js';
+		document.getElementById("text").innerHTML = text();
 	</script>
 
 	</body>
