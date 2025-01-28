@@ -43,7 +43,7 @@
 				<h3>Section</h3>
 
 
-				<h3>Impact<a href="#01"><sup>1</sup></a></h3>
+				<h3>Impact<a href="#01"><sup>1</sup><sup>,</sup><sup>2</sup><sup>,</sup><sup>3</sup></a></h3>
 
 				<h4>Likelihood</h4>
 				<ol>
@@ -69,9 +69,11 @@
 		<!-- Footer -->
 		<div class="layout-item">
 		</div>
-		<div class="layout-item">
-			<p id="01">1: <a href="https://asana.com/resources/project-risks">About Risk</a></p>
-			<div id="text"></div>
+		<div class="layout-footer">
+			<span id="01">1: <a href="https://asana.com/resources/project-risks" target="_blank">About Risk</a></span><br>
+			<span id="02">2: <a href="https://www.smartsheet.com/content/project-risk-types" target="_blank">Risk Types</a></span><br>
+			<span id="03">3: <a href="https://technologyadvice.com/blog/project-management/project-risks-examples/" target="_blank">About Risk</a></span>
+			<div id="by"></div>
 		</div>
 
 	</div>
@@ -79,18 +81,18 @@
 </div>
 
 <script type="module">
-	import {stamp} from '../../assets/js/module/latest.js'
+	import { stamp } from '../../assets/js/module/latest.js'
 	document.getElementById("stamp").innerHTML = stamp();
 </script>
 
 <script type="module">
-	import {setup} from '/assets/js/module/aside.js'
+	import { setup } from '/assets/js/module/aside.js'
 	document.getElementById("setup").innerHTML = setup();
 </script>
 
 <script type="module">
-	import { text } from '../../assets/js/module/by.js';
-	document.getElementById("text").innerHTML = text();
+	import { by } from '../../assets/js/module/by.js';
+	document.getElementById("by").innerHTML = by();
 </script>
 
 </body>
