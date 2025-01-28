@@ -11,6 +11,7 @@
 		<link href="../../assets/css/tooltips.css" rel="stylesheet">
 
 		<script src="../../assets/js/libraries/latex.js" async></script>
+
 		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
 		<title>Definitions</title>
@@ -34,7 +35,9 @@
 
 			<!-- The lower section -->
 			<div class="layout-item">
-				<iframe src="../../aside.html"></iframe>
+				<div class="frames-grid-left svelte-1jxvby2">
+					<div id="setup"></div>
+				</div>
 			</div>
 
 			<div class="layout-item">
@@ -55,12 +58,17 @@
 	</script>
 
 	<script type="module">
-		import definition from 'temporary/definitions.json' with  {type: 'json'};
+		import {setup} from '/assets/js/module/aside.js'
+		document.getElementById("setup").innerHTML = setup();
+	</script>
+
+	<script type="module">
+		import definition from '/temporary/definitions.json' with  {type: 'json'};
 
 		export function terms() {
 			return definition
 		}
-		document.getElementById("tp").innerHTML = terms().tp
+		document.getElementById("tp").innerHTML = terms().tp;
 
 	</script>
 
