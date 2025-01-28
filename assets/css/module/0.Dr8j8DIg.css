@@ -103,13 +103,10 @@ h3 {
         padding: 0 2px 0 2px;
     }
 
-    .segment {
-        padding: 0 18px 0 18px;
+    .aside {
+        font-variant: small-caps;
     }
 
-    .segment-leaf {
-        padding: 0 18px 0 20px;
-    }
 }
 
 
