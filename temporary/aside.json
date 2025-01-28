@@ -1,0 +1,12 @@
+{
+  "index": "../../index.html",
+  "background": "../../src/background/background.html",
+  "preliminaries": "../../src/preliminaries/preliminaries.html",
+  "metrics": {
+    "error": "../../src/metrics/error.html",
+    "financial": "../../src/metrics/financial.html"
+  },
+  "appendix": {
+    "definitions": "../../src/appendix/definitions.html"
+  }
+}
