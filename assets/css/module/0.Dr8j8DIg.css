@@ -90,6 +90,12 @@ dd {
     margin-left: 15px;
 }
 
+/* Caption */
+caption {
+    caption-side: bottom;
+    text-align: left;
+}
+
 /* Table */
 table {
     border-collapse: collapse;
