@@ -41,6 +41,8 @@
 		<div class="layout-item">
 			<div class="frames-grid-item svelte-1jxvby2">
 				<h3>The Limits</h3>
+
+				<h4>Documents & Strings</h4>
 				$$
 				\begin{array}{c| c c}
 				& documents & strings \\ \hline
@@ -48,6 +50,23 @@
 				maximum & 23000 & 250 \\
 				\end{array}
 				$$
+
+				<h4>False Rates</h4>
+				<table style="width: 60%;">
+					<colgroup>
+						<col span="1" style="width: 18.5%;">
+						<col span="1" style="width: 13.5%;">
+						<col span="1" style="width: 13.5%;">
+						<col span="1" style="width: 13.5%;">
+					</colgroup>
+					<thead><tr style="text-align: left"><th>Category</th><th>False Negative<br>Rate</th><th>False Positive<br>Rate</th><th>Notation</th></tr></thead>
+					<tr><td>Geographies</td><td>0.035</td><td>0.05</td><td>$GEO$</td></tr>
+					<tr><td>Geopolitical Terms</td><td>0.050</td><td>0.075</td><td>$GPE$</td></tr>
+					<tr><td>Organisation</td><td>0.050</td><td>0.075</td><td>$ORG$</td></tr>
+					<tr><td>Person</td><td>0.025</td><td>0.050</td><td>$PER$</td></tr>
+					<tr><td>Time</td><td>0.050</td><td>0.075</td><td>$TIM$</td></tr>
+					<tr><td>Miscellaneous</td><td>0.050</td><td>0.075</td><td>$O$</td></tr>
+				</table>
 			</div>
 		</div>
 
