@@ -90,26 +90,41 @@ dd {
     margin-left: 15px;
 }
 
+/* Table */
+table {
+    border-collapse: collapse;
+    border-spacing: 5px;
+    border: 0;
+    margin-left: 65px
+}
 
+td,
+th {
+    padding: 5px;
+}
+
+/* wrapper stays 480px wide past 480px wide, centred */
 @media (min-width: 480px) {
 
-    /* wrapper stays 480px wide past 480px wide, centred */
+
     .wrapper {
       width: 480px;
       margin: 10% auto 0 auto;
     }
   }
 
+/* Beyond 768px the layout is changed and the wrapper has a fixed width of 680px.
+ *
+ * To accommodate both the header column and the content column
+ * the header column stays left and has a dynamic width with all
+ * contents aligned right.
+ */
 @media (min-width:768px) {
 
-    /* past 768px the layout is changed and the wrapper has a fixed width of 680px
-       to accommodate both the header column and the content column */
     .wrapper {
         width: 680px;
     }
 
-    /* the header column stays left and has a dynamic width with all contents
-       aligned right */
     header {
         float: left;
         width: 46%;
