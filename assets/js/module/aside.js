@@ -1,4 +1,4 @@
-import aside from "../../../temporary/aside.json" with { type:'json' };
+import aside from "../../specifications/aside.json" with { type:'json' };
 
 function hyperlink(string, name) {
 
