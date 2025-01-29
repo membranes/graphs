@@ -40,19 +40,77 @@
 
 		<div class="layout-item">
 			<div class="frames-grid-item svelte-1jxvby2">
-				<h3>The Limits</h3>
+
+
+
+				<h2>Graphs: Explanatory Notes</h2>
+
+				$$
+				\begin{pmatrix}
+				17000 & 0 \\
+				0 & 23000
+				\end{pmatrix}
+				\begin{pmatrix}
+				125 & 0 \\
+				0 & 250
+				\end{pmatrix}
+				=
+				\begin{pmatrix}
+				2125000 & 0 \\
+				0 & 5750000
+				\end{pmatrix}
+				$$
+
+		<br>
+				
+		Hence, the occurrences per category, text pieces range per annum $\rightarrow$
+
+				$$
+				\small{
+				\begin{bmatrix}
+				0.100 & 0.25 \\
+				0.075 & 0.20 \\
+				0.050 & 0.15 \\
+				0.200 & 0.50 \\
+				0.075 & 0.10 \\
+				98.800 & 99.50 \\
+				\end{bmatrix}
+
+				\times
+
+				\begin{bmatrix}
+				2125000 & 0 \\
+				0 & 5750000
+				\end{bmatrix}
+
+				\times
+
+				\frac{1}{100}}
+				$$
+
+
+
+
+
+				<h2><a href="#001">The Limits</a></h2>
 				The financial metrics depend on the research desk's expectations and limits.
 
 				<h4>Documents & Strings: Annual Expectations</h4>
 				This section's table summarises the <span class="tooltip">desk's<span class="tooltiptext">research desk</span></span> dispatches expectations per annum.  For example, the number of dispatch documents are within the range $[17K \; 23K]$, and the number of separate strings, e.g., words, codes, etc., per dispatch are within the table's range.
 
-				$$
-				\begin{array}{c| c c}
-				& documents & strings \\ \hline
-				minimum & 17000 & 125 \\
-				maximum & 23000 & 250 \\
-				\end{array}
-				$$
+
+
+				<table style="width: 65%;">
+					<colgroup>
+						<col span="1" style="width: 13.0%;">
+						<col span="1" style="width: 29.5%;">
+						<col span="1" style="width: 29.5%;">
+					</colgroup>
+					<thead><tr style="text-align: center"><th></th><th>~ # of documents per annum</th><th>~ # of text pieces per document</th></tr></thead>
+					<tr style="text-align: center"><td>minimum</td><td>17000</td><td>125</td><td></td></tr>
+					<tr style="text-align: center"><td>maximum</td><td>23000</td><td>250</td><td></tr>
+
+				</table>
 
 				<br>
 
@@ -84,7 +142,7 @@
 				Estimates of categories distributions.  For example, if the research desk receives $18000$ dispatch documents during the year 2025, and implausibly, each has 160 distinct text pieces.  The table below suggests that at least
 
 				$$
-				\frac{0.075}{100} \times (18000 \times 160) = 2,160
+				\frac{0.075}{100} \times (18000 \times 160) = 2160
 				$$
 
 				text pieces are geopolitical terms.
@@ -97,12 +155,12 @@
 						<col span="1" style="width: 13.5%;">
 					</colgroup>
 					<thead><tr style="text-align: left"><th>category</th><th>minimum</th><th>maximum</th><th>notation</th></tr></thead>
-					<tr><td>Geography</td><td>0.100</td><td>0.250</td><td>$GEO$</td></tr>
-					<tr><td>Geopolitical Term</td><td>0.075</td><td>0.200</td><td>$GPE$</td></tr>
-					<tr><td>Organisation</td><td>0.050</td><td>0.150</td><td>$ORG$</td></tr>
-					<tr><td>Person</td><td>0.200</td><td>0.500</td><td>$PER$</td></tr>
-					<tr><td>Time</td><td>0.075</td><td>0.100</td><td>$TIM$</td></tr>
-					<tr><td>Miscellaneous</td><td>98.800</td><td>99.500</td><td>$O$</td></tr>
+					<tr><td>Geography</td><td>0.100</td><td>0.250</td><td><b>GEO</b></td></tr>
+					<tr><td>Geopolitical Term</td><td>0.075</td><td>0.200</td><td><b>GPE</b></td></tr>
+					<tr><td>Organisation</td><td>0.050</td><td>0.150</td><td><b>ORG</b></td></tr>
+					<tr><td>Person</td><td>0.200</td><td>0.500</td><td><b>PER</b></td></tr>
+					<tr><td>Time</td><td>0.075</td><td>0.100</td><td><b>TIM</b></td></tr>
+					<tr><td>Miscellaneous</td><td>98.800</td><td>99.500</td><td><b>O</b></td></tr>
 				</table>
 
 
@@ -127,12 +185,12 @@
 						<col span="1" style="width: 13.5%;">
 					</colgroup>
 					<thead><tr style="text-align: left"><th>Category</th><th>False Negative<br>Rate</th><th>False Positive<br>Rate</th><th>Notation</th></tr></thead>
-					<tr><td>Geography</td><td>0.035</td><td>0.05</td><td>$GEO$</td></tr>
-					<tr><td>Geopolitical Term</td><td>0.050</td><td>0.075</td><td>$GPE$</td></tr>
-					<tr><td>Organisation</td><td>0.050</td><td>0.075</td><td>$ORG$</td></tr>
-					<tr><td>Person</td><td>0.025</td><td>0.050</td><td>$PER$</td></tr>
-					<tr><td>Time</td><td>0.050</td><td>0.075</td><td>$TIM$</td></tr>
-					<tr><td>Miscellaneous</td><td>0.050</td><td>0.075</td><td>$O$</td></tr>
+					<tr><td>Geography</td><td>0.035</td><td>0.05</td><td><b>GEO</b></td></tr>
+					<tr><td>Geopolitical Term</td><td>0.050</td><td>0.075</td><td><b>GPE</b></td></tr>
+					<tr><td>Organisation</td><td>0.050</td><td>0.075</td><td><b>ORG</b></td></tr>
+					<tr><td>Person</td><td>0.025</td><td>0.050</td><td><b>PER</b></td></tr>
+					<tr><td>Time</td><td>0.050</td><td>0.075</td><td><b>TIM</b></td></tr>
+					<tr><td>Miscellaneous</td><td>0.050</td><td>0.075</td><td><b>O</b></td></tr>
 				</table>
 			</div>
 		</div>
