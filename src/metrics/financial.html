@@ -56,6 +56,35 @@
 
 				<br>
 
+				<h4>Frequencies: Categories Distributions</h4>
+
+				Estimates of categories distributions.  For example, if the research desk receives $18,000$ dispatch documents during the year 2025, and implausibly, each has 160 distinct text pieces.  The table below suggests that at least
+
+				$$
+				\frac{0.075}{100} \times (18,000 \times 160) = 2,160
+				$$
+
+				text pieces are geopolitical terms.
+
+				<table style="width: 60%;">
+					<colgroup>
+						<col span="1" style="width: 18.5%;">
+						<col span="1" style="width: 13.5%;">
+						<col span="1" style="width: 13.5%;">
+						<col span="1" style="width: 13.5%;">
+					</colgroup>
+					<thead><tr style="text-align: left"><th>category</th><th>minimum</th><th>maximum</th><th>notation</th></tr></thead>
+					<tr><td>Geographies</td><td>0.100</td><td>0.250</td><td>$GEO$</td></tr>
+					<tr><td>Geopolitical Terms</td><td>0.075</td><td>0.200</td><td>$GPE$</td></tr>
+					<tr><td>Organisation</td><td>0.050</td><td>0.150</td><td>$ORG$</td></tr>
+					<tr><td>Person</td><td>0.200</td><td>0.500</td><td>$PER$</td></tr>
+					<tr><td>Time</td><td>0.075</td><td>0.100</td><td>$TIM$</td></tr>
+					<tr><td>Miscellaneous</td><td>98.800</td><td>99.500</td><td>$O$</td></tr>
+				</table>
+
+
+				<br>
+
 				<h4>False Rates</h4>
 
 				Herein, the table summarises the false positive rate & false negative rate limits.  If a model's rates are greater than these values the desk might decide
