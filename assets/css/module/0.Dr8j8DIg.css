@@ -95,7 +95,9 @@ table {
     border-collapse: collapse;
     border-spacing: 5px;
     border: 0;
-    margin-left: 65px
+    margin-left: 65px;
+    margin-top: 25px;
+    font-size: 15px;
 }
 
 td,
