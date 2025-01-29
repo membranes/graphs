@@ -56,6 +56,29 @@
 
 				<br>
 
+				<h4>Cost of Failure</h4>
+				The cost of mis-classifying a text piece; pound sterling (£).
+
+				<table style="width: 63%;">
+					<colgroup>
+						<col span="1" style="width: 18.5%;">
+						<col span="1" style="width: 9.5%;">
+						<col span="1" style="width: 9.5%;">
+						<col span="1" style="width: 9.5%;">
+						<col span="1" style="width: 9.5%;">
+						<col span="1" style="width: 9.5%;">
+						<col span="1" style="width: 6.5%;">
+					</colgroup>
+					<caption>The cost of mis-classification; £. GEO: geography, GPE: Geopolitical Term, ORG: Organisation, PER: Person, TIM: Time, O: Miscellaneous </caption>
+					<thead><tr style="text-align: left"><th></th><th>GEO</th><th>GPE</th><th>ORG</th><th>PER</th><th>TIM</th><th>O</th></tr></thead>
+					<tr style="border-bottom: 1px solid black"></tr>
+					<tr><td>false negative</td><td>185</td><td>65</td><td>65</td><td>185</td><td>65</td><td>5</td></tr>
+					<tr><td>false positive</td><td>60</td><td>60</td><td>60</td><td>60</td><td>60</td><td>60</td></tr>
+					<tr style="border-bottom: 1px solid black"></tr>
+				</table>
+
+				<br>
+
 				<h4>Frequencies: Categories Distributions</h4>
 
 				Estimates of categories distributions.  For example, if the research desk receives $18000$ dispatch documents during the year 2025, and implausibly, each has 160 distinct text pieces.  The table below suggests that at least
@@ -74,8 +97,8 @@
 						<col span="1" style="width: 13.5%;">
 					</colgroup>
 					<thead><tr style="text-align: left"><th>category</th><th>minimum</th><th>maximum</th><th>notation</th></tr></thead>
-					<tr><td>Geographies</td><td>0.100</td><td>0.250</td><td>$GEO$</td></tr>
-					<tr><td>Geopolitical Terms</td><td>0.075</td><td>0.200</td><td>$GPE$</td></tr>
+					<tr><td>Geography</td><td>0.100</td><td>0.250</td><td>$GEO$</td></tr>
+					<tr><td>Geopolitical Term</td><td>0.075</td><td>0.200</td><td>$GPE$</td></tr>
 					<tr><td>Organisation</td><td>0.050</td><td>0.150</td><td>$ORG$</td></tr>
 					<tr><td>Person</td><td>0.200</td><td>0.500</td><td>$PER$</td></tr>
 					<tr><td>Time</td><td>0.075</td><td>0.100</td><td>$TIM$</td></tr>
@@ -104,8 +127,8 @@
 						<col span="1" style="width: 13.5%;">
 					</colgroup>
 					<thead><tr style="text-align: left"><th>Category</th><th>False Negative<br>Rate</th><th>False Positive<br>Rate</th><th>Notation</th></tr></thead>
-					<tr><td>Geographies</td><td>0.035</td><td>0.05</td><td>$GEO$</td></tr>
-					<tr><td>Geopolitical Terms</td><td>0.050</td><td>0.075</td><td>$GPE$</td></tr>
+					<tr><td>Geography</td><td>0.035</td><td>0.05</td><td>$GEO$</td></tr>
+					<tr><td>Geopolitical Term</td><td>0.050</td><td>0.075</td><td>$GPE$</td></tr>
 					<tr><td>Organisation</td><td>0.050</td><td>0.075</td><td>$ORG$</td></tr>
 					<tr><td>Person</td><td>0.025</td><td>0.050</td><td>$PER$</td></tr>
 					<tr><td>Time</td><td>0.050</td><td>0.075</td><td>$TIM$</td></tr>
