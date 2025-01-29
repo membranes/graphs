@@ -1,4 +1,4 @@
-import data from "../../../temporary/latest.json" with {type: 'json'};
+import data from "../../../warehouse/numerics/best/latest.json" with {type: 'json'};
 
 export function stamp() {
 	return data.time
