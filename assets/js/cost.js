@@ -2,7 +2,7 @@ var Highcharts;
 var optionSelected;
 var dropdown = $('#option_selector');
 
-var url = '../assets/menu/cost.json'
+var url = '/assets/menu/cost.json'
 
 
 // Menu details
@@ -56,7 +56,7 @@ function generateChart(fileNameKey) {
                 scrollablePlotArea: {
                     scrollPositionX: 1,
                 },
-                height: 350,
+                height: 310,
                 marginBottom: 100
             },
             credits: {
@@ -71,7 +71,8 @@ function generateChart(fileNameKey) {
                     'Cost per missed word: £' + Highcharts.numberFormat(calculations.cost, 2)
             },
             xAxis: {
-                min: 0.01
+                min: 0.01,
+                max: 0.50
             },
             yAxis: {
                 type: 'logarithmic',
@@ -134,7 +135,7 @@ function generateChart(fileNameKey) {
                 scrollablePlotArea: {
                     scrollPositionX: 1,
                 },
-                height: 330
+                height: 310
             },
             credits: {
                 enabled: false
@@ -148,7 +149,8 @@ function generateChart(fileNameKey) {
                     'Cost per missed word: £' + Highcharts.numberFormat(calculations.cost, 2)
             },
             xAxis: {
-                min: 0.01
+                min: 0.01,
+                max: 0.50
             },
             yAxis: {
                 type: 'logarithmic',
