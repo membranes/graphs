@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8" />
+		<link rel="icon" href="/assets/images/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link href="../../assets/css/module/0.Dr8j8DIg.css" rel="stylesheet">
+		<link href="../../assets/css/module/4.C4MfQ6Mv.css" rel="stylesheet">
+		<link href="../../assets/css/tooltips.css" rel="stylesheet">
+
+		<script src="../../assets/js/libraries/latex.js" async></script>
+		<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+		<title>PRELIMINARIES</title>
+
+	</head>
+	<body data-sveltekit-preload-data="hover">
+
+	<div style="display: contents">
+
+		<div class="layout">
+
+			<!-- The upper section -->
+			<div class="layout-head">
+				<h1></h1>
+			</div>
+
+			<div class="layout-reference">
+				<p class="layout-reference-parts"><span class="tooltip">INTERFACE<span class="tooltiptext"><b>Link Option:</b> Internal Interface $\rightarrow$</span></span></p>
+				<p class="layout-reference-parts"><span class="tooltip">AIR<span class="tooltiptext">Artificial Intelligence Register $\rightarrow$</span></span></p>
+				<div>Latest Model: <div id="stamp"></div></div>
+			</div>
+
+
+			<!-- The lower section -->
+			<div class="layout-item">
+				<div id="setup"></div>
+			</div>
+
+			<div class="layout-item">
+
+				<div class="frames-grid-item svelte-1jxvby2"><h3>Problem Statement</h3> <!---->At present, research desks manually determine whether a dispatch is associated with a set of categories of interest.  The categories include geopolitical terms, geographies, organisations, times, etc.  These are coarse level categories; a subsequent phase will focus on fine level categories, e.g., organisation type.  The categories of interest include categories that are not included in any <i>text detection & classification</i> software; open source & commercial software.  Hence, our decision to develop a custom model. <!----></div>
+
+				<div class="frames-grid-item svelte-1jxvby2">
+					<h3>Outcome Expectations / Underlying Aims</h3> <!---->In brief:
+					<ul>
+						<li>A reduction in detection time per A4 page; from approximately 2.5 minutes to < 9 seconds. (A4, ~250 words,
+							~25 lines, 10 pt font, ~1.25-inch line spacing)
+						</li>
+						<li>Minimal mis-classifications per category; the false negative rate of each category must not exceed the category's limit.</li>
+					</ul><!---->
+				</div>
+
+				<div class="frames-grid-item svelte-1jxvby2">
+					<h3>Deployment Goal</h3> <!---->An interface ...<!---->
+				</div>
+
+			</div>
+
+
+			<!-- Footer -->
+			<div class="layout-item"></div>
+			<div class="layout-footer"><div id="by"></div></div>
+
+		</div>
+
+	</div>
+
+	<script type="module">
+		import { stamp } from '../../assets/js/module/latest.js';
+		document.getElementById('stamp').innerHTML = stamp();
+	</script>
+
+	<script type="module">
+		import { setup } from '/assets/js/module/aside.js'
+		document.getElementById("setup").innerHTML = setup();
+	</script>
+
+	<script type="module">
+		import { by } from '../../assets/js/module/by.js';
+		document.getElementById("by").innerHTML = by();
+	</script>
+
+	</body>
+</html>

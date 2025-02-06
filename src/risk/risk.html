@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8" />
+	<link rel="icon" href="/assets/images/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link href="../../assets/css/module/0.Dr8j8DIg.css" rel="stylesheet">
+	<link href="../../assets/css/module/4.C4MfQ6Mv.css" rel="stylesheet">
+	<link href="../../assets/css/tooltips.css" rel="stylesheet">
+
+	<script src="../../assets/js/libraries/latex.js" async></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+	<title>RISK</title>
+
+</head>
+<body>
+
+<div style="display: contents">
+
+	<div class="layout">
+
+		<!-- The upper section -->
+		<div class="layout-head">
+			<h1></h1>
+		</div>
+
+		<div class="layout-reference">
+			<p class="layout-reference-parts"><span class="tooltip">INTERFACE<span class="tooltiptext"><b>Link Option:</b> Internal Interface $\rightarrow$</span></span></p>
+			<p class="layout-reference-parts"><span class="tooltip">AIR<span class="tooltiptext">Artificial Intelligence Register $\rightarrow$</span></span></p>
+			<div>Latest Model: <div id="stamp"></div></div>
+		</div>
+
+		<!-- The lower section -->
+		<div class="layout-item">
+			<div id="setup"></div>
+		</div>
+
+		<div class="layout-item">
+			<div class="frames-grid-item svelte-1jxvby2">
+				<h3>Section</h3>
+
+
+				<h3>Impact<a href="#01"><sup>1</sup><sup>,</sup><sup>2</sup><sup>,</sup><sup>3</sup></a></h3>
+
+				<h4>Likelihood</h4>
+				<ol>
+					<li>rare<br>It is quite improbable that the risk will occur.</li>
+					<li>unlikely<br>A low probability of occurring.</li>
+					<li>possible<br>Split odds.</li>
+					<li>likely<br>Probable.</li>
+					<li>quite likely<br>Quite probable.</li>
+				</ol>
+
+				<h4>Severity</h4>
+				<ol>
+					<li>insignificant<br>Negligible consequences</li>
+					<li>minor<br>Easily manageable consequences</li>
+					<li>moderate<br>Time consuming but manageable consequences</li>
+					<li>major<br>The consequences might be (a) negatively significant & extensively damaging, and (b) long-term.</li>
+					<li>severe<br>Detrimental, and probably irreversible, consequences.</li>
+				</ol>
+
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div class="layout-item">
+		</div>
+		<div class="layout-footer">
+			<span id="01">1: <a href="https://asana.com/resources/project-risks" target="_blank">About Risk</a></span><br>
+			<span id="02">2: <a href="https://www.smartsheet.com/content/project-risk-types" target="_blank">Risk Types</a></span><br>
+			<span id="03">3: <a href="https://technologyadvice.com/blog/project-management/project-risks-examples/" target="_blank">About Risk</a></span>
+			<div id="by"></div>
+		</div>
+
+	</div>
+
+</div>
+
+<script type="module">
+	import { stamp } from '../../assets/js/module/latest.js'
+	document.getElementById("stamp").innerHTML = stamp();
+</script>
+
+<script type="module">
+	import { setup } from '/assets/js/module/aside.js'
+	document.getElementById("setup").innerHTML = setup();
+</script>
+
+<script type="module">
+	import { by } from '../../assets/js/module/by.js';
+	document.getElementById("by").innerHTML = by();
+</script>
+
+</body>
+</html>

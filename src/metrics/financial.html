@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8" />
+	<link rel="icon" href="/assets/images/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link href="../../assets/css/module/0.Dr8j8DIg.css" rel="stylesheet">
+	<link href="../../assets/css/module/4.C4MfQ6Mv.css" rel="stylesheet">
+	<link href="../../assets/css/tooltips.css" rel="stylesheet">
+
+	<script src="../../assets/js/libraries/latex.js" async></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+	<title>FINANCIAL</title>
+
+</head>
+<body>
+
+<div style="display: contents">
+
+	<div class="layout">
+
+		<!-- The upper section -->
+		<div class="layout-head">
+			<h1></h1>
+		</div>
+
+		<div class="layout-reference">
+			<p class="layout-reference-parts"><span class="tooltip">INTERFACE<span class="tooltiptext"><b>Link Option:</b> Internal Interface $\rightarrow$</span></span></p>
+			<p class="layout-reference-parts"><span class="tooltip">AIR<span class="tooltiptext">Artificial Intelligence Register $\rightarrow$</span></span></p>
+			<div>Latest Model: <div id="stamp"></div></div>
+		</div>
+
+		<!-- The lower section -->
+		<div class="layout-item">
+			<div id="setup"></div>
+		</div>
+
+		<div class="layout-item">
+			<div class="frames-grid-item svelte-1jxvby2">
+
+				<h2 id="003">Cost Curves</h2>
+
+				<label for="option_selector"></label>
+				<select id="option_selector">
+					<!-- <option id="option_selector_title">Please select a ...</option> -->
+				</select>
+				<div><div id="container0001" style="width: 210px;"></div><div id="container0002" style="width: 210px;"></div></div>
+				<script src="../../assets/js/cost.js"  type="text/javascript"></script>
+
+				<br>
+				<br>
+
+				<h2 id="002">Graphs: Explanatory Notes</h2>
+
+				The <a href="#001">limits section</a> outlines the research desk's constraints, the constraints which inform the cost curves.
+
+				$$
+				\begin{pmatrix}
+				17000 & 0 \\
+				0 & 23000
+				\end{pmatrix}
+				\begin{pmatrix}
+				125 & 0 \\
+				0 & 250
+				\end{pmatrix}
+				=
+				\begin{pmatrix}
+				2125000 & 0 \\
+				0 & 5750000
+				\end{pmatrix}
+				$$
+
+		<br>
+
+		Hence, the occurrences per category, text pieces range per annum $\rightarrow$
+
+				$$
+				\small{
+				\begin{bmatrix}
+				0.100 & 0.25 \\
+				0.075 & 0.20 \\
+				0.050 & 0.15 \\
+				0.200 & 0.50 \\
+				0.075 & 0.10 \\
+				98.800 & 99.50 \\
+				\end{bmatrix}
+
+				\times
+
+				\begin{bmatrix}
+				2125000 & 0 \\
+				0 & 5750000
+				\end{bmatrix}
+
+				\times
+
+				\frac{1}{100}}
+				$$
+
+				<br>
+				<br>
+
+				<h2><a id="001">The Limits</a></h2>
+				The financial metrics depend on the research desk's expectations and limits.
+
+				<h4>Documents & Strings: Annual Expectations</h4>
+				This section's table summarises the <span class="tooltip">desk's<span class="tooltiptext">research desk</span></span> dispatches expectations per annum.  For example, the number of dispatch documents are within the range $[17K \; 23K]$, and the number of separate strings, e.g., words, codes, etc., per dispatch are within the table's range.
+
+
+
+				<table style="width: 65%;">
+					<colgroup>
+						<col span="1" style="width: 13.0%;">
+						<col span="1" style="width: 29.5%;">
+						<col span="1" style="width: 29.5%;">
+					</colgroup>
+					<thead><tr style="text-align: center"><th></th><th>~ # of documents per annum</th><th>~ # of text pieces per document</th></tr></thead>
+					<tr style="text-align: center"><td>minimum</td><td>17000</td><td>125</td><td></td></tr>
+					<tr style="text-align: center"><td>maximum</td><td>23000</td><td>250</td><td></tr>
+
+				</table>
+
+				<br>
+
+				<h4>Cost of Failure</h4>
+				The cost of mis-classifying a text piece; pound sterling (£).
+
+				<table style="width: 63%;">
+					<colgroup>
+						<col span="1" style="width: 18.5%;">
+						<col span="1" style="width: 9.5%;">
+						<col span="1" style="width: 9.5%;">
+						<col span="1" style="width: 9.5%;">
+						<col span="1" style="width: 9.5%;">
+						<col span="1" style="width: 9.5%;">
+						<col span="1" style="width: 6.5%;">
+					</colgroup>
+					<caption>The cost of mis-classification; £. GEO: geography, GPE: Geopolitical Term, ORG: Organisation, PER: Person, TIM: Time, O: Miscellaneous </caption>
+					<thead><tr style="text-align: left"><th></th><th>GEO</th><th>GPE</th><th>ORG</th><th>PER</th><th>TIM</th><th>O</th></tr></thead>
+					<tr style="border-bottom: 1px solid black"></tr>
+					<tr><td>false negative</td><td>185</td><td>65</td><td>65</td><td>185</td><td>65</td><td>5</td></tr>
+					<tr><td>false positive</td><td>60</td><td>60</td><td>60</td><td>60</td><td>60</td><td>60</td></tr>
+					<tr style="border-bottom: 1px solid black"></tr>
+				</table>
+
+				<br>
+
+				<h4>Frequencies: Categories Distributions</h4>
+
+				Estimates of categories distributions.  For example, if the research desk receives $18000$ dispatch documents during the year 2025, and implausibly, each has 160 distinct text pieces.  The table below suggests that at least
+
+				$$
+				\frac{0.075}{100} \times (18000 \times 160) = 2160
+				$$
+
+				text pieces are geopolitical terms.
+
+				<table style="width: 60%;">
+					<colgroup>
+						<col span="1" style="width: 18.5%;">
+						<col span="1" style="width: 13.5%;">
+						<col span="1" style="width: 13.5%;">
+						<col span="1" style="width: 13.5%;">
+					</colgroup>
+					<thead><tr style="text-align: left"><th>category</th><th>minimum</th><th>maximum</th><th>notation</th></tr></thead>
+					<tr><td>Geography</td><td>0.100</td><td>0.250</td><td><b>GEO</b></td></tr>
+					<tr><td>Geopolitical Term</td><td>0.075</td><td>0.200</td><td><b>GPE</b></td></tr>
+					<tr><td>Organisation</td><td>0.050</td><td>0.150</td><td><b>ORG</b></td></tr>
+					<tr><td>Person</td><td>0.200</td><td>0.500</td><td><b>PER</b></td></tr>
+					<tr><td>Time</td><td>0.075</td><td>0.100</td><td><b>TIM</b></td></tr>
+					<tr><td>Miscellaneous</td><td>98.800</td><td>99.500</td><td><b>O</b></td></tr>
+				</table>
+
+
+				<br>
+
+				<h4>False Rates</h4>
+
+				Herein, the table summarises the false positive rate & false negative rate limits.  If a model's rates are greater than these values the desk might decide
+
+				<ul>
+					<li>Not to use the model.</li>
+					<li>To embed the model within an augmented setting only.</li>
+				</ul>
+
+				Hence
+
+				<table style="width: 60%;">
+					<colgroup>
+						<col span="1" style="width: 18.5%;">
+						<col span="1" style="width: 13.5%;">
+						<col span="1" style="width: 13.5%;">
+						<col span="1" style="width: 13.5%;">
+					</colgroup>
+					<thead><tr style="text-align: left"><th>Category</th><th>False Negative<br>Rate</th><th>False Positive<br>Rate</th><th>Notation</th></tr></thead>
+					<tr><td>Geography</td><td>0.035</td><td>0.05</td><td><b>GEO</b></td></tr>
+					<tr><td>Geopolitical Term</td><td>0.050</td><td>0.075</td><td><b>GPE</b></td></tr>
+					<tr><td>Organisation</td><td>0.050</td><td>0.075</td><td><b>ORG</b></td></tr>
+					<tr><td>Person</td><td>0.025</td><td>0.050</td><td><b>PER</b></td></tr>
+					<tr><td>Time</td><td>0.050</td><td>0.075</td><td><b>TIM</b></td></tr>
+					<tr><td>Miscellaneous</td><td>0.050</td><td>0.075</td><td><b>O</b></td></tr>
+				</table>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div class="layout-item"></div>
+		<div class="layout-footer"><div id="by"></div></div>
+
+	</div>
+
+</div>
+
+
+<script src="https://code.highcharts.com/modules/broken-axis.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/bullet.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script src="https://code.highcharts.com/modules/annotations.js"></script>
+
+
+<script type="module">
+	import {stamp} from '../../assets/js/module/latest.js'
+	document.getElementById("stamp").innerHTML = stamp();
+</script>
+
+<script type="module">
+	import {setup} from '/assets/js/module/aside.js'
+	document.getElementById("setup").innerHTML = setup();
+</script>
+
+<script type="module">
+	import { by } from '../../assets/js/module/by.js';
+	document.getElementById("by").innerHTML = by();
+</script>
+
+
+
+</body>
+</html>

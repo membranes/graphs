@@ -14,12 +14,13 @@
     padding: 5px;
     margin-bottom: 25px;
     margin-right: 85px;
-    text-align: left
+    text-align: left;
 }
 
 .frames-grid-left.svelte-1jxvby2 {
     border: 0 solid;
     padding: 25px 5px 5px 5px;
     margin-bottom: 25px;
-    text-align: left
+    text-align: left;
+    font-variant: small-caps;
 }

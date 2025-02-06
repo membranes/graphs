@@ -1,0 +1,23 @@
+{
+  "name": "risk",
+  "description": "Risk",
+  "fields": {
+    "x": "Likelihood",
+    "y": "Impact",
+    "notes": "Impact = Likelihood x Severity"
+  },
+  "data": [
+    {
+      "x": 5,
+      "y": 15,
+      "name": "Model Data Labelling Errors",
+      "description": "The model's development data depends on manually labelled data; the mis-labelling rate is unknown."
+    },
+    {
+      "x": 4,
+      "y": 12,
+      "name": "Dialects",
+      "description": "An insufficient mix of ..."
+    }
+  ]
+}
