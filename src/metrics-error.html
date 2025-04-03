@@ -4,12 +4,13 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<link rel="icon" href="/assets/images/favicon.png" />
+		<link rel="icon" href="/assets/images/favicon.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<link href="../assets/css/module/0.Dr8j8DIg.css" rel="stylesheet">
 		<link href="../assets/css/module/4.C4MfQ6Mv.css" rel="stylesheet">
 		<link href="../assets/css/tooltips.css" rel="stylesheet">
+		<link href="../assets/css/module/3.DmhPE-0g.css" rel="stylesheet">
 
 		<script src="../assets/js/libraries/latex.js" async></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -29,16 +30,40 @@
 			</div>
 
 			<div class="layout-reference">
-				<p class="layout-reference-parts"><span class="tooltip">INTERFACE<span class="tooltiptext"><b>Link Option:</b> Internal Interface $\rightarrow$</span></span></p>
-				<p class="layout-reference-parts"><span class="tooltip">AIR<span class="tooltiptext">Artificial Intelligence Register $\rightarrow$</span></span></p>
-				<div>Latest Model: <div id="stamp"></div></div>
+				<a href="interact-app.html">Interact</a> | <a href="background.html">Project/Model Details</a>
 			</div>
+
 
 			<!-- The lower section -->
+
+			<!-- ASIDE -->
 			<div class="layout-item">
-				<div id="setup"></div>
+				<ul class="parent">
+					<li><a href="../index.html">INDEX</a></li>
+					<li><a href="../src/background.html">Background</a></li>
+					<li><a href="../src/preliminaries.html">Preliminaries</a></li>
+					<li>MODEL<ul class="child">
+						<li>ARCHITECTURE</li>
+						<li>MATHEMATICS</li>
+					</ul></li>
+					<li>Metrics<ul class="child">
+						<li><a href="../src/metrics-error.html">Error</a></li>
+						<li><a href="../src/metrics-cost.html">Cost</a></li>
+					</ul></li>
+					<li>SYSTEM<ul class="child">
+						<li>Architecture</li>
+						<li>Compute Costs</li>
+					</ul></li>
+					<li>RISK</li>
+					<li>LIMITATIONS</li>
+					<li>APPENDIX<ul class="child">
+						<li>DEFINITIONS</li>
+						<li>REFERENCES</li>
+					</ul></li>
+				</ul>
 			</div>
 
+			<!-- CONTENT -->
 			<div class="layout-item">
 				<div class="frames-grid-item svelte-1jxvby2">
 					<h3>Details</h3>
@@ -61,16 +86,6 @@
 	<script src="https://code.highcharts.com/modules/exporting.js"></script>
 	<script src="https://code.highcharts.com/modules/export-data.js"></script>
 	<script src="https://code.highcharts.com/modules/accessibility.js"></script>
-
-	<script type="module">
-		import {stamp} from '../assets/js/module/latest.js'
-		document.getElementById("stamp").innerHTML = stamp();
-	</script>
-
-	<script type="module">
-		import {setup} from '/assets/js/module/aside.js'
-		document.getElementById("setup").innerHTML = setup();
-	</script>
 
 	</body>
 
