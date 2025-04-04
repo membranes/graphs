@@ -3,18 +3,18 @@
 	<head>
 
 		<meta charset="utf-8" />
-		<link rel="icon" href="/assets/images/favicon.png" />
+		<link rel="icon" href="/assets/images/favicon.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link href="../../assets/css/module/0.Dr8j8DIg.css" rel="stylesheet">
-		<link href="../../assets/css/module/4.C4MfQ6Mv.css" rel="stylesheet">
-		<link href="../../assets/css/tooltips.css" rel="stylesheet">
+		<link href="../assets/css/module/0.Dr8j8DIg.css" rel="stylesheet">
+		<link href="../assets/css/module/4.C4MfQ6Mv.css" rel="stylesheet">
+		<link href="../assets/css/tooltips.css" rel="stylesheet">
 
-		<script src="../../assets/js/libraries/latex.js" async></script>
+		<script src="../assets/js/libraries/latex.js" async></script>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-		<title>PAGE</title>
-
+		<title>DEFINITIONS</title>
 	</head>
 	<body>
 
@@ -40,14 +40,7 @@
 
 			<div class="layout-item">
 				<div class="frames-grid-item svelte-1jxvby2">
-					<h3>Section</h3>
-					$$
-					\begin{array}{c| c c}
-					& documents & strings \\ \hline
-					minimum & 17000 & 125 \\
-					maximum & 23000 & 250 \\
-					\end{array}
-					$$
+					<div id="vocabulary"></div>
 				</div>
 			</div>
 
@@ -60,18 +53,24 @@
 	</div>
 
 	<script type="module">
-		import {stamp} from '../../assets/js/module/latest.js'
+		import { stamp } from '../assets/js/module/latest.js'
 		document.getElementById("stamp").innerHTML = stamp();
 	</script>
 
 	<script type="module">
-		import {setup} from '/assets/js/module/aside.js'
+		import { setup } from '../assets/js/module/aside.js'
 		document.getElementById("setup").innerHTML = setup();
 	</script>
 
 	<script type="module">
-		import { by } from '../../assets/js/module/by.js';
+		import { by } from '../assets/js/module/by.js';
 		document.getElementById("by").innerHTML = by();
+	</script>
+
+	<script type="module">
+		import { vocabulary } from '../assets/js/module/definitions.js';
+		document.getElementById("vocabulary").innerHTML = vocabulary();
+
 	</script>
 
 	</body>

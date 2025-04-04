@@ -46,7 +46,7 @@ JavaScript Modules
 
 JavaScript
 * [fetch](https://javascript.info/fetch)
-* [1](https://wpdean.com/css-dropdown-menus/), [2](https://jsfiddle.net/cL2x7/), [3](www.geeksforgeeks.org/how-to-creating-html-list-from-javascript-array/)
+* [1](https://wpdean.com/css-dropdown-menus/), [2](https://jsfiddle.net/cL2x7/), [3](https://www.geeksforgeeks.org/how-to-creating-html-list-from-javascript-array/)
 
 live server
 * [live server](https://itnext.io/dockerizing-modern-web-apps-cd9667eebf44)
@@ -73,6 +73,13 @@ vim & vi
 * [vi](https://linuxsimply.com/cheat-sheets/vi/)
 * [vim](https://vim.rtorr.com)
 * [vim](https://www.redhat.com/en/blog/beginners-guide-vim)
+
+GRADIO
+
+* [button](https://www.gradio.app/docs/gradio/button)
+* [space embedding](https://huggingface.co/docs/hub/spaces-embed)
+* [gradio spaces](https://huggingface.co/docs/hub/spaces-sdks-gradio)
+* [entity recognition interface](https://www.gradio.app/guides/named-entity-recognition)
 
 
 <br>
