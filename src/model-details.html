@@ -65,6 +65,7 @@
 						let row = tableHead.insertRow();
 						Object.keys(data[0]).forEach(key => {
 							let th = document.createElement('th');
+							th.setAttribute('style', 'border-bottom: 0;')
 							th.textContent = '';
 							row.appendChild(th);
 						});
@@ -74,6 +75,7 @@
 							let row = tableBody.insertRow();
 							Object.values(item).forEach(value => {
 								let cell = row.insertCell();
+								cell.setAttribute('style', 'border-bottom: 0;')
 								// noinspection JSValidateTypes
 								cell.innerHTML = value;
 							});
