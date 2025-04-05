@@ -90,6 +90,7 @@
 						let row = tableBody.insertRow();
 						Object.values(item).forEach(value => {
 							let cell = row.insertCell();
+							// noinspection JSValidateTypes
 							cell.innerHTML = value;
 						});
 					});
