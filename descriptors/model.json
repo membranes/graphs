@@ -18,7 +18,7 @@
         },
         {
             "label": "architecture",
-            "description": "The underlying architecture is DistilBERT, a Transformer model.  <ul><li>The repository <a href='https://github.com/membranes/text'>text</a> encodes the transfer learning steps.</li><li>The DistilBERT architecture source: <a href='https://huggingface.co/docs/transformers/model_doc/distilbert'>huggingface.co</a> </li><li>The paper: <a href='https://arxiv.org/abs/1910.01108'>DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter</a></li></ul>"
+            "description": "The underlying architecture is DistilBERT, a Transformer model.  <ul><li>The repository <a href='https://github.com/membranes/text'>text</a> is the <a href='https://www.tensorflow.org/tutorials/images/transfer_learning'>transfer learning</a> repository.  The configurations repository hosts the training (a) arguments, and (b) hyperparameters search space, settings.</li><li>The DistilBERT architecture source: <a href='https://huggingface.co/docs/transformers/model_doc/distilbert'>huggingface.co</a> </li><li>The paper: <a href='https://arxiv.org/abs/1910.01108'>DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter</a></li></ul>"
         },
         {
             "label": "performance",
