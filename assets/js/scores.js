@@ -41,7 +41,6 @@ dropdown.on('change', function (e) {
 
 function generateChart(fileNameKey) {
 
-
     $.getJSON('../../warehouse/numerics/card/spider/' + fileNameKey + '.json', function (calculations) {
 
         // https://api.highcharts.com/highstock/tooltip.pointFormat
@@ -158,6 +157,4 @@ function generateChart(fileNameKey) {
         $('#container').empty();
     });
 
-
 }
-
