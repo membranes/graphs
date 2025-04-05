@@ -1,4 +1,4 @@
-import definitions from '../../specifications/definitions.json' with  {type: 'json'};
+import definitions from '../../../descriptors/definitions.json' with  {type: 'json'};
 
 function instance(name, desc, variable) {
 
