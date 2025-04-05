@@ -1,0 +1,15 @@
+{
+  "details": [
+    {"label":  "BACKGROUND"},
+    {"label":  "PRELIMINARIES"},
+    {"label":  "MODEL"},
+    {"label":  "<span style='margin-left: 35px'>concept</span>"},
+    {"label":  "<span style='margin-left: 35px'>brief details</span>"},
+    {"label":  "<span style='margin-left: 35px'>error metrics</span>"},
+    {"label":  "<span style='margin-left: 35px'>business/cost metrics</span>"},
+    {"label":  "DATASHEET"},
+    {"label":  "SYSTEM ARCHITECTURE & COST"},
+    {"label":  "RISK & MITIGATIONS"},
+    {"label":  "LIMITATIONS: MODEL + DATA"}
+  ]
+}
