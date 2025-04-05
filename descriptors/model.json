@@ -5,16 +5,12 @@
             "description": "Token Classification Model"
         },
         {
-            "label": "version",
-            "description": "perpetual pre-alpha"
-        },
-        {
             "label": "task",
-            "description": "The classification of tokens."
+            "description": "The classification of word pieces, strings."
         },
         {
             "label": "input",
-            "description": "Free text, e.g., …"
+            "description": "Free text, e.g., <br><img src='../assets/images/app-input.png' alt='input'><br>Text source: <a href='https://timharford.com/2025/01/cautionary-tales-cleared-for-take-off-tenerife-air-disaster-1/'>Cautionary Tales</a>"
         },
         {
             "label": "output",
@@ -22,7 +18,7 @@
         },
         {
             "label": "architecture",
-            "description": "<a href='https://github.com/membranes/text'>Architecture</a>"
+            "description": "The underlying architecture is DistilBERT, a Transformer model.  <ul><li>The repository <a href='https://github.com/membranes/text'>text</a> encodes the transfer learning steps.</li><li>The DistilBERT architecture source: <a href='https://huggingface.co/docs/transformers/model_doc/distilbert'>huggingface.co</a> </li><li>The paper: <a href='https://arxiv.org/abs/1910.01108'>DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter</a></li></ul>"
         },
         {
             "label": "performance",
