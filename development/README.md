@@ -81,6 +81,12 @@ GRADIO
 * [gradio spaces](https://huggingface.co/docs/hub/spaces-sdks-gradio)
 * [entity recognition interface](https://www.gradio.app/guides/named-entity-recognition)
 
+AND
+* [Hyperparameter optimization: Foundations, algorithms,best practices, and open challenges](https://wires.onlinelibrary.wiley.com/doi/epdf/10.1002/widm.1484)
+* [Hyperparameters in Deep Learning: A Comprehensive Review](https://ijisae.org/index.php/IJISAE/article/view/6967/5881)
+* [Why Do We Need Weight Decay in Modern Deep Learning?](https://arxiv.org/pdf/2310.04415)
+* [Hyperparameter Optimization For LLMs: Advanced Strategies](https://neptune.ai/blog/hyperparameter-optimization-for-llms)
+* [Population Based Training of Neural Networks](https://arxiv.org/abs/1711.09846)
 
 <br>
 <br>
