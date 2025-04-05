@@ -14,7 +14,7 @@
         },
         {
             "label": "output",
-            "description": "The output consists of classifiable word-pieces, alongside their classifications and classification scores."
+            "description": "The output consists of classifiable word-pieces, alongside their classifications and classification scores.  The raw output is a <abbr title='JavaScript Object Notation'>JSON</abbr> string, e.g.,<br><br><img src='../assets/images/app-output.png' alt='input' width='432px'/><br>"
         },
         {
             "label": "architecture",
