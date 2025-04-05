@@ -90,30 +90,36 @@ dd {
     margin-left: 15px;
 }
 
+
+/* List */
+ul.parent {
+    list-style-type: none;
+    padding: 15px;
+}
+
+ul.child {
+    list-style-type: none;
+    padding: 1px 15px 15px 9px;
+}
+
+li {
+    margin: 5px;
+}
+
+/* iframe */
+iframe {
+    border: 0;
+}
+
+
 /* Caption */
 caption {
     caption-side: bottom;
     text-align: left;
 }
 
-/* Table */
-table {
-    border-collapse: collapse;
-    border-spacing: 5px;
-    border: 0;
-    margin-left: 65px;
-    margin-top: 25px;
-    font-size: 15px;
-}
-
-td,
-th {
-    padding: 5px;
-}
-
 /* wrapper stays 480px wide past 480px wide, centred */
 @media (min-width: 480px) {
-
 
     .wrapper {
       width: 480px;
