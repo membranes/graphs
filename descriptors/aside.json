@@ -3,7 +3,7 @@
     {"label":  "BACKGROUND"},
     {"label":  "PRELIMINARIES"},
     {"label":  "MODEL"},
-    {"label":  "<ul style='list-style-type: none; padding-left: 13px'><li>concept</li><li>brief details</li><li>error metrics</li><li>business/cost metrics</li></ul>"},
+    {"label":  "<ul style='list-style-type: none; padding-left: 13px; margin-top: -15px;'><li>concept</li><li>brief details</li><li>error metrics</li><li>business/cost metrics</li></ul>"},
     {"label":  "DATASHEET"},
     {"label":  "SYSTEM ARCHITECTURE & COST"},
     {"label":  "RISK & MITIGATIONS"},
