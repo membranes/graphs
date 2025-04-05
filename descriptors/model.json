@@ -18,7 +18,7 @@
         },
         {
             "label": "architecture",
-            "description": "The underlying architecture is DistilBERT, a Transformer model.  <ul><li>The repository <a href='https://github.com/membranes/text'>text</a> is the <a href='https://www.tensorflow.org/tutorials/images/transfer_learning'>transfer learning</a> repository.  The configurations repository hosts the training (a) arguments, and (b) hyperparameters search space, settings.</li><li>The DistilBERT architecture source: <a href='https://huggingface.co/docs/transformers/model_doc/distilbert'>huggingface.co</a> </li><li>The paper: <a href='https://arxiv.org/abs/1910.01108'>DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter</a></li></ul>"
+            "description": "The underlying architecture is DistilBERT, a Transformer model.  <ul><li>The repository <a href='https://github.com/membranes/text'>text</a> is the <a href='https://www.tensorflow.org/tutorials/images/transfer_learning'>transfer learning</a> repository.  The configurations repository hosts the training (a) <a href='https://github.com/membranes/configurations/blob/master/data/architecture/distil/arguments.json'>arguments</a>, and (b) <a href='https://github.com/membranes/configurations/blob/master/data/architecture/distil/hyperspace.json'>hyperparameters search spaces</a>, settings.</li><li>The DistilBERT architecture source: <a href='https://huggingface.co/docs/transformers/model_doc/distilbert'>huggingface.co</a> </li><li>The paper: <a href='https://arxiv.org/abs/1910.01108'>DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter</a></li></ul>"
         },
         {
             "label": "performance",
