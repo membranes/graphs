@@ -1,0 +1,36 @@
+{
+    "details": [
+        {
+            "label": "name",
+            "description": "Token Classification Model"
+        },
+        {
+            "label": "version",
+            "description": "perpetual pre-alpha"
+        },
+        {
+            "label": "task",
+            "description": "The classification of tokens."
+        },
+        {
+            "label": "input",
+            "description": "Free text, e.g., …"
+        },
+        {
+            "label": "output",
+            "description": "The output consists of classifiable word-pieces, alongside their classifications and classification scores."
+        },
+        {
+            "label": "architecture",
+            "description": "<a href='https://github.com/membranes/text'>Architecture</a>"
+        },
+        {
+            "label": "performance",
+            "description": "Error & Business Metrics"
+        },
+        {
+            "label": "datasets",
+            "description": "Datasheet"
+        }
+    ]
+}
