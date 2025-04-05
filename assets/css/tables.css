@@ -2,7 +2,7 @@
 /* Table */
 table {
     border-collapse: collapse;
-    border-spacing: 5px;
+    border-spacing: 9px;
     border: 0;
     margin-left: 65px;
     margin-top: 25px;
@@ -13,7 +13,7 @@ table {
 }
 
 th, td {
-    padding: 8px;
+    padding: 11px;
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
