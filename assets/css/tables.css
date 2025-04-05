@@ -20,19 +20,12 @@ th, td {
 
 table.aside {
     border-collapse: collapse;
-    border-spacing: 9px;
+    border-spacing: 11px;
     border: 0;
     margin-left: 5px;
     margin-top: 25px;
-    font-size: 13px;
+    font-size: 14px;
     table-layout: fixed;
-    width: 65%;
+    width: 90%;
     text-wrap: wrap;
 }
-
-th.aside td.aside {
-    padding: 11px;
-    text-align: left;
-    border-bottom: 0;
-}
-
