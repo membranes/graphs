@@ -2,7 +2,7 @@
   "sections": [
     {
       "label": "problem statement",
-      "description": "Our organisation manually classifies trauma incidents for all the major trauma centres of five countries.  Per trauma case, an injury coding expert (a) examines the case's free and structured text, and assigns each piece of text to a category, and (b) assigns the case to a trauma category based on the combination text pieces & categories detected; text pieces of the other/miscellaneous category are excluded from this exercise.  Trauma injury coding is an extremely intensive and time-consuming exercise, and injury coding error rates - per annum - can be quite high.  Hence, and as a first step, we are in search of a solution that automatically classifies text pieces vis-a-vis a set of provided categories."
+      "description": "Our organisation manually classifies trauma incidents for all the major trauma centres of five countries.  Per trauma case, an injury coding expert <b>(a)</b> examines the case's free and structured text, and assigns each piece of text to a category, and <b>(b)</b> assigns the case to a trauma category based on the combination text pieces & categories detected; text pieces of the other/miscellaneous category are excluded from this exercise.  Trauma injury coding is an extremely intensive and time-consuming exercise, and injury coding error rates - per annum - can be quite high.  Hence, and as a first step, we are in search of a solution that automatically classifies text pieces vis-à-vis a set of provided categories."
     },
     {
       "label": "outcome expectations, underlying aims",
