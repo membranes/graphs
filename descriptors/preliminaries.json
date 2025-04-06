@@ -6,7 +6,7 @@
     },
     {
       "label": "outcome expectations, underlying aims",
-      "description": "Outcome Expectations:<ul><li>Real-time availability of text pieces classifications per trauma case.</li></ul><br>Underlying Aim:<br>The automatic classification of trauma case text pieces &#8594; objective <ul><li>per case, automatic classification time < 180 seconds.</li><li>model metrics limits false negative rate &#8804; 0.02, false positive rate &#8804; 0.04</li></ul>"
+      "description": "<b>Outcome Expectations:</b> Real-time availability of text pieces classifications per trauma case.<br><br><b>Underlying Aim:</b> The automatic classification of trauma case text pieces; objective &#8594; <ul><li>per case, automatic classification time < 180 seconds.</li><li>model metrics limits false negative rate &#8804; 0.02, false positive rate &#8804; 0.04</li></ul>"
     },
     {
       "label": "deployment goal",
