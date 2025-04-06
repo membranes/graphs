@@ -3,7 +3,7 @@
     {"label":  "BACKGROUND"},
     {"label":  "<a href='../src/preliminaries.html'>CRITICAL PRELIMINARIES</a>"},
     {"label":  "MODEL"},
-    {"label":  "<ul style='list-style-type: none; padding-left: 13px; margin-top: -15px;'><li><a href='../src/model-concept.html'>concept</a></li><li><a href='../src/model-details.html'>brief details</a></li><li>error metrics</li><li>business/cost metrics</li></ul>"},
+    {"label":  "<ul style='list-style-type: none; padding-left: 13px; margin-top: -15px;'><li><a href='../src/model-concept.html'>model development concept</a></li><li><a href='../src/model-details.html'>brief details</a></li><li>error metrics</li><li>business/cost metrics</li></ul>"},
     {"label":  "DATASHEET"},
     {"label":  "SYSTEM ARCHITECTURE & COST"},
     {"label":  "RISK & MITIGATIONS"},
