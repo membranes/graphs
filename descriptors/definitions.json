@@ -18,19 +18,19 @@
         },
         {
             "name": "false negative rate (fnr)",
-            "desc": "<math><mfrac><mrow><mi>fn</mi></mrow><mrow><mn>tp</mn><mo>+</mo><mi>fn</mi></mrow></mfrac></math>"
+            "desc": "<math class='external'><mfrac><mrow><mi>fn</mi></mrow><mrow><mn>tp</mn><mo>+</mo><mi>fn</mi></mrow></mfrac></math>"
         },
         {
             "name": "true positive rate (tpr)",
-            "desc": "<math><mfrac><mrow><mi>tp</mi></mrow><mrow><mn>tp</mn><mo>+</mo><mi>fn</mi></mrow></mfrac></math>"
+            "desc": "<math class='external'><mfrac><mrow><mi>tp</mi></mrow><mrow><mn>tp</mn><mo>+</mo><mi>fn</mi></mrow></mfrac></math>"
         },
         {
             "name": "true negative rate (tnr)",
-            "desc": "<math><mfrac><mrow><mi>tn</mi></mrow><mrow><mn>fp</mn><mo>+</mo><mi>tn</mi></mrow></mfrac></math>"
+            "desc": "<math class='external'><mfrac><mrow><mi>tn</mi></mrow><mrow><mn>fp</mn><mo>+</mo><mi>tn</mi></mrow></mfrac></math>"
         },
         {
             "name": "false positive rate (fpr)",
-            "desc": "<math><mfrac><mrow><mi>fp</mi></mrow><mrow><mn>fp</mn><mo>+</mo><mi>tn</mi></mrow></mfrac></math>"
+            "desc": "<math class='external'><mfrac><mrow><mi>fp</mi></mrow><mrow><mn>fp</mn><mo>+</mo><mi>tn</mi></mrow></mfrac></math>"
         }
     ]
 }

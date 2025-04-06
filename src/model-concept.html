@@ -11,10 +11,10 @@
 	<link href="../assets/css/module/2.CtyQwxj9.css" rel="stylesheet">
 	<link href="../assets/css/tables.css" rel="stylesheet">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 	<script src="../assets/js/libraries/latex.js" async></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-	<title>Title</title>
+	<title>Concept</title>
 </head>
 <body>
 
@@ -88,61 +88,39 @@
 
 		<!-- content -->
 		<div class="layout-item">
-			<h1>Definitions</h1>
-			<pre id="definitions"></pre>
-			<script>
-				fetch('../descriptors/definitions.json')
-					.then(response => response.json())
-					.then(data => {
-						// Call function to display table
-						createTable(data.definitions);
-					})
-					.catch(error => console.error('Error:', error));
 
-				function createTable(data) {
-					const table = document.createElement('table');
-					const colGroup = document.createElement('colgroup');
+			<div class="frames-grid-item svelte-1jxvby2">
+				<h1>Concept</h1>
+				For a specific token classification dependent problem, an artificial intelligence engineer can
+				<ul>
+					<li>Develop a token classification model per language model architecture, e.g., <a href="https://arxiv.org/abs/1907.11692">RoBERTa (Robustly Optimized BERT Pretraining Approach)</a>, <a href="https://arxiv.org/abs/2003.10555">ELECTRA (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)</a>.  Per architecture, <a href="https://wires.onlinelibrary.wiley.com/doi/epdf/10.1002/widm.1484">hyperparameter optimisation/tuning techniques</a>, and <a href="https://docs.ray.io/en/latest/tune/index.html">libraries</a>, aid the development of quite effective models, subject to early stopping, etc., constraints.</li>
+					<li>Select the best model amongst the set of models; a single model per architecture.</li>
+				</ul>
 
-					const col_a = document.createElement('col');
-					col_a.setAttribute('span', '1');
-					col_a.setAttribute('style', 'width: 18.5%;');
+				For this exercise, the best model was selected by comparing a testing phase metric, specifically Matthews Correlation Coefficient (MCC):
 
-					const col_b = document.createElement('col');
-					col_b.setAttribute('span', '1');
-					col_b.setAttribute('style', 'width: 63.5%;');
+				$$MCC = \frac{(tn \bullet tp) - (fn \bullet fp)}{{\Large{[}}(tp + fp)(tp + fn)(tn + fp)(tn + fn){\Large{]}}^{0.5}}$$
 
-					const tableHead = document.createElement('thead');
-					const tableBody = document.createElement('tbody');
+				<br>
 
-					// Append the table head and body to table
-					table.appendChild(colGroup);
-					colGroup.appendChild(col_a);
-					colGroup.appendChild(col_b);
-					table.appendChild(tableHead);
-					table.appendChild(tableBody);
+				$$MCC \in [-1, \quad +1]$$
 
-					// Creating table head
-					let row = tableHead.insertRow();
-					Object.keys(data[0]).forEach(key => {
-						let th = document.createElement('th');
-						th.textContent = key.toUpperCase();
-						row.appendChild(th);
-					});
+				<br>
 
-					// Creating table body
-					data.forEach(item => {
-						let row = tableBody.insertRow();
-						Object.values(item).forEach(value => {
-							let cell = row.insertCell();
-							// noinspection JSValidateTypes
-							cell.innerHTML = value;
-						});
-					});
+				wherein $tn$, $tp$, $fn$, and $fp$ denote true negative, true positive, false negative, and false positive, respectively.
 
-					// Append the table to the HTML document
-					document.getElementById('definitions').appendChild(table);
-				}
-			</script>
+				<br>
+				<br>
+
+				<b>Note</b>, the best model of a set must undergo (a) mathematical evaluation, and (b) business/cost evaluation.  The latter is critical because an acceptable mathematical metric, e.g., $precision > 0.9$ does not necessarily lead to excellent business/cost metrics.
+
+			</div>
+
+			<br>
+			<br>
+			<br>
+			<br>
+
 
 		</div>
 

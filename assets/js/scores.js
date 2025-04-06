@@ -73,7 +73,8 @@ function generateChart(fileNameKey) {
             chart: {
                 polar: true,
                 type: 'spline',
-                marginTop: 105
+                marginTop: 105,
+                zoomType: 'x'
             },
 
             title: {

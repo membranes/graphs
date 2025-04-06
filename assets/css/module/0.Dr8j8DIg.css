@@ -8,7 +8,7 @@ body {
     background-color: #ffffff;
     font-family: Alegreya, sans-serif, 'Noto Sans', 'Cormorant Garamond', 'EB Garamond', Vollkorn, -apple-system, Inter, BlinkMacSystemFont, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
     line-height: 1.5;
-    width: 1200px;
+    width: 73.5%;
     margin: 0 auto;
     font-size: 17px;
 }
@@ -19,10 +19,6 @@ a:hover,
 a:active {
     color: #ce534d;
     text-decoration: none
-}
-
-img {
-    width: 100%
 }
 
 .by {
@@ -36,7 +32,7 @@ img {
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 185px auto auto;
     align-content: flex-start;
-    gap: 35px
+    gap: 60px
 }
 
 .layout-item {
@@ -146,7 +142,7 @@ caption {
     }
 
     body {
-        width: 65%;
+        width: 73.5%;
         padding: 0 20px
     }
 
@@ -208,3 +204,8 @@ select {
     list-style-type: none;
     z-index: 0;
 }
+
+mjx-math.external {
+    font-size: 150%;
+}
+

@@ -7,8 +7,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link href="../assets/css/module/0.Dr8j8DIg.css" rel="stylesheet">
-		<link href="../assets/css/module/4.C4MfQ6Mv.css" rel="stylesheet">
 		<link href="../assets/css/tooltips.css" rel="stylesheet">
+		<link href="../assets/css/module/2.CtyQwxj9.css" rel="stylesheet">
+		<link href="../assets/css/tables.css" rel="stylesheet">
 
 		<script src="../assets/js/libraries/latex.js" async></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -28,57 +29,126 @@
 			</div>
 
 			<div class="layout-reference">
-				<a href="interact-app.html">Interact</a> | <a href="background.html">Project/Model Details</a>
+				<a href="../index.html">Landing Page</a> | <a href="interact-app.html">Interact</a> | <a href="">Project/Model Details</a>
 			</div>
 
 
 			<!-- The lower section -->
 
-			<!-- ASIDE -->
+			<!-- aside -->
 			<div class="layout-item">
-				<ul class="parent">
-					<li><a href="../index.html">INDEX</a></li>
-					<li><a href="../src/background.html">Background</a></li>
-					<li><a href="../src/preliminaries.html">Preliminaries</a></li>
-					<li>MODEL<ul class="child">
-						<li>ARCHITECTURE</li>
-						<li>MATHEMATICS</li>
-					</ul></li>
-					<li>Metrics<ul class="child">
-						<li><a href="../src/metrics-error.html">Error</a></li>
-						<li><a href="../src/metrics-cost.html">Cost</a></li>
-					</ul></li>
-					<li>SYSTEM<ul class="child">
-						<li>Architecture</li>
-						<li>Compute Costs</li>
-					</ul></li>
-					<li>RISK</li>
-					<li>LIMITATIONS</li>
-					<li>APPENDIX<ul class="child">
-						<li>DEFINITIONS</li>
-						<li>REFERENCES</li>
-					</ul></li>
-				</ul>
+				<pre id="toc"></pre>
+				<script>
+					fetch('../descriptors/aside.json')
+						.then(response => response.json())
+						.then(data => {
+							createTOC(data.content);
+						})
+						.catch(error => console.error('Error:', error));
+
+					function createTOC(data) {
+						const table = document.createElement('table');
+						table.classList.add('aside');
+						const colGroup = document.createElement('colgroup');
+						const col = document.createElement('col');
+						col.setAttribute('span', '1');
+						col.setAttribute('style', 'width: 21.5%;');
+
+						const tableHead = document.createElement('thead');
+						const tableBody = document.createElement('tbody');
+
+						// Append the table head and body to table
+						table.appendChild(colGroup);
+						colGroup.appendChild(col);
+						table.appendChild(tableHead);
+						table.appendChild(tableBody);
+
+						// Creating table head
+						let row = tableHead.insertRow();
+						let th = document.createElement('th');
+						th.setAttribute('style', 'border-bottom: 0;')
+						th.textContent = '';
+						row.appendChild(th);
+
+						// Creating table body
+						data.forEach(item => {
+							let row = tableBody.insertRow();
+							Object.values(item).forEach(value => {
+								let cell = row.insertCell();
+								cell.setAttribute('style', 'border-bottom: 0;')
+								// noinspection JSValidateTypes
+								cell.innerHTML = value;
+							});
+						});
+
+						// Append the table to the HTML document
+						document.getElementById('toc').appendChild(table);
+					}
+				</script>
 			</div>
 
-			<!-- CONTENT -->
+			<!-- content -->
 			<div class="layout-item">
 
-				<div class="frames-grid-item svelte-1jxvby2"><h3>Problem Statement</h3>At present, research desks manually determine whether a dispatch is associated with a set of categories of interest.  The categories include geopolitical terms, geographies, organisations, times, etc.  These are coarse level categories; a subsequent phase will focus on fine level categories, e.g., organisation type.  The categories of interest include categories that are not included in any <i>text detection & classification</i> software; open source & commercial software.  Hence, our decision to develop a custom model.</div>
+				<h1>Critical Preliminaries Example</h1>
 
-				<div class="frames-grid-item svelte-1jxvby2">
-					<h3>Outcome Expectations / Underlying Aims</h3> <!---->In brief:
-					<ul>
-						<li>A reduction in detection time per A4 page; from approximately 2.5 minutes to < 9 seconds. (A4, ~250 words,
-							~25 lines, 10 pt font, ~1.25-inch line spacing)
-						</li>
-						<li>Minimal mis-classifications per category; the false negative rate of each category must not exceed the category's limit.</li>
-					</ul><!---->
-				</div>
+				This page outlines a plausible problem statement, outcome expectations/underlying aims, and deployment goal set vis-à-vis token classification model development.
 
-				<div class="frames-grid-item svelte-1jxvby2">
-					<h3>Deployment Goal</h3> <!---->An interface ...<!---->
-				</div>
+				<pre id="sections"></pre>
+				<script>
+					fetch('../descriptors/preliminaries.json')
+						.then(response => response.json())
+						.then(data => {
+							// Call function to display table
+							createTable(data.sections);
+						})
+						.catch(error => console.error('Error:', error));
+
+					function createTable(data) {
+						const table = document.createElement('table');
+						const colGroup = document.createElement('colgroup');
+
+						const col_a = document.createElement('col');
+						col_a.setAttribute('span', '1');
+						col_a.setAttribute('style', 'width: 21.5%;');
+
+						const col_b = document.createElement('col');
+						col_b.setAttribute('span', '1');
+						col_b.setAttribute('style', 'width: 73.5%;');
+
+						const tableHead = document.createElement('thead');
+						const tableBody = document.createElement('tbody');
+
+						// Append the table head and body to table
+						table.appendChild(colGroup);
+						colGroup.appendChild(col_a);
+						colGroup.appendChild(col_b);
+						table.appendChild(tableHead);
+						table.appendChild(tableBody);
+
+						// Creating table head
+						let row = tableHead.insertRow();
+						Object.keys(data[0]).forEach(key => {
+							let th = document.createElement('th');
+							th.textContent = key.toUpperCase();
+							row.appendChild(th);
+						});
+
+						// Creating table body
+						data.forEach(item => {
+							let row = tableBody.insertRow();
+							Object.values(item).forEach(value => {
+								let cell = row.insertCell();
+								// noinspection JSValidateTypes
+								cell.innerHTML = value;
+							});
+						});
+
+						// Append the table to the HTML document
+						document.getElementById('sections').appendChild(table);
+					}
+				</script>
+
 
 			</div>
 
