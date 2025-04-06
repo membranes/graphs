@@ -204,3 +204,8 @@ select {
     list-style-type: none;
     z-index: 0;
 }
+
+mjx-math.external {
+    font-size: 150%;
+}
+
