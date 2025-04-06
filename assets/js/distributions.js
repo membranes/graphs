@@ -20,7 +20,8 @@ jQuery.getJSON('../../temporary.json', function (source){
 	Highcharts.chart('container', {
 
 		chart: {
-			type: 'bar'
+			type: 'bar',
+			zoomType: 'y'
 		},
 
 		title: {
