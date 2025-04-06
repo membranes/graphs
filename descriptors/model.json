@@ -22,7 +22,7 @@
         },
         {
             "label": "performance",
-            "description": "Error & Business Metrics"
+            "description": "Error Metrics & Business/Cost Metrics"
         },
         {
             "label": "datasets",
