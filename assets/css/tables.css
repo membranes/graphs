@@ -2,8 +2,9 @@
 /* Table */
 table {
     border-collapse: collapse;
-    border-spacing: 9px;
+    border-spacing: 25px 9px;
     border: 0;
+    display: table;
     margin-left: 65px;
     margin-top: 25px;
     font-size: 15px;
