@@ -1,13 +1,15 @@
 {
   "content": [
     {"label":  "BACKGROUND"},
-    {"label":  "PRELIMINARIES"},
+    {"label":  "CRITICAL PRELIMINARIES"},
     {"label":  "MODEL"},
     {"label":  "<ul style='list-style-type: none; padding-left: 13px; margin-top: -15px;'><li><a href='../src/model-concept.html'>concept</a></li><li><a href='../src/model-details.html'>brief details</a></li><li>error metrics</li><li>business/cost metrics</li></ul>"},
     {"label":  "DATASHEET"},
     {"label":  "SYSTEM ARCHITECTURE & COST"},
     {"label":  "RISK & MITIGATIONS"},
     {"label":  "LIMITATIONS: MODEL + DATA"},
-    {"label":  "COSTS: DEVELOPMENT, ONGOING"}
+    {"label":  "COSTS: DEVELOPMENT, ONGOING"},
+    {"label": "APPENDIX"},
+    {"label":  "<ul style='list-style-type: none; padding-left: 13px; margin-top: -15px;'><li><a href='../src/appendix-definitions.html'>definitions</a></li><li>references</li></ul>"}
   ]
 }
