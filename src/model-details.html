@@ -35,7 +35,6 @@
 			<!-- The lower section -->
 			<div class="layout-item">
 				<pre id="toc"></pre>
-
 				<script>
 					fetch('../descriptors/aside.json')
 						.then(response => response.json())
@@ -63,12 +62,10 @@
 
 						// Creating table head
 						let row = tableHead.insertRow();
-						Object.keys(data[0]).forEach(key => {
-							let th = document.createElement('th');
-							th.setAttribute('style', 'border-bottom: 0;')
-							th.textContent = '';
-							row.appendChild(th);
-						});
+						let th = document.createElement('th');
+						th.setAttribute('style', 'border-bottom: 0;')
+						th.textContent = '';
+						row.appendChild(th);
 
 						// Creating table body
 						data.forEach(item => {
@@ -83,20 +80,13 @@
 
 						// Append the table to the HTML document
 						document.getElementById('toc').appendChild(table);
-
 					}
-
 				</script>
-
 			</div>
 
-
 			<div class="layout-item">
-
 			<h1>MODEL</h1>
-
 			<pre id="model"></pre>
-
 			<script>
 				fetch('../descriptors/model.json')
 					.then(response => response.json())
