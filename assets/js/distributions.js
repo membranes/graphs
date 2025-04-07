@@ -24,6 +24,10 @@ jQuery.getJSON('../../warehouse/numerics/abstracts/bars.json', function (source)
 			zoomType: 'y'
 		},
 
+		credits: {
+			enabled: false
+		},
+
 		title: {
 			text: 'The distribution of the training, validating,<br>and testing data.',
 			align: 'left'
