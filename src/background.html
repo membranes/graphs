@@ -1,79 +1,113 @@
 <!doctype html>
 <html lang="en">
-<head>
+	<head>
 
-	<meta charset="utf-8" />
-	<link rel="icon" href="/assets/images/favicon.ico" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta charset="utf-8" />
+		<link rel="icon" href="/assets/images/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<link href="../assets/css/module/0.Dr8j8DIg.css" rel="stylesheet">
-	<link href="../assets/css/module/4.C4MfQ6Mv.css" rel="stylesheet">
-	<link href="../assets/css/tooltips.css" rel="stylesheet">
+		<link href="../assets/css/module/0.Dr8j8DIg.css" rel="stylesheet">
+		<link href="../assets/css/module/4.C4MfQ6Mv.css" rel="stylesheet">
+		<link href="../assets/css/tooltips.css" rel="stylesheet">
 
-	<script src="../assets/js/libraries/latex.js" async></script>
+		<script src="../assets/js/libraries/latex.js" async></script>
 
-	<title>BACKGROUND</title>
+		<title>Background</title>
 
-</head>
-<body data-sveltekit-preload-data="hover">
+	</head>
+	<body data-sveltekit-preload-data="hover">
 
-<div style="display: contents">
+	<div style="display: contents">
 
-	<div class="layout">
+		<div class="layout">
 
-		<!-- The upper section -->
-		<div class="layout-head">
-			<h1></h1>
-		</div>
-
-		<div class="layout-reference">
-			<a href="interact-app.html">Interact</a> | <a href="background.html">Project/Model Details</a>
-		</div>
-
-
-		<!-- The lower section -->
-
-		<!-- ASIDE -->
-		<div class="layout-item">
-			ASIDE
-		</div>
-
-		<!-- CONTENT -->
-		<div class="layout-item">
-			<div class="frames-grid-item svelte-1jxvby2">
-				<h3>Background</h3>
-				At present, teams across the United Kingdom's governments <b>manually identify or detect words/strings</b> of
-				interest within documents <b>for</b> custom redaction, knowledge graph, criminal investigations, etc., purposes.
-				In the case of redaction, a few teams have access to standard solutions, i.e., software solutions focused on
-				detecting and/or redacting common <a href='https://www.legislation.gov.uk/eur/2016/679/article/4'
-				                                     target='_blank'>personal data</a> words/strings. Alas, these solutions do
-				not address the needs of teams that need to identify or detect bespoke words/strings.<br><br>A viable approach
-				involves the creation of custom models via <i>named entity recognition</i> machine learning algorithms. These
-				algorithms can be trained by domain, leading to compact, domain specific, word/string detection models. These
-				algorithms are also known as token classification algorithms.
-
-				This project focuses on a single token classification problem.
-
-				Note. The underlying <a href="https://www.tensorflow.org/tutorials/images/transfer_learning" target="_blank">transfer
-				learning</a> approaches are applicable beyond token classification, i.e., applicable to abstractive or
-				extractive text summarisation, image classification, object identification, etc.
+			<!-- The upper section -->
+			<div class="layout-head">
+				<h1></h1>
 			</div>
+
+			<div class="layout-reference">
+				<a href="../index.html">Landing Page</a> | <a href="interact-app.html">Interact</a> | <a href="">Project/Model Details</a>
+			</div>
+
+
+			<!-- The lower section -->
+
+			<!-- aside -->
+			<div class="layout-item">
+				<pre id="toc"></pre>
+				<script>
+					fetch('../descriptors/aside.json')
+						.then(response => response.json())
+						.then(data => {
+							createTOC(data.content);
+						})
+						.catch(error => console.error('Error:', error));
+
+					function createTOC(data) {
+						const table = document.createElement('table');
+						table.classList.add('aside');
+						const colGroup = document.createElement('colgroup');
+						const col = document.createElement('col');
+						col.setAttribute('span', '1');
+						col.setAttribute('style', 'width: 21.5%;');
+
+						const tableHead = document.createElement('thead');
+						const tableBody = document.createElement('tbody');
+
+						// Append the table head and body to table
+						table.appendChild(colGroup);
+						colGroup.appendChild(col);
+						table.appendChild(tableHead);
+						table.appendChild(tableBody);
+
+						// Creating table head
+						let row = tableHead.insertRow();
+						let th = document.createElement('th');
+						th.setAttribute('style', 'border-bottom: 0;')
+						th.textContent = '';
+						row.appendChild(th);
+
+						// Creating table body
+						data.forEach(item => {
+							let row = tableBody.insertRow();
+							Object.values(item).forEach(value => {
+								let cell = row.insertCell();
+								cell.setAttribute('style', 'border-bottom: 0;')
+								// noinspection JSValidateTypes
+								cell.innerHTML = value;
+							});
+						});
+
+						// Append the table to the HTML document
+						document.getElementById('toc').appendChild(table);
+					}
+				</script>
+			</div>
+
+			<!-- content -->
+			<div class="layout-item">
+
+				<div class="frames-grid-item svelte-1jxvby2">
+
+					<h2>Background</h2>
+
+					Organisations identify or detect words/strings of interest within documents or data blobs for a variety of purposes, e.g., knowledge graph development, text redaction, criminal investigations, etc.  Organisations may opt for manual word detection if off-the-shelf solutions cannot address their needs.  For example, most redaction software solutions focus on detecting and redacting words/strings of a narrow set of categories, and it is rarely possible to adapt the solution to the detection of words/strings of bespoke categories.
+
+					<br><br>
+
+					A viable solution strategy involves the creation of custom models via <i>named entity recognition</i> machine learning algorithms; also known as token classification algorithms. These algorithms can be trained by domain or problem, leading to compact, domain specific, word/string detection models.
+
+					This project publishes an adaptable token classification modelling set-up, i.e., artificial/machine learning engineers can fork and adapt the repositories to their (a) token classification problem, (b) development environment, and (c) the <a href="https://github.com/membranes/text/blob/master/src/models/interface.py#L70">range of language models</a> that they would like to try.  The latter point is discussed within the <a href="model-concept.html">model development concept</a> page.
+					
+				</div>
+
+			</div>
+
 		</div>
 
 	</div>
 
-</div>
-
-<script type="module">
-	import { stamp } from '../assets/js/module/latest.js';
-	document.getElementById('stamp').innerHTML = stamp();
-</script>
-
-<script type="module">
-	import {setup} from '../assets/js/module/aside.js'
-	document.getElementById("setup").innerHTML = setup();
-</script>
-
-</body>
+	</body>
 
 </html>
