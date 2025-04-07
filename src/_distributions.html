@@ -25,39 +25,9 @@
 
 				<br>
 
-				<figure><figcaption>The annotations $O$, $B$, and $I$, denote outside/other/miscellaneous, beginning, and inside, respectively.  The categories are organisation (ORG), geographic entity (GEO), </figcaption></figure>
+				<figure><figcaption>The annotations $B$ & $I$, denote beginning & inside, respectively.  Whereas $O$ denotes outside/other/miscellaneous.  The categories herein are organisation (ORG), geographic entity (GEO), person (PER), time (TIM), organisation (ORG), geo-political entity (GPE). </figcaption></figure>
 
-				<h2>Annotation Schemes & Modelling</h2>
 
-				The development of token classification models requires the annotation of data entities.  An entity is a word, text piece.  Each entity belongs to a single class/category, e.g., river, lake, island, or other; in this context, river/lake/island are <i>named entities</i>, all other entities are other/miscellaneous/un-named entities.  Each named entity must be annotated according to a selected annotation scheme, in brief
-
-				<ul>
-					<li>The annotation tag of the first token of a named entity is $B$ (Begin).</li>
-					<li>If a named entity has more than one token, the last token may have annotation tag $E$ (End) or $I$ (Inside), depending on the schema; intermediate tokens will have annotation tag $I$.</li>
-					<li>If a token is not part of a named entity its annotation tag is $O$ (Outside).</li>
-				</ul>
-
-				<br>
-
-				Annotation scheme examples:
-
-				<table style="width: 47.5%; font-size: 13px;">
-					<colgroup>
-						<col span="1" style="width: 6.0%;">
-						<col span="1" style="width: 22.5%;">
-					</colgroup>
-					<thead><tr style="text-align: left">
-						<th>scheme</th><th>description</th>
-					</tr></thead>
-					<tr><td>IO</td><td>For denoting $\rightarrow$ $I$: named entity tokens, $O$: other entities.</td></tr>
-					<tr><td>BIO</td><td>For denoting tokens $\rightarrow$ $B$: at the beginning of a named entity, $I$: inside<br>a named entity, $O$:  that are not part of a named entity</td></tr>
-					<tr><td>IOE</td><td>For denoting tokens $\rightarrow$ $I$: inside a named entity, $O$: outwith a<br>named entity, $E$: at the end of a named entity</td></tr>
-					<tr><td>IOBES</td><td>$I$: inside, $O$: outside, $B$: beginning, $E$: end, $S$: denotes a single-token entity</td></tr>
-				</table>
-
-				<br>
-
-				This project uses the $BIO$ scheme.
 			</div>
 			<div class="grid-item"></div>
 		</div>
