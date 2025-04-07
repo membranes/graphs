@@ -6,7 +6,7 @@
  */
 body {
     background-color: #ffffff;
-    font-family: Alegreya, sans-serif, 'Noto Sans', 'Cormorant Garamond', 'EB Garamond', Vollkorn, -apple-system, Inter, BlinkMacSystemFont, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    font-family: 'EB Garamond', Vollkorn, Alegreya, sans-serif, 'Noto Sans', 'Cormorant Garamond', -apple-system, Inter, BlinkMacSystemFont, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
     line-height: 1.5;
     width: 73.5%;
     margin: 0 auto;

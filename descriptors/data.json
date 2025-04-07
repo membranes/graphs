@@ -1,0 +1,24 @@
+{
+  "details": [
+    {
+      "section": "name",
+      "note": "Reuters International News Bulletins"
+    },
+    {
+      "section": "modality",
+      "note": "Text"
+    },
+    {
+      "section": "brief description",
+      "note": "The raw data consists of news bulletins written in English.  Each bulletin is broken down by word, and labelled vis-à-vis <b>(a)</b> part of speech, and <b>(b)</b> tag.  Tags are discussed within the <a href='../src/data-profile.html'>data profile</a> page.<br><br>For a history of this data, including its collection and tagging, visit<ul><li>The <a href='https://www.clips.uantwerpen.be/conll2003/ner/'>challenge details page</a> of the 2003 <a href='https://conll.org'>Computational Natural Language Learning</a> Conference Task.  It is an annual conference organised by the <a href='https://www.signll.org'>Special Interest Group on Natural Language Learning</a>, which is part of the Association for Computational Linguistics (ACL).</li><li><a href='https://trec.nist.gov/data/reuters/reuters.html'>Reuters Corpora</a>; hosted by <a href='https://www.nist.gov/'>NIST</a> (National Institute of Standards and Technology, United States)</li></ul><br><br>A snippet of the data<br><br><img src='../assets/images/data.png' alt='data snippet' width='365px'/>"
+    },
+    {
+      "section": "raw data access",
+      "note": "The <a href='https://github.com/membranes/.github/tree/master/data'>data page's</a> dataset.csv file."
+    },
+    {
+      "section": "profile",
+      "note": "<a href='../src/data-profile.html'>profile</a>"
+    }
+  ]
+}

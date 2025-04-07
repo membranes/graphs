@@ -3,7 +3,7 @@ var Highcharts;
 
 
 // Generate curves
-jQuery.getJSON('../../temporary.json', function (source){
+jQuery.getJSON('../../warehouse/numerics/abstracts/bars.json', function (source){
 
 	// Numbers
 	let categories = source.categories;
@@ -22,6 +22,10 @@ jQuery.getJSON('../../temporary.json', function (source){
 		chart: {
 			type: 'bar',
 			zoomType: 'y'
+		},
+
+		credits: {
+			enabled: false
 		},
 
 		title: {
