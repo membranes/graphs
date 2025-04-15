@@ -10,10 +10,10 @@
 	<link href="../assets/css/module/2.CtyQwxj9.css" rel="stylesheet">
 	<link href="../assets/css/tables.css" rel="stylesheet">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 	<script src="../assets/js/libraries/latex.js" async></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-	<title>Title</title>
+	<title>Definitions</title>
 </head>
 <body>
 
@@ -87,8 +87,8 @@
 
 		<!-- content -->
 		<div class="layout-item">
-			<h2>Definitions</h2>
-			<pre id="definitions"></pre>
+			<h2 class="project-head">Definitions</h2>
+			<pre id="data"></pre>
 			<script>
 				fetch('../descriptors/definitions.json')
 					.then(response => response.json())
@@ -104,11 +104,11 @@
 
 					const col_a = document.createElement('col');
 					col_a.setAttribute('span', '1');
-					col_a.setAttribute('style', 'width: 18.5%;');
+					col_a.setAttribute('style', 'width: 13.5%;');
 
 					const col_b = document.createElement('col');
 					col_b.setAttribute('span', '1');
-					col_b.setAttribute('style', 'width: 63.5%;');
+					col_b.setAttribute('style', 'width: 57.5%;');
 
 					const tableHead = document.createElement('thead');
 					const tableBody = document.createElement('tbody');
@@ -139,7 +139,7 @@
 					});
 
 					// Append the table to the HTML document
-					document.getElementById('definitions').appendChild(table);
+					document.getElementById('data').appendChild(table);
 				}
 			</script>
 
