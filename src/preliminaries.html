@@ -88,14 +88,15 @@
 			<!-- content -->
 			<div class="layout-item">
 
-				<h2>Critical Preliminaries Example</h2>
-
-				<p>This page outlines a plausible problem statement, outcome expectations/underlying aims, and deployment goal set vis-à-vis token classification model development.</p>
+				<h2 class="project-head">A Problem Statement, Outcomes Expectations, etc., Example</h2>
 
 				<br>
+
+				<div style="margin-left: 65px;">This page outlines a plausible problem statement, outcome expectations/underlying aims, and deployment goal set vis-à-vis token classification model development.</div>
+
 				<br>
 
-				<pre id="sections"></pre>
+				<pre id="data"></pre>
 				<script>
 					fetch('../descriptors/preliminaries.json')
 						.then(response => response.json())
@@ -146,7 +147,7 @@
 						});
 
 						// Append the table to the HTML document
-						document.getElementById('sections').appendChild(table);
+						document.getElementById('data').appendChild(table);
 					}
 				</script>
 
