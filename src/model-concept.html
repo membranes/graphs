@@ -87,33 +87,41 @@
 
 		<!-- content -->
 		<div class="layout-item">
+			
+			<table style="width: 80%; margin-left: 65px;">
+				<colgroup>
+					<col span="1" style="width: 85%;">
+				</colgroup>
+				<tr>
+					<td><h2>Concept</h2></td>
+				</tr>
+				<tr><td><br>
+					For a specific token classification dependent problem, an artificial intelligence engineer can
+					<ul>
+						<li>Develop a token classification model per language model architecture, e.g., <a href="https://arxiv.org/abs/1907.11692">RoBERTa (Robustly Optimized BERT Pretraining Approach)</a>, <a href="https://arxiv.org/abs/2003.10555">ELECTRA (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)</a>.  Per architecture, <a href="https://wires.onlinelibrary.wiley.com/doi/epdf/10.1002/widm.1484">hyperparameter optimisation/tuning techniques</a>, and <a href="https://docs.ray.io/en/latest/tune/index.html">libraries</a>, aid the development of quite effective models, subject to early stopping, etc., constraints.</li>
+						<li>Select the best model amongst the set of models; a single model per architecture.</li>
+					</ul>
 
-			<h2>Concept</h2>
+					For this exercise, the best model was selected by comparing a testing phase metric, specifically Matthews Correlation Coefficient (MCC):
 
-			<div class="frames-grid-item svelte-1jxvby2">
+					$$MCC = \frac{(tn \bullet tp) - (fn \bullet fp)}{{\Large{[}}(tp + fp)(tp + fn)(tn + fp)(tn + fn){\Large{]}}^{0.5}}$$
 
-				For a specific token classification dependent problem, an artificial intelligence engineer can
-				<ul>
-					<li>Develop a token classification model per language model architecture, e.g., <a href="https://arxiv.org/abs/1907.11692">RoBERTa (Robustly Optimized BERT Pretraining Approach)</a>, <a href="https://arxiv.org/abs/2003.10555">ELECTRA (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)</a>.  Per architecture, <a href="https://wires.onlinelibrary.wiley.com/doi/epdf/10.1002/widm.1484">hyperparameter optimisation/tuning techniques</a>, and <a href="https://docs.ray.io/en/latest/tune/index.html">libraries</a>, aid the development of quite effective models, subject to early stopping, etc., constraints.</li>
-					<li>Select the best model amongst the set of models; a single model per architecture.</li>
-				</ul>
+					<br>
 
-				For this exercise, the best model was selected by comparing a testing phase metric, specifically Matthews Correlation Coefficient (MCC):
+					$$MCC \in [-1, \quad +1]$$
 
-				$$MCC = \frac{(tn \bullet tp) - (fn \bullet fp)}{{\Large{[}}(tp + fp)(tp + fn)(tn + fp)(tn + fn){\Large{]}}^{0.5}}$$
+					<br>
 
-				<br>
+					wherein $tn$, $tp$, $fn$, and $fp$ denote true negative, true positive, false negative, and false positive, respectively.
 
-				$$MCC \in [-1, \quad +1]$$
+					<br>
+					<br>
 
-				<br>
+					<b>Note</b>, the best model of a set must undergo (a) mathematical evaluation, and (b) business/cost evaluation.  The latter is critical because an acceptable mathematical metric, e.g., $precision > 0.9$ does not necessarily lead to excellent business/cost metrics.<br><br>
 
-				wherein $tn$, $tp$, $fn$, and $fp$ denote true negative, true positive, false negative, and false positive, respectively.
-
-				<br>
-				<br>
-
-				<b>Note</b>, the best model of a set must undergo (a) mathematical evaluation, and (b) business/cost evaluation.  The latter is critical because an acceptable mathematical metric, e.g., $precision > 0.9$ does not necessarily lead to excellent business/cost metrics.
+				</td>
+				</tr>
+			</table>
 
 			</div>
 
