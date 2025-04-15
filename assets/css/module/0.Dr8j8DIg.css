@@ -21,6 +21,12 @@ a:active {
     text-decoration: none
 }
 
+a.hover:hover {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+
 .by {
     width: 100%;
     text-align: left;
@@ -51,8 +57,8 @@ a:active {
 }
 
 .layout-reference {
-    border: 0 solid;    
-    border-bottom-width: thin;    
+    border: 0 solid;
+    border-bottom-width: thin;
     padding: 5px;
     text-align: right;
     align-content: flex-end;
@@ -66,6 +72,10 @@ a:active {
 
 h2 {
     font-variant: small-caps;
+}
+
+.project-head {
+    margin-left: 65px;
 }
 
 h3 {
@@ -99,7 +109,7 @@ ul.child {
 }
 
 li {
-    margin: 5px;
+    margin: 8px;
 }
 
 /* iframe */
@@ -118,10 +128,10 @@ caption {
 @media (min-width: 480px) {
 
     .wrapper {
-      width: 480px;
-      margin: 10% auto 0 auto;
+        width: 480px;
+        margin: 10% auto 0 auto;
     }
-  }
+}
 
 /* Beyond 768px the layout is changed and the wrapper has a fixed width of 680px.
  *
@@ -208,4 +218,3 @@ select {
 mjx-math.external {
     font-size: 150%;
 }
-
