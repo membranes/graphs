@@ -14,7 +14,7 @@
         },
         {
             "section": "performance",
-            "description": "Error Metrics & Business/Cost Metrics"
+            "description": "<a href='../src/model-metrics-false-rates.html'>False Rates</a>, Business Metrics, <a href='../src/model-metrics-error.html'>Error Metrics</a>"
         },
         {
             "section": "dataset",
