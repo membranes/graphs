@@ -63,7 +63,11 @@ function generateChart(fileNameKey) {
                 enabled: false
             },
             title: {
-                text: "By false negative rates<br>"
+                text: "By false negative rates<br>",
+                style: {
+                    fontWeight: 'bold',
+                    fontSize: '15px'
+                }
             },
             subtitle: {
                 useHTML: true,
@@ -72,14 +76,15 @@ function generateChart(fileNameKey) {
             },
             xAxis: {
                 min: 0.01,
-                max: 0.50
+                max: 0.20
             },
             yAxis: {
                 type: 'logarithmic',
                 title: {
                     text: null,
                 },
-                min: 1000
+                min: 1000,
+                max: 1000000
             },
             tooltip: {
                 crosshairs: true,
@@ -99,7 +104,7 @@ function generateChart(fileNameKey) {
                             x1: 0,
                             x2: 0,
                             y1: 0,
-                            y2: 0.5,
+                            y2: 0.2,
                         },
                         stops: [
                             [0, "#F58216"],
@@ -141,7 +146,11 @@ function generateChart(fileNameKey) {
                 enabled: false
             },
             title: {
-                text: "By false positive rates<br>"
+                text: "By false positive rates<br>",
+                style: {
+                    fontWeight: 'bold',
+                    fontSize: '15px'
+                }
             },
             subtitle: {
                 useHTML: true,
@@ -150,7 +159,7 @@ function generateChart(fileNameKey) {
             },
             xAxis: {
                 min: 0.01,
-                max: 0.50
+                max: 0.20
             },
             yAxis: {
                 type: 'logarithmic',
@@ -177,7 +186,7 @@ function generateChart(fileNameKey) {
                             x1: 0,
                             x2: 0,
                             y1: 0,
-                            y2: 1,
+                            y2: 0.2,
                         },
                         stops: [
                             [0, "#F58216"],
