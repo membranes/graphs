@@ -43,7 +43,7 @@ function generateChart(fileNameKey) {
 
     $.getJSON('../../warehouse/numerics/card/bullet/' + fileNameKey + '.json', function (calculations) {
 
-        const maximum = 0.45;
+        const maximum = 0.35;
 
         // Indices
         const iNegative = calculations.columns.indexOf('False Negative Rate');
@@ -122,10 +122,10 @@ function generateChart(fileNameKey) {
                     color: '#ffffff'
                 }, {
                     from: 0.1,
-                    to: 0.35,
+                    to: 0.25,
                     color: '#dcdcdc'
                 }, {
-                    from: 0.35,
+                    from: 0.25,
                     to: 1,
                     color: '#d3d3d3'
                 }],
@@ -163,10 +163,10 @@ function generateChart(fileNameKey) {
                     color: '#ffffff'
                 }, {
                     from: 0.1,
-                    to: 0.35,
+                    to: 0.25,
                     color: '#dcdcdc'
                 }, {
-                    from: 0.35,
+                    from: 0.25,
                     to: 1,
                     color: '#d3d3d3'
                 }],
