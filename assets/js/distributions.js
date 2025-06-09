@@ -29,7 +29,7 @@ jQuery.getJSON('../../warehouse/numerics/abstracts/bars.json', function (source)
 		},
 
 		title: {
-			text: 'The distribution of the training, validating,<br>and testing data.',
+			text: '<p></p>',
 			align: 'left'
 		},
 
