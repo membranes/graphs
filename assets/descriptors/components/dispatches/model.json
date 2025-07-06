@@ -1,0 +1,32 @@
+{
+    "details": [
+        {
+            "section": "type",
+            "description": "Token Classification Model"
+        },
+        {
+            "section": "task",
+            "description": "The classification of word pieces, strings."
+        },
+        {
+            "section": "architecture",
+            "description": "The underlying architecture is DistilBERT, a Transformer model.  <ul><li>The <a href='https://github.com/membranes/text'>text</a> repository is the <a href='https://www.tensorflow.org/tutorials/images/transfer_learning'>transfer learning</a> repository.  The <a href='https://github.com/membranes/configurations'>configurations</a> repository hosts the training <b>(a)</b> <a href='https://github.com/membranes/configurations/blob/master/data/architecture/distil/arguments.json'>arguments</a>, and <b>(b)</b> <a href='https://github.com/membranes/configurations/blob/master/data/architecture/distil/hyperspace.json'>hyperparameters search spaces</a>, settings.</li><li>The raw DistilBERT architecture source is <a href='https://huggingface.co/docs/transformers/model_doc/distilbert'>huggingface.co</a>; beware of the source's brief summary of <a href='https://huggingface.co/distilbert/distilbert-base-uncased#intended-uses--limitations'>intended uses & limitations</a>, and study the architecture's paper.</li><li>The paper is <a href='https://arxiv.org/abs/1910.01108'>DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter</a>.</li></ul>"
+        },
+        {
+            "section": "performance",
+            "description": "<a href='../src/model-metrics-false-rates.html'>False Rates</a>, Business Metrics, <a href='../src/model-metrics-error.html'>Error Metrics</a>"
+        },
+        {
+            "section": "dataset",
+            "description": "<a>Visit the <a href='../src/data-details.html'>brief data details</a> page.</a>"
+        },
+        {
+            "section": "input",
+            "description": "Free text, e.g., <br><img src='../assets/img/c-dispatches-app-input.png' alt='input' width='572px'/><br>Text source: <a href='https://timharford.com/2025/01/cautionary-tales-cleared-for-take-off-tenerife-air-disaster-1/'>Cautionary Tales</a>"
+        },
+        {
+            "section": "output",
+            "description": "The output consists of classifiable word-pieces, alongside their classifications and classification scores.  The raw output is a <abbr title='JavaScript Object Notation'>JSON</abbr> string, e.g.,<br><br><img src='../assets/img/c-dispatches-app-output.png' alt='input' width='382px'/><br><br>A rendered option is<br><img src='../assets/img/c-dispatches-app-output-rendered.png' alt='input' width='386px' height='441px'/><br><br>"
+        }
+    ]
+}
