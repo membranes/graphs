@@ -1,0 +1,15 @@
+
+table.briefings {
+    border-collapse: collapse;
+    border-spacing: 20px 5px;
+    border: 0;
+    margin-left: 1.25rem;
+    margin-top: 35px;
+    table-layout: fixed;
+    width: 80%;
+    text-wrap: wrap;
+}
+
+th, td {
+    padding: 2px 5px 15px 5px;
+}
