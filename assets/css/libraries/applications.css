@@ -1,7 +1,7 @@
 .model.svelte-v88i0k {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     flex-direction: column;
     text-align: center
 }
