@@ -3,10 +3,10 @@ table.briefings {
     border-collapse: collapse;
     border-spacing: 20px 5px;
     border: 0;
-    margin-left: 25px;
-    margin-top: 25px;
+    margin-left: 1.25rem;
+    margin-top: 35px;
     table-layout: fixed;
-    width: 85%;
+    width: 80%;
     text-wrap: wrap;
 }
 
