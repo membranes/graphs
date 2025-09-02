@@ -154,23 +154,26 @@
 	                  <div id="container" style="margin: 0 auto"></div>
 	                  <script src="../assets/js/distributions.js"  type="text/javascript"></script>
 
-                    <figure>
-                      <figcaption><br><br>The annotations $B$ & $I$ denote beginning & inside, respectively. Whereas $O$ denotes outside/other/miscellaneous. The categories herein are organisation (ORG), geographic entity (GEO), person (PER), time (TIM), geo-political entity (GPE).
-                      </figcaption>
-                    </figure>
-
                   </td></tr>
-                  <tr><td>
-                    An entity is a word, text piece. Each entity belongs to a single category, e.g., geographic entity, time, etc.; vis-à-vis this project, organisation/geographic entity/geo-political entity/person/time are named entities, whilst all other entities are other/miscellaneous/un-named entities. Depending on the architecture, each named entity might have to be annotated according to a selected annotation scheme. Annotation scheme examples:<br><br>
-                    <ul>
-                      <li><b>IO</b> $\rightarrow$ $I$: named entity tokens, $O$: other entities.</li>
-                      <li><b>BIO</b> $\rightarrow$ $B$: denotes a token at the beginning of a named entity, $I$: denotes a token inside a named entity, $O$: represents tokens that are not part of a named entity.</li>
-                      <li><b>IOE</b> $\rightarrow$ $I$: denotes a token inside a named entity, $O$: denotes an un-named entity, $E$: denotes a token at the end of a named entity.</li>
-                      <li><b>IOBES</b> $\rightarrow$ $I$: inside, $O$: outside/un-named, $B$: beginning, $E$: end, $S$: single-token entity</li>
-                    </ul>
-                  </td></tr>
-
                 </table>
+
+	              <p style="margin-left: 65px;">
+		              The annotations $B$ & $I$ denote beginning & inside, respectively. Whereas $O$ denotes outside/other/miscellaneous. The categories herein are organisation (ORG), geographic entity (GEO), person (PER), time (TIM), geo-political entity (GPE).<br><br>
+
+		              An entity is a word, text piece. Each entity belongs to a single category, e.g., geographic entity, time, etc.; vis-à-vis this project, organisation/geographic entity/geo-political entity/person/time are named entities, whilst all other entities are other/miscellaneous/un-named entities. Depending on the architecture, each named entity might have to be annotated according to a selected annotation scheme. Annotation scheme examples:
+	              </p>
+
+	              <table style="width: 65%; margin-left: 65px; margin-top: 25px; font-size: small;">
+		              <colgroup>
+			              <col span="1" style="width: 4.5%;">
+			              <col span="1" style="width: 23.5%;">
+		              </colgroup>
+		              <tr><td><b>IO</b></td><td>$I$: named entity tokens, $O$: other entities.</td></tr>
+		              <tr><td><b>BIO</b></td><td>$B$: denotes a token at the beginning of a named entity, $I$: denotes a token inside a named entity, $O$: represents tokens that are not part of a named entity.</td></tr>
+		              <tr><td><b>IOE</b></td><td>$I$: denotes a token inside a named entity, $O$: denotes an un-named entity, $E$: denotes a token at the end of a named entity.</td></tr>
+		              <tr><td><b>IOBES</b></td><td>$I$: inside, $O$: outside/un-named, $B$: beginning, $E$: end, $S$: single-token entity</td></tr>
+	              </table>
+
 
               </div>
             </div>
