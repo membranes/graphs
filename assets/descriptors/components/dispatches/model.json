@@ -14,11 +14,11 @@
         },
         {
             "section": "performance",
-            "description": "<a href='../src/model-metrics-false-rates.html'>False Rates</a>, Business Metrics, <a href='../src/model-metrics-error.html'>Error Metrics</a>"
+            "description": "<a href='../src/c-dispatches-metrics-error-false.html'>False Rates</a>, Business Metrics, <a href='../src/c-dispatches-metrics-error-scores.html'>Error Metrics</a>"
         },
         {
             "section": "dataset",
-            "description": "<a>Visit the <a href='../src/data-details.html'>brief data details</a> page.</a>"
+            "description": "<a>Visit the <a href='../src/c-dispatches-data-desc.html'>brief data details</a> page.</a>"
         },
         {
             "section": "input",
